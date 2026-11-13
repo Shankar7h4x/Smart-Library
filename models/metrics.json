@@ -1,0 +1,71 @@
+{
+  "zones": {
+    "library": {
+      "display_name": "Whole library",
+      "xgb_mae": 51.11,
+      "xgb_rmse": 51.39,
+      "baseline_mae": 48.32,
+      "baseline_rmse": 48.62,
+      "mae_improvement": -2.78,
+      "resid_std": 5.43,
+      "beats_baseline": false
+    },
+    "south_east": {
+      "display_name": "South-East Gallery",
+      "xgb_mae": 42.98,
+      "xgb_rmse": 43.5,
+      "baseline_mae": 42.2,
+      "baseline_rmse": 42.59,
+      "mae_improvement": -0.78,
+      "resid_std": 6.73,
+      "beats_baseline": false
+    },
+    "north": {
+      "display_name": "North Gallery",
+      "xgb_mae": 66.79,
+      "xgb_rmse": 67.17,
+      "baseline_mae": 64.53,
+      "baseline_rmse": 64.86,
+      "mae_improvement": -2.26,
+      "resid_std": 7.16,
+      "beats_baseline": false
+    },
+    "south": {
+      "display_name": "South Gallery",
+      "xgb_mae": 44.12,
+      "xgb_rmse": 45.29,
+      "baseline_mae": 42.0,
+      "baseline_rmse": 43.17,
+      "mae_improvement": -2.12,
+      "resid_std": 10.23,
+      "beats_baseline": false
+    },
+    "angdomen": {
+      "display_name": "\u00c5ngdomen",
+      "xgb_mae": 23.13,
+      "xgb_rmse": 23.38,
+      "baseline_mae": 21.24,
+      "baseline_rmse": 21.51,
+      "mae_improvement": -1.89,
+      "resid_std": 3.4,
+      "beats_baseline": false
+    },
+    "newton": {
+      "display_name": "Newton",
+      "xgb_mae": 46.05,
+      "xgb_rmse": 46.47,
+      "baseline_mae": 43.68,
+      "baseline_rmse": 44.15,
+      "mae_improvement": -2.37,
+      "resid_std": 6.22,
+      "beats_baseline": false
+    }
+  },
+  "summary": {
+    "avg_xgb_mae": 45.7,
+    "avg_baseline_mae": 43.66,
+    "overall_beats_baseline": false,
+    "train_samples": 1623,
+    "test_samples": 4
+  }
+}

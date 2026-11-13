@@ -1,0 +1,17 @@
+# Runtime
+streamlit>=1.40,<2
+streamlit-option-menu>=0.4,<1
+pandas>=2.2,<4
+numpy>=1.26,<3
+scikit-learn>=1.4,<2
+xgboost>=2.0,<4
+plotly>=5.24,<7
+holidays>=0.57,<1
+joblib>=1.4,<2
+pyarrow>=17,<25
+requests>=2.32,<3
+
+# Data preparation / optional integrations
+datasets>=3,<5
+openai>=1.40,<3
+groq>=0.11,<2
