@@ -11,7 +11,7 @@ from config import (
     ALL_ZONES,
     EXAM_PERIODS,
     FEATURES,
-    FEATURES_NO_LAG,
+    
     STATUS_BUSY,
     STATUS_CLOSED,
     STATUS_FREE,
