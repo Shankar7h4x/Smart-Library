@@ -39,10 +39,19 @@ Students can:
 - **Reader Interest**: Show Open Library want-to-read and currently-reading counts when available; these are global reader signals, not KTH borrowing demand.
 - **Supply Check**: Open KTH Primo to check current local copies and reservations. Open Library records do not establish current KTH physical-copy availability.
 
-### 🧾 Data & Model — Sources & Model Performance
-- **Data source and freshness**: Show the processed history period and latest Hugging Face observation.
-- **Transparent evaluation**: Report model and baseline MAE in occupancy percentage points, per-area scores, and the held-out sample count.
-- **Limitations**: Explain stale telemetry, assumed seat capacities, and the difference between Open Library interest and KTH borrowing demand.
+### 🧠 Model Center — ML Telemetry & Model Performance
+- **Model Overview & Specs**: Real metadata including active version, bundle file size, trained algorithms, and signal count.
+- **Out-of-Sample Performance**: Accurate metrics (MAE, RMSE, R², Bias, WAPE) across 1,086 test hours beating the baseline by 50.1%.
+- **Algorithm Tournament**: Side-by-side comparison of ExtraTrees, RandomForest, XGBoost, HistGradientBoosting, and Baseline.
+- **Prediction Diagnostics**: Actual vs predicted curves, error histograms, hourly performance, and Gini feature importances.
+- **Model Management**: Active bundle registry and safe retraining controls.
+
+### 💾 Dataset Explorer — Data Inspection & Pipeline Audit
+- **Overview & Inventory**: Audit of raw sensor observations, processed hourly tables, and backtest files.
+- **Interactive Schema & Deep Dive**: Data types, null counts, descriptions, and distribution profiling for all 29 columns.
+- **Paginated Data Preview**: Fast search, filtering by operating hours, custom column selection, and CSV download.
+- **Quality & Statistical Telemetry**: Zero-missingness audit, distribution box plots, diurnal trends, and cross-zone correlation heatmaps.
+- **Pipeline Provenance & Export**: Documented stage-by-stage transformations and instant export options for CSV, Parquet, and Markdown reports.
 
 ---
 
@@ -77,7 +86,6 @@ smart-library/
 ├── ui_extra.py                 # Hour strips, slot cards, stat cards, tip cards, and legends
 ├── requirements.txt            # Production dependencies for deployment
 ├── README.md                   # Complete documentation
-├── REDESIGN_NOTES.md           # New UI direction and navigation map
 ├── .gitignore                  # Git ignore rules (keeps data & models tracked)
 │
 ├── .streamlit/
@@ -87,26 +95,46 @@ smart-library/
 │   ├── raw/
 │   │   └── occupancy.parquet   # Local cached raw dataset (95,164 records)
 │   └── processed/
-│       └── hourly.parquet      # Hourly resampled dataset (5,616 hours)
+│       ├── hourly.parquet      # Hourly resampled dataset (5,615 hours, 29 features)
+│       └── data_quality.json   # Dataset quality metrics and diagnostics
 │
 ├── models/
-│   ├── occupancy.joblib        # Model bundle (models, resid_std, open_profile, capacities)
-│   ├── metrics.json            # MAE, RMSE, and baseline comparison metrics
-│   └── backtest.parquet        # Out-of-sample backtest predictions
+│   ├── occupancy.joblib        # Multi-model bundle (per-zone models, resid_std, open_profile)
+│   ├── occupancy_prev.joblib   # Automated backup of previous working model bundle
+│   ├── metrics.json            # MAE, RMSE, R², WAPE, and baseline comparison metrics
+│   └── backtest.parquet        # 1,086 out-of-sample backtest predictions
+│
+├── reports/
+│   ├── PROJECT_AUDIT.md        # Comprehensive technical audit of issues and fixes
+│   ├── DATA_QUALITY_REPORT.md  # Raw data quality, cleaning, and feature audit
+│   ├── MODEL_COMPARISON.md     # Comparison of all 5 candidate algorithms
+│   ├── MODEL_EVALUATION.md     # Detailed evaluation metrics on 4-week holdout
+│   ├── FEATURE_IMPORTANCE.md   # Feature importance analysis across models
+│   ├── BACKTEST_ANALYSIS.md    # Out-of-sample backtest performance diagnostics
+│   ├── DEPLOYMENT_GUIDE.md     # Deployment guide for Streamlit Cloud & servers
+│   └── FINAL_PROJECT_REPORT.md # Overall project completion summary
 │
 ├── src/
-│   ├── prepare_data.py         # Pipeline: download, clean, resample, feature engineer
-│   ├── train.py                # Model training, baseline evaluation, retraining, export
-│   ├── forecast.py             # Pure prediction, windowing, slot optimization, smart picker
-│   ├── books.py                # Online book lookup service
-│   ├── book_data.py            # Open Library API client and KTH Primo links
+│   ├── prepare_data.py         # Pipeline: clean, resample, cyclical & lag feature engineer
+│   ├── train.py                # Multi-model training, time-series CV, selection, export
+│   ├── forecast.py             # Pure prediction, CI bounds, slot optimization, smart picker
+│   ├── baseline.py             # CalendarMeanBaseline estimator
+│   ├── live_data.py            # Dataset freshness and observation retrieval
+│   ├── data_quality.py         # Data validation rules
+│   ├── chatbot.py              # Multi-provider study planning assistant
+│   ├── ai_service.py           # LLM provider health checks and streaming
 │   ├── pages_home.py           # Home page UI rendering
 │   ├── pages_planner.py        # Overview and all-zone comparison UI
-│   ├── pages_resources.py      # Resources page UI rendering
-│   └── pages_dataset.py        # Data-source and model-performance UI
+│   ├── pages_resources.py      # Book discovery catalogue page
+│   ├── pages_model_center.py   # Dedicated Model Center dashboard
+│   ├── pages_dataset_explorer.py # Dedicated Dataset Explorer dashboard
+│   ├── pages_library_info.py   # Campus spaces and facility guide
+│   └── pages_settings.py       # AI provider settings UI
 │
 └── tests/
-    └── test_functions.py       # Forecast engine checks
+    ├── run_all_tests.py        # Master test runner (69 tests, 100% pass)
+    ├── test_ml_pipeline.py     # Dedicated ML pipeline, leakage & forecast tests
+    └── test_*.py               # UI, layout, and regression test suites
 ```
 
 ---
@@ -131,23 +159,38 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 3. (Optional) Run data preparation & training from scratch
-*Note: The repository already includes pre-processed data and trained models. To re-run the pipeline:*
+### 3. Run data preparation & model training
+*Note: The repository already includes pre-processed data and trained production models. To re-run the pipeline:*
 ```bash
-pip install datasets huggingface_hub
 python src/prepare_data.py
 python src/train.py
 ```
 
-### 4. Run the test suite
+### 4. Run the complete test suite
 ```bash
-python tests/test_functions.py
+python tests/run_all_tests.py
 ```
 
 ### 5. Launch the Streamlit application
 ```bash
 streamlit run app.py
 ```
+
+---
+
+## 7. Model Performance Benchmarks
+
+The rebuilt ML system evaluates models on an untouched **4-week chronological holdout** (1,086 test samples) using **3-fold TimeSeriesSplit** cross-validation:
+
+| Zone | Selected Model | Model MAE | Baseline MAE | Improvement | Status |
+|---|---|---|---|---|---|
+| **Whole library** | `XGBoost` | **13.01 pp** | 28.42 pp | +15.41 pp | ✅ Beats Baseline |
+| **South-East Gallery** | `Extra Trees` | **17.26 pp** | 25.44 pp | +8.18 pp | ✅ Beats Baseline |
+| **North Gallery** | `Extra Trees` | **16.49 pp** | 38.09 pp | +21.60 pp | ✅ Beats Baseline |
+| **South Gallery** | `Extra Trees` | **15.96 pp** | 29.28 pp | +13.31 pp | ✅ Beats Baseline |
+| **Ångdomen** | `Random Forest` | **4.07 pp** | 15.18 pp | +11.11 pp | ✅ Beats Baseline |
+| **Newton** | `Extra Trees` | **15.10 pp** | 27.70 pp | +12.59 pp | ✅ Beats Baseline |
+| **SYSTEM AVERAGE** | — | **13.65 pp** | **27.35 pp** | **+13.70 pp (50.1% error drop)** | ✅ **BEATS ALL** |
 
 The application will start locally at `http://localhost:8501`.
 

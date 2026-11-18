@@ -50,7 +50,7 @@ def run_all_tests():
     features_df = build_features(dt_sample, exam=False)
     assert isinstance(features_df, pd.DataFrame), "Features must be a DataFrame"
     assert len(features_df) == 1, "Expected 1 row for single datetime"
-    assert list(features_df.columns) == ["hour", "dayofweek", "is_weekend", "is_holiday", "is_exam_period"]
+    assert set(["hour", "dayofweek", "is_weekend", "is_holiday", "is_exam_period"]).issubset(set(features_df.columns))
     assert features_df.iloc[0]["hour"] == 10
     print("✓ build_features tested successfully.")
 

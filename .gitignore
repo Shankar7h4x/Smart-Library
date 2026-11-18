@@ -13,6 +13,14 @@ ENV/
 # Environment variables
 .env
 .env.*
+!.env.example
+
+# Pip & build artifacts
+pip-*
+build/
+dist/
+*.egg-info/
+.pytest_cache/
 
 # IDEs and Editors
 .vscode/
@@ -24,6 +32,6 @@ ENV/
 *.log
 .DS_Store
 Thumbs.db
-
-
-.env
+# Streamlit secrets and credentials
+.streamlit/secrets.toml
+.streamlit/credentials.toml

@@ -18,7 +18,8 @@ PAGES = {
     "Occupancy": ("📊", "Explore library activity"),
     "Book discovery": ("📚", "Search the collection"),
     "Library guide": ("🧭", "Spaces, facilities and access"),
-    "Data & model": ("📈", "Sources and model performance"),
+    "Model Center": ("🧠", "ML telemetry & model performance"),
+    "Dataset Explorer": ("💾", "Data inspection & pipeline audit"),
     "Settings": ("⚙️", "AI provider and app preferences"),
 }
 if "active_page" not in st.session_state or st.session_state.active_page not in PAGES:
@@ -63,10 +64,10 @@ def load_evaluation():
 
 inject_css("Dark" if st.session_state.dark_mode else "Light")
 
-# Full-bleed navigation bar: Brand lockup on left, 6 centered page links, Theme toggle on right
+# Full-bleed navigation bar: Brand lockup on left, 7 centered page links, Theme toggle on right
 with st.container(key="main_navigation"):
-    nav_brand, c1, c2, c3, c4, c5, c6, nav_theme = st.columns(
-        [2.35, 1.05, 0.95, 1.15, 1.05, 1.02, 0.88, 0.78],
+    nav_brand, c1, c2, c3, c4, c5, c6, c7, nav_theme = st.columns(
+        [1.85, 0.95, 0.88, 1.05, 0.95, 0.98, 1.08, 0.82, 0.70],
         gap="small",
         vertical_alignment="center",
     )
@@ -83,7 +84,7 @@ with st.container(key="main_navigation"):
             """,
             unsafe_allow_html=True,
         )
-    page_buttons = [c1, c2, c3, c4, c5, c6]
+    page_buttons = [c1, c2, c3, c4, c5, c6, c7]
     for col, (page_name, (glyph, _)) in zip(page_buttons, PAGES.items()):
         with col:
             st.button(
@@ -110,8 +111,11 @@ kicker, descriptions = {
     "Occupancy": ("LIBRARY PULSE", "Compare predicted occupancy across the study areas and find the quieter parts of the day."),
     "Book discovery": ("THE COLLECTION", "Find useful titles, explore subjects and check availability through the library catalogue."),
     "Library guide": ("YOUR CAMPUS GUIDE", "Get familiar with the library's study spaces, facilities and practical details."),
-    "Data & model": ("BEHIND THE FORECAST", "Understand the data, model evaluation and limitations behind the occupancy estimates."),
+    "Model Center": ("ML ARCHITECTURE & METRICS", "Audit out-of-sample accuracy, model tournament comparison, error residuals, and feature weights."),
+    "Dataset Explorer": ("DATASET TELEMETRY & QUALITY", "Inspect raw and processed observations, column schemas, data quality health, and distributions."),
     "Settings": ("PERSONALIZE YOUR ASSISTANT", "Connect an AI provider and manage your local application settings."),
+    # Backward compatibility fallback
+    "Data & model": ("ML ARCHITECTURE & METRICS", "Audit out-of-sample accuracy, model tournament comparison, and dataset telemetry."),
 }[page]
 
 with st.container(key="page_content"):
@@ -155,19 +159,32 @@ with st.container(key="page_content"):
                 render_library_info()
         with right:
             render_chatbot_panel(bundle, "Library Info")
-    elif page == "Data & model":
+    elif page == "Model Center" or page == "Data & model":
+        metrics, backtest = load_evaluation()
+        if not model_ready:
+            st.info("Model Center diagnostics are unavailable because the forecast model is missing.")
+        else:
+            from src.pages_model_center import render_model_center
+
+            left, right = st.columns([0.55, 0.45], gap="small")
+            with left:
+                with st.container(key="primary_work_panel", border=True):
+                    render_model_center(bundle, metrics, backtest)
+            with right:
+                render_chatbot_panel(bundle, "Model Center")
+    elif page == "Dataset Explorer":
         history = load_history()
         metrics, backtest = load_evaluation() if history is not None else (None, None)
         if history is None:
             st.warning("Processed historical data is unavailable. Prepare the dataset to view model diagnostics.")
             st.code("python src/prepare_data.py")
         else:
-            from src.pages_dataset import render_dataset
+            from src.pages_dataset_explorer import render_dataset_explorer
 
             left, right = st.columns([0.55, 0.45], gap="small")
             with left:
                 with st.container(key="primary_work_panel", border=True):
-                    render_dataset(history, metrics)
+                    render_dataset_explorer(history, backtest, metrics)
             with right:
                 render_chatbot_panel(bundle, "Dataset")
     else:

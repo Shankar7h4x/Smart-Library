@@ -1,11 +1,13 @@
 """Prepare raw library occupancy data into hourly resampled features."""
 
+import json
+import shutil
 import sys
 from pathlib import Path
+
 import holidays
 import numpy as np
 import pandas as pd
-from datasets import load_dataset
 
 # Add parent directory to path to import config
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -32,83 +34,164 @@ def is_in_exam_period(dt: pd.Timestamp) -> int:
 
 
 def prepare_data():
-    """Download, clean, resample, feature engineer, and save library occupancy dataset."""
-    print("1. Downloading dataset 'davnas/real-time-library-occupancy' from Hugging Face...")
-    try:
-        ds = load_dataset("davnas/real-time-library-occupancy")
-        df_raw = ds["train"].to_pandas()
-    except Exception as exc:
-        print(f"ERROR: Failed to download dataset: {exc}", file=sys.stderr)
+    """Load, clean, resample, feature engineer, and save library occupancy dataset."""
+
+    # ── A. Load & validate raw data ──────────────────────────────────────────
+    print(f"1. Loading raw dataset from {RAW_DATA_PATH} ...")
+    if not RAW_DATA_PATH.exists():
+        print(f"ERROR: Raw data file not found at {RAW_DATA_PATH}", file=sys.stderr)
         sys.exit(1)
 
-    # 2. Save raw Parquet copy
-    RAW_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
-    df_raw.to_parquet(RAW_DATA_PATH, index=False)
-    print(f"2. Saved raw dataset to {RAW_DATA_PATH} ({len(df_raw)} records)")
+    df_raw = pd.read_parquet(RAW_DATA_PATH)
+    print(f"   Raw records: {len(df_raw)}")
 
-    # 3. Parse datetime
+    # Parse 'time' as datetime
     df = df_raw.copy()
     parsed_time = pd.to_datetime(df["time"], errors="coerce")
-    if parsed_time.isna().any():
-        dropped = int(parsed_time.isna().sum())
-        print(f"Warning: dropping {dropped} rows with invalid timestamps.")
+    invalid_ts = int(parsed_time.isna().sum())
+    if invalid_ts:
+        print(f"   Warning: dropping {invalid_ts} rows with invalid timestamps.")
     df = df.loc[parsed_time.notna()].copy()
     parsed_time = parsed_time.loc[parsed_time.notna()]
-    # Source timestamps without offsets are interpreted as Stockholm local time,
-    # matching the dataset's documented campus-local reporting convention.
+
+    # Localize to Europe/Stockholm
     if getattr(parsed_time.dt, "tz", None) is None:
         parsed_time = parsed_time.dt.tz_localize(
             "Europe/Stockholm", ambiguous="NaT", nonexistent="shift_forward"
         )
     else:
         parsed_time = parsed_time.dt.tz_convert("Europe/Stockholm")
-    df["time"] = parsed_time
-    df = df.dropna(subset=["time"]).sort_values("time").reset_index(drop=True)
 
-    # 6. Rename zone columns to IDs
+    df["time"] = parsed_time
+    df = df.dropna(subset=["time"])
+
+    # Rename zone columns
     df = df.rename(columns=ZONE_MAP)
     valid_zones = [z for z in ALL_ZONES if z in df.columns]
     missing_zones = sorted(set(ALL_ZONES) - set(valid_zones))
     if missing_zones:
-        raise ValueError(f"The source dataset is missing required occupancy columns: {', '.join(missing_zones)}")
+        raise ValueError(f"Missing required occupancy columns: {', '.join(missing_zones)}")
 
-    # Ensure zone columns are numeric
+    # Ensure numeric
     for z in valid_zones:
         df[z] = pd.to_numeric(df[z], errors="coerce")
 
-    # 7. Aggregate duplicate observations within each hour rather than
-    # arbitrarily discarding all but the first timestamp.
     df = df.set_index("time")
+
+    # Remove duplicates (keep last), sort chronologically
+    df = df[~df.index.duplicated(keep="last")]
+    df = df.sort_index()
+    df_sorted = df  # reference for quality report
+    removed = len(df_raw) - len(df)
+    print(f"   After dedup/sort: {len(df)} records ({removed} removed)")
+
+    # ── B. Resample to 1H ────────────────────────────────────────────────────
+    print("2. Resampling to 1H ...")
     hourly = df[valid_zones].resample("1h").mean()
     if hourly.empty:
-        raise ValueError("The source dataset contains no valid timestamps to prepare.")
+        raise ValueError("No valid timestamps after resampling.")
 
-    # 8. Determine is_open using overall hourly mean > 0
-    # An hourly library reading > 0 indicates open hours
-    is_open = (hourly["library"] > 0).astype(int)
-    hourly["is_open"] = is_open
+    # is_open: library mean > 1 (threshold to exclude near-zero noise)
+    hourly["is_open"] = (hourly["library"] > 1).astype(int)
+    # Do NOT set closed hours to NaN, do NOT filter rows
+    print(f"   Hourly rows: {len(hourly)} | Open: {int(hourly['is_open'].sum())} | Closed: {int((hourly['is_open']==0).sum())}")
 
-    # 9. Set closed-hour occupancy values to NaN
-    for z in valid_zones:
-        hourly.loc[hourly["is_open"] == 0, z] = np.nan
+    # ── C. Feature engineering ───────────────────────────────────────────────
+    print("3. Adding features ...")
 
-    # 10. Add features: hour, dayofweek, is_weekend, is_holiday, is_exam_period
-    idx = hourly.index
+    # Calendar features
+    idx = hourly.index  # DatetimeIndex in Stockholm time
     hourly["hour"] = idx.hour
     hourly["dayofweek"] = idx.dayofweek
-    hourly["is_weekend"] = hourly["dayofweek"].isin([5, 6]).astype(int)
+    hourly["month"] = idx.month
+    hourly["day_of_month"] = idx.day
+    hourly["week_of_year"] = idx.isocalendar().week.astype(int)
+    hourly["quarter"] = idx.quarter
+    hourly["is_weekend"] = idx.dayofweek.isin([5, 6]).astype(int)
 
-    # 11. Swedish holidays
+    # Holidays
     se_holidays = holidays.Sweden(years=range(idx.min().year, idx.max().year + 2))
     hourly["is_holiday"] = [1 if d.date() in se_holidays else 0 for d in idx]
+
+    # Exam periods
     hourly["is_exam_period"] = [is_in_exam_period(d) for d in idx]
 
-    # 12. Save to data/processed/hourly.parquet
-    PROCESSED_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
-    hourly.to_parquet(PROCESSED_DATA_PATH)
-    print(f"12. Saved processed hourly dataset to {PROCESSED_DATA_PATH}")
+    # Cyclical encodings
+    hourly["hour_sin"] = np.sin(2 * np.pi * hourly["hour"] / 24)
+    hourly["hour_cos"] = np.cos(2 * np.pi * hourly["hour"] / 24)
+    hourly["dow_sin"] = np.sin(2 * np.pi * hourly["dayofweek"] / 7)
+    hourly["dow_cos"] = np.cos(2 * np.pi * hourly["dayofweek"] / 7)
+    hourly["month_sin"] = np.sin(2 * np.pi * hourly["month"] / 12)
+    hourly["month_cos"] = np.cos(2 * np.pi * hourly["month"] / 12)
 
-    # Summary statistics
+    # Lag features (shift to avoid leakage)
+    hourly["lag_1h"] = hourly["library"].shift(1)
+    hourly["lag_24h"] = hourly["library"].shift(24)
+    hourly["lag_168h"] = hourly["library"].shift(168)
+    hourly[["lag_1h", "lag_24h", "lag_168h"]] = (
+        hourly[["lag_1h", "lag_24h", "lag_168h"]].fillna(0)
+    )
+
+    # Rolling features (shift before rolling to avoid leakage)
+    lib_shifted = hourly["library"].shift(1)
+    hourly["roll_24h_mean"] = lib_shifted.rolling(24, min_periods=1).mean().fillna(0)
+    hourly["roll_24h_std"] = lib_shifted.rolling(24, min_periods=1).std().fillna(0)
+    hourly["roll_7d_mean"] = lib_shifted.rolling(168, min_periods=1).mean().fillna(0)
+
+    # Time-since-open (hours elapsed since library opened on this day)
+    hourly["date_col"] = hourly.index.date
+
+    def hours_since_open_fn(df_day):
+        open_mask = df_day["is_open"] == 1
+        if not open_mask.any():
+            return pd.Series(0.0, index=df_day.index)
+        first_open = df_day.index[open_mask][0]
+        elapsed = pd.Series(
+            (df_day.index - first_open).total_seconds() / 3600,
+            index=df_day.index,
+        )
+        result = elapsed.where(open_mask, 0.0).clip(lower=0)
+        return result
+
+    hourly["hours_since_open"] = hourly.groupby(
+        hourly.index.date, group_keys=False
+    ).apply(hours_since_open_fn)
+    hourly = hourly.drop(columns=["date_col"])
+
+    print(f"   Final shape: {hourly.shape}")
+    print(f"   Columns: {list(hourly.columns)}")
+
+    # ── D. Save ───────────────────────────────────────────────────────────────
+    print("4. Saving ...")
+    PROCESSED_DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    # Backup existing
+    if PROCESSED_DATA_PATH.exists():
+        backup_path = PROCESSED_DATA_PATH.parent / "hourly_backup.parquet"
+        shutil.copy(PROCESSED_DATA_PATH, backup_path)
+        print(f"   Backed up existing file to {backup_path}")
+
+    hourly.to_parquet(PROCESSED_DATA_PATH)
+    print(f"   Saved processed hourly dataset to {PROCESSED_DATA_PATH}")
+
+    # Data quality JSON
+    quality = {
+        "raw_records": int(len(df_raw)),
+        "after_dedup": int(len(df_sorted)),
+        "hourly_total": int(len(hourly)),
+        "open_hours": int(hourly["is_open"].sum()),
+        "closed_hours": int((hourly["is_open"] == 0).sum()),
+        "date_range_start": str(hourly.index.min()),
+        "date_range_end": str(hourly.index.max()),
+        "features": list(hourly.columns),
+        "feature_count": int(len(hourly.columns)),
+    }
+    quality_path = PROCESSED_DATA_PATH.parent / "data_quality.json"
+    with open(quality_path, "w") as f:
+        json.dump(quality, f, indent=2)
+    print(f"   Saved data quality report to {quality_path}")
+
+    # Summary
     total_hours = len(hourly)
     open_hours = int(hourly["is_open"].sum())
     closed_hours = total_hours - open_hours
@@ -117,11 +200,14 @@ def prepare_data():
     print("=" * 60)
     print("DATA PREPARATION SUMMARY")
     print("=" * 60)
+    print(f"Raw records:              {len(df_raw)}")
+    print(f"After dedup/sort:         {len(df_sorted)}")
     print(f"Dataset shape:            {hourly.shape}")
-    print(f"Date range:               {idx.min()} to {idx.max()}")
+    print(f"Date range:               {hourly.index.min()} to {hourly.index.max()}")
     print(f"Total hours:              {total_hours}")
     print(f"Open hours:               {open_hours} ({open_pct:.2f}%)")
     print(f"Closed hours:             {closed_hours} ({100 - open_pct:.2f}%)")
+    print(f"Feature count:            {len(hourly.columns)}")
     print("=" * 60)
 
     return hourly
@@ -129,4 +215,3 @@ def prepare_data():
 
 if __name__ == "__main__":
     prepare_data()
-

@@ -1,0 +1,1982 @@
+{
+  "book_001": {
+    "local_path": "data/book_covers/book_001.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 193281,
+    "source_url": "https://covers.openlibrary.org/b/id/193281-M.jpg"
+  },
+  "book_002": {
+    "local_path": "data/book_covers/book_002.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8042539,
+    "source_url": "https://covers.openlibrary.org/b/id/8042539-M.jpg"
+  },
+  "book_003": {
+    "local_path": "data/book_covers/book_003.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1572574,
+    "source_url": "https://covers.openlibrary.org/b/id/1572574-M.jpg"
+  },
+  "book_004": {
+    "local_path": "data/book_covers/book_004.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 7136779,
+    "source_url": "https://covers.openlibrary.org/b/id/7136779-M.jpg"
+  },
+  "book_005": {
+    "local_path": "data/book_covers/book_005.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8524066,
+    "source_url": "https://covers.openlibrary.org/b/id/8524066-M.jpg"
+  },
+  "book_006": {
+    "local_path": "data/book_covers/book_006.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 136349,
+    "source_url": "https://covers.openlibrary.org/b/id/136349-M.jpg"
+  },
+  "book_007": {
+    "local_path": "data/book_covers/book_007.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10194609,
+    "source_url": "https://covers.openlibrary.org/b/id/10194609-M.jpg"
+  },
+  "book_008": {
+    "local_path": "data/book_covers/book_008.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4466229,
+    "source_url": "https://covers.openlibrary.org/b/id/4466229-M.jpg"
+  },
+  "book_009": {
+    "local_path": "data/book_covers/book_009.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 2378050,
+    "source_url": "https://covers.openlibrary.org/b/id/2378050-M.jpg"
+  },
+  "book_010": {
+    "local_path": "data/book_covers/book_010.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 11608620,
+    "source_url": "https://covers.openlibrary.org/b/id/11608620-M.jpg"
+  },
+  "book_011": {
+    "local_path": "data/book_covers/book_011.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8835681,
+    "source_url": "https://covers.openlibrary.org/b/id/8835681-M.jpg"
+  },
+  "book_012": {
+    "local_path": "data/book_covers/book_012.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6610998,
+    "source_url": "https://covers.openlibrary.org/b/id/6610998-M.jpg"
+  },
+  "book_013": {
+    "local_path": "data/book_covers/book_013.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1192983,
+    "source_url": "https://covers.openlibrary.org/b/id/1192983-M.jpg"
+  },
+  "book_014": {
+    "local_path": "data/book_covers/book_014.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 15131795,
+    "source_url": "https://covers.openlibrary.org/b/id/15131795-M.jpg"
+  },
+  "book_015": {
+    "local_path": "data/book_covers/book_015.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10865309,
+    "source_url": "https://covers.openlibrary.org/b/id/10865309-M.jpg"
+  },
+  "book_016": {
+    "local_path": "data/book_covers/book_016.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1063219,
+    "source_url": "https://covers.openlibrary.org/b/id/1063219-M.jpg"
+  },
+  "book_017": {
+    "local_path": "data/book_covers/book_017.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1176484,
+    "source_url": "https://covers.openlibrary.org/b/id/1176484-M.jpg"
+  },
+  "book_018": {
+    "local_path": "data/book_covers/book_018.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4141467,
+    "source_url": "https://covers.openlibrary.org/b/id/4141467-M.jpg"
+  },
+  "book_019": {
+    "local_path": "data/book_covers/book_019.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 516984,
+    "source_url": "https://covers.openlibrary.org/b/id/516984-M.jpg"
+  },
+  "book_020": {
+    "local_path": "data/book_covers/book_020.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 135182,
+    "source_url": "https://covers.openlibrary.org/b/id/135182-M.jpg"
+  },
+  "book_021": {
+    "local_path": "data/book_covers/book_021.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8902454,
+    "source_url": "https://covers.openlibrary.org/b/id/8902454-M.jpg"
+  },
+  "book_022": {
+    "local_path": "data/book_covers/book_022.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9296936,
+    "source_url": "https://covers.openlibrary.org/b/id/9296936-M.jpg"
+  },
+  "book_023": {
+    "local_path": "data/book_covers/book_023.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1268897,
+    "source_url": "https://covers.openlibrary.org/b/id/1268897-M.jpg"
+  },
+  "book_024": {
+    "local_path": "data/book_covers/book_024.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 11646406,
+    "source_url": "https://covers.openlibrary.org/b/id/11646406-M.jpg"
+  },
+  "book_025": {
+    "local_path": "data/book_covers/book_025.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 935554,
+    "source_url": "https://covers.openlibrary.org/b/id/935554-M.jpg"
+  },
+  "book_026": {
+    "local_path": "data/book_covers/book_026.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9334768,
+    "source_url": "https://covers.openlibrary.org/b/id/9334768-M.jpg"
+  },
+  "book_027": {
+    "local_path": "data/book_covers/book_027.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 580997,
+    "source_url": "https://covers.openlibrary.org/b/id/580997-M.jpg"
+  },
+  "book_028": {
+    "local_path": "data/book_covers/book_028.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 456028,
+    "source_url": "https://covers.openlibrary.org/b/id/456028-M.jpg"
+  },
+  "book_029": {
+    "local_path": "data/book_covers/book_029.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_030": {
+    "local_path": "data/book_covers/book_030.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_031": {
+    "local_path": "data/book_covers/book_031.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 13032294,
+    "source_url": "https://covers.openlibrary.org/b/id/13032294-M.jpg"
+  },
+  "book_032": {
+    "local_path": "data/book_covers/book_032.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 12742615,
+    "source_url": "https://covers.openlibrary.org/b/id/12742615-M.jpg"
+  },
+  "book_033": {
+    "local_path": "data/book_covers/book_033.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8457202,
+    "source_url": "https://covers.openlibrary.org/b/id/8457202-M.jpg"
+  },
+  "book_034": {
+    "local_path": "data/book_covers/book_034.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4471024,
+    "source_url": "https://covers.openlibrary.org/b/id/4471024-M.jpg"
+  },
+  "book_035": {
+    "local_path": "data/book_covers/book_035.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 15112914,
+    "source_url": "https://covers.openlibrary.org/b/id/15112914-M.jpg"
+  },
+  "book_036": {
+    "local_path": "data/book_covers/book_036.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 12844654,
+    "source_url": "https://covers.openlibrary.org/b/id/12844654-M.jpg"
+  },
+  "book_037": {
+    "local_path": "data/book_covers/book_037.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 7892609,
+    "source_url": "https://covers.openlibrary.org/b/id/7892609-M.jpg"
+  },
+  "book_038": {
+    "local_path": "data/book_covers/book_038.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 3973371,
+    "source_url": "https://covers.openlibrary.org/b/id/3973371-M.jpg"
+  },
+  "book_039": {
+    "local_path": "data/book_covers/book_039.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_040": {
+    "local_path": "data/book_covers/book_040.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1564172,
+    "source_url": "https://covers.openlibrary.org/b/id/1564172-M.jpg"
+  },
+  "book_041": {
+    "local_path": "data/book_covers/book_041.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 92018,
+    "source_url": "https://covers.openlibrary.org/b/id/92018-M.jpg"
+  },
+  "book_042": {
+    "local_path": "data/book_covers/book_042.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 135105,
+    "source_url": "https://covers.openlibrary.org/b/id/135105-M.jpg"
+  },
+  "book_043": {
+    "local_path": "data/book_covers/book_043.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 55159,
+    "source_url": "https://covers.openlibrary.org/b/id/55159-M.jpg"
+  },
+  "book_044": {
+    "local_path": "data/book_covers/book_044.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10239283,
+    "source_url": "https://covers.openlibrary.org/b/id/10239283-M.jpg"
+  },
+  "book_045": {
+    "local_path": "data/book_covers/book_045.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 128294,
+    "source_url": "https://covers.openlibrary.org/b/id/128294-M.jpg"
+  },
+  "book_046": {
+    "local_path": "data/book_covers/book_046.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9333846,
+    "source_url": "https://covers.openlibrary.org/b/id/9333846-M.jpg"
+  },
+  "book_047": {
+    "local_path": "data/book_covers/book_047.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 11264186,
+    "source_url": "https://covers.openlibrary.org/b/id/11264186-M.jpg"
+  },
+  "book_048": {
+    "local_path": "data/book_covers/book_048.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6572294,
+    "source_url": "https://covers.openlibrary.org/b/id/6572294-M.jpg"
+  },
+  "book_049": {
+    "local_path": "data/book_covers/book_049.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8619487,
+    "source_url": "https://covers.openlibrary.org/b/id/8619487-M.jpg"
+  },
+  "book_050": {
+    "local_path": "data/book_covers/book_050.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 2384072,
+    "source_url": "https://covers.openlibrary.org/b/id/2384072-M.jpg"
+  },
+  "book_051": {
+    "local_path": "data/book_covers/book_051.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 14832331,
+    "source_url": "https://covers.openlibrary.org/b/id/14832331-M.jpg"
+  },
+  "book_052": {
+    "local_path": "data/book_covers/book_052.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9304698,
+    "source_url": "https://covers.openlibrary.org/b/id/9304698-M.jpg"
+  },
+  "book_053": {
+    "local_path": "data/book_covers/book_053.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 15243196,
+    "source_url": "https://covers.openlibrary.org/b/id/15243196-M.jpg"
+  },
+  "book_054": {
+    "local_path": "data/book_covers/book_054.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8619501,
+    "source_url": "https://covers.openlibrary.org/b/id/8619501-M.jpg"
+  },
+  "book_055": {
+    "local_path": "data/book_covers/book_055.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 14821516,
+    "source_url": "https://covers.openlibrary.org/b/id/14821516-M.jpg"
+  },
+  "book_056": {
+    "local_path": "data/book_covers/book_056.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_057": {
+    "local_path": "data/book_covers/book_057.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6283426,
+    "source_url": "https://covers.openlibrary.org/b/id/6283426-M.jpg"
+  },
+  "book_058": {
+    "local_path": "data/book_covers/book_058.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4792566,
+    "source_url": "https://covers.openlibrary.org/b/id/4792566-M.jpg"
+  },
+  "book_059": {
+    "local_path": "data/book_covers/book_059.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_060": {
+    "local_path": "data/book_covers/book_060.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_061": {
+    "local_path": "data/book_covers/book_061.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 15127807,
+    "source_url": "https://covers.openlibrary.org/b/id/15127807-M.jpg"
+  },
+  "book_062": {
+    "local_path": "data/book_covers/book_062.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10084144,
+    "source_url": "https://covers.openlibrary.org/b/id/10084144-M.jpg"
+  },
+  "book_063": {
+    "local_path": "data/book_covers/book_063.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_064": {
+    "local_path": "data/book_covers/book_064.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 13659881,
+    "source_url": "https://covers.openlibrary.org/b/id/13659881-M.jpg"
+  },
+  "book_065": {
+    "local_path": "data/book_covers/book_065.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 13004852,
+    "source_url": "https://covers.openlibrary.org/b/id/13004852-M.jpg"
+  },
+  "book_066": {
+    "local_path": "data/book_covers/book_066.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8942129,
+    "source_url": "https://covers.openlibrary.org/b/id/8942129-M.jpg"
+  },
+  "book_067": {
+    "local_path": "data/book_covers/book_067.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_068": {
+    "local_path": "data/book_covers/book_068.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1112043,
+    "source_url": "https://covers.openlibrary.org/b/id/1112043-M.jpg"
+  },
+  "book_069": {
+    "local_path": "data/book_covers/book_069.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_070": {
+    "local_path": "data/book_covers/book_070.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 11624203,
+    "source_url": "https://covers.openlibrary.org/b/id/11624203-M.jpg"
+  },
+  "book_071": {
+    "local_path": "data/book_covers/book_071.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_072": {
+    "local_path": "data/book_covers/book_072.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10313118,
+    "source_url": "https://covers.openlibrary.org/b/id/10313118-M.jpg"
+  },
+  "book_073": {
+    "local_path": "data/book_covers/book_073.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_074": {
+    "local_path": "data/book_covers/book_074.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_075": {
+    "local_path": "data/book_covers/book_075.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1143078,
+    "source_url": "https://covers.openlibrary.org/b/id/1143078-M.jpg"
+  },
+  "book_076": {
+    "local_path": "data/book_covers/book_076.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_077": {
+    "local_path": "data/book_covers/book_077.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4130573,
+    "source_url": "https://covers.openlibrary.org/b/id/4130573-M.jpg"
+  },
+  "book_078": {
+    "local_path": "data/book_covers/book_078.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_079": {
+    "local_path": "data/book_covers/book_079.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4451935,
+    "source_url": "https://covers.openlibrary.org/b/id/4451935-M.jpg"
+  },
+  "book_080": {
+    "local_path": "data/book_covers/book_080.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_081": {
+    "local_path": "data/book_covers/book_081.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_082": {
+    "local_path": "data/book_covers/book_082.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9909296,
+    "source_url": "https://covers.openlibrary.org/b/id/9909296-M.jpg"
+  },
+  "book_083": {
+    "local_path": "data/book_covers/book_083.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1242773,
+    "source_url": "https://covers.openlibrary.org/b/id/1242773-M.jpg"
+  },
+  "book_084": {
+    "local_path": "data/book_covers/book_084.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9779787,
+    "source_url": "https://covers.openlibrary.org/b/id/9779787-M.jpg"
+  },
+  "book_085": {
+    "local_path": "data/book_covers/book_085.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 7154792,
+    "source_url": "https://covers.openlibrary.org/b/id/7154792-M.jpg"
+  },
+  "book_086": {
+    "local_path": "data/book_covers/book_086.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10147288,
+    "source_url": "https://covers.openlibrary.org/b/id/10147288-M.jpg"
+  },
+  "book_087": {
+    "local_path": "data/book_covers/book_087.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 702268,
+    "source_url": "https://covers.openlibrary.org/b/id/702268-M.jpg"
+  },
+  "book_088": {
+    "local_path": "data/book_covers/book_088.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1540635,
+    "source_url": "https://covers.openlibrary.org/b/id/1540635-M.jpg"
+  },
+  "book_089": {
+    "local_path": "data/book_covers/book_089.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10114544,
+    "source_url": "https://covers.openlibrary.org/b/id/10114544-M.jpg"
+  },
+  "book_090": {
+    "local_path": "data/book_covers/book_090.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1326682,
+    "source_url": "https://covers.openlibrary.org/b/id/1326682-M.jpg"
+  },
+  "book_091": {
+    "local_path": "data/book_covers/book_091.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4113046,
+    "source_url": "https://covers.openlibrary.org/b/id/4113046-M.jpg"
+  },
+  "book_092": {
+    "local_path": "data/book_covers/book_092.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1246143,
+    "source_url": "https://covers.openlibrary.org/b/id/1246143-M.jpg"
+  },
+  "book_093": {
+    "local_path": "data/book_covers/book_093.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 702970,
+    "source_url": "https://covers.openlibrary.org/b/id/702970-M.jpg"
+  },
+  "book_094": {
+    "local_path": "data/book_covers/book_094.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_095": {
+    "local_path": "data/book_covers/book_095.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1730309,
+    "source_url": "https://covers.openlibrary.org/b/id/1730309-M.jpg"
+  },
+  "book_096": {
+    "local_path": "data/book_covers/book_096.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10005619,
+    "source_url": "https://covers.openlibrary.org/b/id/10005619-M.jpg"
+  },
+  "book_097": {
+    "local_path": "data/book_covers/book_097.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9816083,
+    "source_url": "https://covers.openlibrary.org/b/id/9816083-M.jpg"
+  },
+  "book_098": {
+    "local_path": "data/book_covers/book_098.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 15000764,
+    "source_url": "https://covers.openlibrary.org/b/id/15000764-M.jpg"
+  },
+  "book_099": {
+    "local_path": "data/book_covers/book_099.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8666350,
+    "source_url": "https://covers.openlibrary.org/b/id/8666350-M.jpg"
+  },
+  "book_100": {
+    "local_path": "data/book_covers/book_100.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 2684817,
+    "source_url": "https://covers.openlibrary.org/b/id/2684817-M.jpg"
+  },
+  "book_101": {
+    "local_path": "data/book_covers/book_101.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_102": {
+    "local_path": "data/book_covers/book_102.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_103": {
+    "local_path": "data/book_covers/book_103.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1094058,
+    "source_url": "https://covers.openlibrary.org/b/id/1094058-M.jpg"
+  },
+  "book_104": {
+    "local_path": "data/book_covers/book_104.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 12376472,
+    "source_url": "https://covers.openlibrary.org/b/id/12376472-M.jpg"
+  },
+  "book_105": {
+    "local_path": "data/book_covers/book_105.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 14846202,
+    "source_url": "https://covers.openlibrary.org/b/id/14846202-M.jpg"
+  },
+  "book_106": {
+    "local_path": "data/book_covers/book_106.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_107": {
+    "local_path": "data/book_covers/book_107.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_108": {
+    "local_path": "data/book_covers/book_108.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_109": {
+    "local_path": "data/book_covers/book_109.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 346600,
+    "source_url": "https://covers.openlibrary.org/b/id/346600-M.jpg"
+  },
+  "book_110": {
+    "local_path": "data/book_covers/book_110.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1094047,
+    "source_url": "https://covers.openlibrary.org/b/id/1094047-M.jpg"
+  },
+  "book_111": {
+    "local_path": "data/book_covers/book_111.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 2417832,
+    "source_url": "https://covers.openlibrary.org/b/id/2417832-M.jpg"
+  },
+  "book_112": {
+    "local_path": "data/book_covers/book_112.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8575561,
+    "source_url": "https://covers.openlibrary.org/b/id/8575561-M.jpg"
+  },
+  "book_113": {
+    "local_path": "data/book_covers/book_113.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9295752,
+    "source_url": "https://covers.openlibrary.org/b/id/9295752-M.jpg"
+  },
+  "book_114": {
+    "local_path": "data/book_covers/book_114.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 7083171,
+    "source_url": "https://covers.openlibrary.org/b/id/7083171-M.jpg"
+  },
+  "book_115": {
+    "local_path": "data/book_covers/book_115.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1089515,
+    "source_url": "https://covers.openlibrary.org/b/id/1089515-M.jpg"
+  },
+  "book_116": {
+    "local_path": "data/book_covers/book_116.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4084574,
+    "source_url": "https://covers.openlibrary.org/b/id/4084574-M.jpg"
+  },
+  "book_117": {
+    "local_path": "data/book_covers/book_117.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8404335,
+    "source_url": "https://covers.openlibrary.org/b/id/8404335-M.jpg"
+  },
+  "book_118": {
+    "local_path": "data/book_covers/book_118.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 7124961,
+    "source_url": "https://covers.openlibrary.org/b/id/7124961-M.jpg"
+  },
+  "book_119": {
+    "local_path": "data/book_covers/book_119.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10207007,
+    "source_url": "https://covers.openlibrary.org/b/id/10207007-M.jpg"
+  },
+  "book_120": {
+    "local_path": "data/book_covers/book_120.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10572268,
+    "source_url": "https://covers.openlibrary.org/b/id/10572268-M.jpg"
+  },
+  "book_121": {
+    "local_path": "data/book_covers/book_121.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 11326611,
+    "source_url": "https://covers.openlibrary.org/b/id/11326611-M.jpg"
+  },
+  "book_122": {
+    "local_path": "data/book_covers/book_122.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10306615,
+    "source_url": "https://covers.openlibrary.org/b/id/10306615-M.jpg"
+  },
+  "book_123": {
+    "local_path": "data/book_covers/book_123.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8231806,
+    "source_url": "https://covers.openlibrary.org/b/id/8231806-M.jpg"
+  },
+  "book_124": {
+    "local_path": "data/book_covers/book_124.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4976873,
+    "source_url": "https://covers.openlibrary.org/b/id/4976873-M.jpg"
+  },
+  "book_125": {
+    "local_path": "data/book_covers/book_125.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 7136779,
+    "source_url": "https://covers.openlibrary.org/b/id/7136779-M.jpg"
+  },
+  "book_126": {
+    "local_path": "data/book_covers/book_126.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1401118,
+    "source_url": "https://covers.openlibrary.org/b/id/1401118-M.jpg"
+  },
+  "book_127": {
+    "local_path": "data/book_covers/book_127.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10424353,
+    "source_url": "https://covers.openlibrary.org/b/id/10424353-M.jpg"
+  },
+  "book_128": {
+    "local_path": "data/book_covers/book_128.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 634364,
+    "source_url": "https://covers.openlibrary.org/b/id/634364-M.jpg"
+  },
+  "book_129": {
+    "local_path": "data/book_covers/book_129.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4639923,
+    "source_url": "https://covers.openlibrary.org/b/id/4639923-M.jpg"
+  },
+  "book_130": {
+    "local_path": "data/book_covers/book_130.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 123325,
+    "source_url": "https://covers.openlibrary.org/b/id/123325-M.jpg"
+  },
+  "book_131": {
+    "local_path": "data/book_covers/book_131.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 2419030,
+    "source_url": "https://covers.openlibrary.org/b/id/2419030-M.jpg"
+  },
+  "book_132": {
+    "local_path": "data/book_covers/book_132.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 90787,
+    "source_url": "https://covers.openlibrary.org/b/id/90787-M.jpg"
+  },
+  "book_133": {
+    "local_path": "data/book_covers/book_133.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 245877,
+    "source_url": "https://covers.openlibrary.org/b/id/245877-M.jpg"
+  },
+  "book_134": {
+    "local_path": "data/book_covers/book_134.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_135": {
+    "local_path": "data/book_covers/book_135.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9935503,
+    "source_url": "https://covers.openlibrary.org/b/id/9935503-M.jpg"
+  },
+  "book_136": {
+    "local_path": "data/book_covers/book_136.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 2470135,
+    "source_url": "https://covers.openlibrary.org/b/id/2470135-M.jpg"
+  },
+  "book_137": {
+    "local_path": "data/book_covers/book_137.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 406962,
+    "source_url": "https://covers.openlibrary.org/b/id/406962-M.jpg"
+  },
+  "book_138": {
+    "local_path": "data/book_covers/book_138.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 83244,
+    "source_url": "https://covers.openlibrary.org/b/id/83244-M.jpg"
+  },
+  "book_139": {
+    "local_path": "data/book_covers/book_139.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1596095,
+    "source_url": "https://covers.openlibrary.org/b/id/1596095-M.jpg"
+  },
+  "book_140": {
+    "local_path": "data/book_covers/book_140.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8642365,
+    "source_url": "https://covers.openlibrary.org/b/id/8642365-M.jpg"
+  },
+  "book_141": {
+    "local_path": "data/book_covers/book_141.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1121998,
+    "source_url": "https://covers.openlibrary.org/b/id/1121998-M.jpg"
+  },
+  "book_142": {
+    "local_path": "data/book_covers/book_142.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6461270,
+    "source_url": "https://covers.openlibrary.org/b/id/6461270-M.jpg"
+  },
+  "book_143": {
+    "local_path": "data/book_covers/book_143.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_144": {
+    "local_path": "data/book_covers/book_144.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4948458,
+    "source_url": "https://covers.openlibrary.org/b/id/4948458-M.jpg"
+  },
+  "book_145": {
+    "local_path": "data/book_covers/book_145.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 365161,
+    "source_url": "https://covers.openlibrary.org/b/id/365161-M.jpg"
+  },
+  "book_146": {
+    "local_path": "data/book_covers/book_146.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 55297,
+    "source_url": "https://covers.openlibrary.org/b/id/55297-M.jpg"
+  },
+  "book_147": {
+    "local_path": "data/book_covers/book_147.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6235665,
+    "source_url": "https://covers.openlibrary.org/b/id/6235665-M.jpg"
+  },
+  "book_148": {
+    "local_path": "data/book_covers/book_148.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4948569,
+    "source_url": "https://covers.openlibrary.org/b/id/4948569-M.jpg"
+  },
+  "book_149": {
+    "local_path": "data/book_covers/book_149.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4959467,
+    "source_url": "https://covers.openlibrary.org/b/id/4959467-M.jpg"
+  },
+  "book_150": {
+    "local_path": "data/book_covers/book_150.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6016165,
+    "source_url": "https://covers.openlibrary.org/b/id/6016165-M.jpg"
+  },
+  "book_151": {
+    "local_path": "data/book_covers/book_151.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 3940238,
+    "source_url": "https://covers.openlibrary.org/b/id/3940238-M.jpg"
+  },
+  "book_152": {
+    "local_path": "data/book_covers/book_152.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 725050,
+    "source_url": "https://covers.openlibrary.org/b/id/725050-M.jpg"
+  },
+  "book_153": {
+    "local_path": "data/book_covers/book_153.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 13054058,
+    "source_url": "https://covers.openlibrary.org/b/id/13054058-M.jpg"
+  },
+  "book_154": {
+    "local_path": "data/book_covers/book_154.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 517076,
+    "source_url": "https://covers.openlibrary.org/b/id/517076-M.jpg"
+  },
+  "book_155": {
+    "local_path": "data/book_covers/book_155.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 89590,
+    "source_url": "https://covers.openlibrary.org/b/id/89590-M.jpg"
+  },
+  "book_156": {
+    "local_path": "data/book_covers/book_156.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 115083,
+    "source_url": "https://covers.openlibrary.org/b/id/115083-M.jpg"
+  },
+  "book_157": {
+    "local_path": "data/book_covers/book_157.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1142756,
+    "source_url": "https://covers.openlibrary.org/b/id/1142756-M.jpg"
+  },
+  "book_158": {
+    "local_path": "data/book_covers/book_158.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 245846,
+    "source_url": "https://covers.openlibrary.org/b/id/245846-M.jpg"
+  },
+  "book_159": {
+    "local_path": "data/book_covers/book_159.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 245174,
+    "source_url": "https://covers.openlibrary.org/b/id/245174-M.jpg"
+  },
+  "book_160": {
+    "local_path": "data/book_covers/book_160.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 5350619,
+    "source_url": "https://covers.openlibrary.org/b/id/5350619-M.jpg"
+  },
+  "book_161": {
+    "local_path": "data/book_covers/book_161.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 88629,
+    "source_url": "https://covers.openlibrary.org/b/id/88629-M.jpg"
+  },
+  "book_162": {
+    "local_path": "data/book_covers/book_162.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 83234,
+    "source_url": "https://covers.openlibrary.org/b/id/83234-M.jpg"
+  },
+  "book_163": {
+    "local_path": "data/book_covers/book_163.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1110271,
+    "source_url": "https://covers.openlibrary.org/b/id/1110271-M.jpg"
+  },
+  "book_164": {
+    "local_path": "data/book_covers/book_164.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 54581,
+    "source_url": "https://covers.openlibrary.org/b/id/54581-M.jpg"
+  },
+  "book_165": {
+    "local_path": "data/book_covers/book_165.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 3944708,
+    "source_url": "https://covers.openlibrary.org/b/id/3944708-M.jpg"
+  },
+  "book_166": {
+    "local_path": "data/book_covers/book_166.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8631889,
+    "source_url": "https://covers.openlibrary.org/b/id/8631889-M.jpg"
+  },
+  "book_167": {
+    "local_path": "data/book_covers/book_167.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1246724,
+    "source_url": "https://covers.openlibrary.org/b/id/1246724-M.jpg"
+  },
+  "book_168": {
+    "local_path": "data/book_covers/book_168.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 7065516,
+    "source_url": "https://covers.openlibrary.org/b/id/7065516-M.jpg"
+  },
+  "book_169": {
+    "local_path": "data/book_covers/book_169.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9153769,
+    "source_url": "https://covers.openlibrary.org/b/id/9153769-M.jpg"
+  },
+  "book_170": {
+    "local_path": "data/book_covers/book_170.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 455659,
+    "source_url": "https://covers.openlibrary.org/b/id/455659-M.jpg"
+  },
+  "book_171": {
+    "local_path": "data/book_covers/book_171.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 5026455,
+    "source_url": "https://covers.openlibrary.org/b/id/5026455-M.jpg"
+  },
+  "book_172": {
+    "local_path": "data/book_covers/book_172.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8349382,
+    "source_url": "https://covers.openlibrary.org/b/id/8349382-M.jpg"
+  },
+  "book_173": {
+    "local_path": "data/book_covers/book_173.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 3963744,
+    "source_url": "https://covers.openlibrary.org/b/id/3963744-M.jpg"
+  },
+  "book_174": {
+    "local_path": "data/book_covers/book_174.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1855030,
+    "source_url": "https://covers.openlibrary.org/b/id/1855030-M.jpg"
+  },
+  "book_175": {
+    "local_path": "data/book_covers/book_175.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6981251,
+    "source_url": "https://covers.openlibrary.org/b/id/6981251-M.jpg"
+  },
+  "book_176": {
+    "local_path": "data/book_covers/book_176.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 7145464,
+    "source_url": "https://covers.openlibrary.org/b/id/7145464-M.jpg"
+  },
+  "book_177": {
+    "local_path": "data/book_covers/book_177.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1063883,
+    "source_url": "https://covers.openlibrary.org/b/id/1063883-M.jpg"
+  },
+  "book_178": {
+    "local_path": "data/book_covers/book_178.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 713866,
+    "source_url": "https://covers.openlibrary.org/b/id/713866-M.jpg"
+  },
+  "book_179": {
+    "local_path": "data/book_covers/book_179.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1243495,
+    "source_url": "https://covers.openlibrary.org/b/id/1243495-M.jpg"
+  },
+  "book_180": {
+    "local_path": "data/book_covers/book_180.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 13210471,
+    "source_url": "https://covers.openlibrary.org/b/id/13210471-M.jpg"
+  },
+  "book_181": {
+    "local_path": "data/book_covers/book_181.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 7256125,
+    "source_url": "https://covers.openlibrary.org/b/id/7256125-M.jpg"
+  },
+  "book_182": {
+    "local_path": "data/book_covers/book_182.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9764030,
+    "source_url": "https://covers.openlibrary.org/b/id/9764030-M.jpg"
+  },
+  "book_183": {
+    "local_path": "data/book_covers/book_183.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9346507,
+    "source_url": "https://covers.openlibrary.org/b/id/9346507-M.jpg"
+  },
+  "book_184": {
+    "local_path": "data/book_covers/book_184.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 489341,
+    "source_url": "https://covers.openlibrary.org/b/id/489341-M.jpg"
+  },
+  "book_185": {
+    "local_path": "data/book_covers/book_185.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9300871,
+    "source_url": "https://covers.openlibrary.org/b/id/9300871-M.jpg"
+  },
+  "book_186": {
+    "local_path": "data/book_covers/book_186.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 53264,
+    "source_url": "https://covers.openlibrary.org/b/id/53264-M.jpg"
+  },
+  "book_187": {
+    "local_path": "data/book_covers/book_187.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 53283,
+    "source_url": "https://covers.openlibrary.org/b/id/53283-M.jpg"
+  },
+  "book_188": {
+    "local_path": "data/book_covers/book_188.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 582109,
+    "source_url": "https://covers.openlibrary.org/b/id/582109-M.jpg"
+  },
+  "book_189": {
+    "local_path": "data/book_covers/book_189.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 14424703,
+    "source_url": "https://covers.openlibrary.org/b/id/14424703-M.jpg"
+  },
+  "book_190": {
+    "local_path": "data/book_covers/book_190.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 14647043,
+    "source_url": "https://covers.openlibrary.org/b/id/14647043-M.jpg"
+  },
+  "book_191": {
+    "local_path": "data/book_covers/book_191.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10655842,
+    "source_url": "https://covers.openlibrary.org/b/id/10655842-M.jpg"
+  },
+  "book_192": {
+    "local_path": "data/book_covers/book_192.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 85210,
+    "source_url": "https://covers.openlibrary.org/b/id/85210-M.jpg"
+  },
+  "book_193": {
+    "local_path": "data/book_covers/book_193.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6724433,
+    "source_url": "https://covers.openlibrary.org/b/id/6724433-M.jpg"
+  },
+  "book_194": {
+    "local_path": "data/book_covers/book_194.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 5375397,
+    "source_url": "https://covers.openlibrary.org/b/id/5375397-M.jpg"
+  },
+  "book_195": {
+    "local_path": "data/book_covers/book_195.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6937475,
+    "source_url": "https://covers.openlibrary.org/b/id/6937475-M.jpg"
+  },
+  "book_196": {
+    "local_path": "data/book_covers/book_196.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1246721,
+    "source_url": "https://covers.openlibrary.org/b/id/1246721-M.jpg"
+  },
+  "book_197": {
+    "local_path": "data/book_covers/book_197.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 13504375,
+    "source_url": "https://covers.openlibrary.org/b/id/13504375-M.jpg"
+  },
+  "book_198": {
+    "local_path": "data/book_covers/book_198.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 252302,
+    "source_url": "https://covers.openlibrary.org/b/id/252302-M.jpg"
+  },
+  "book_199": {
+    "local_path": "data/book_covers/book_199.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1537349,
+    "source_url": "https://covers.openlibrary.org/b/id/1537349-M.jpg"
+  },
+  "book_200": {
+    "local_path": "data/book_covers/book_200.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 300730,
+    "source_url": "https://covers.openlibrary.org/b/id/300730-M.jpg"
+  },
+  "book_201": {
+    "local_path": "data/book_covers/book_201.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 304387,
+    "source_url": "https://covers.openlibrary.org/b/id/304387-M.jpg"
+  },
+  "book_202": {
+    "local_path": "data/book_covers/book_202.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4939082,
+    "source_url": "https://covers.openlibrary.org/b/id/4939082-M.jpg"
+  },
+  "book_203": {
+    "local_path": "data/book_covers/book_203.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 81753,
+    "source_url": "https://covers.openlibrary.org/b/id/81753-M.jpg"
+  },
+  "book_204": {
+    "local_path": "data/book_covers/book_204.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 82878,
+    "source_url": "https://covers.openlibrary.org/b/id/82878-M.jpg"
+  },
+  "book_205": {
+    "local_path": "data/book_covers/book_205.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4436727,
+    "source_url": "https://covers.openlibrary.org/b/id/4436727-M.jpg"
+  },
+  "book_206": {
+    "local_path": "data/book_covers/book_206.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 86758,
+    "source_url": "https://covers.openlibrary.org/b/id/86758-M.jpg"
+  },
+  "book_207": {
+    "local_path": "data/book_covers/book_207.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1075614,
+    "source_url": "https://covers.openlibrary.org/b/id/1075614-M.jpg"
+  },
+  "book_208": {
+    "local_path": "data/book_covers/book_208.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8709636,
+    "source_url": "https://covers.openlibrary.org/b/id/8709636-M.jpg"
+  },
+  "book_209": {
+    "local_path": "data/book_covers/book_209.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1247811,
+    "source_url": "https://covers.openlibrary.org/b/id/1247811-M.jpg"
+  },
+  "book_210": {
+    "local_path": "data/book_covers/book_210.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1258069,
+    "source_url": "https://covers.openlibrary.org/b/id/1258069-M.jpg"
+  },
+  "book_211": {
+    "local_path": "data/book_covers/book_211.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1193391,
+    "source_url": "https://covers.openlibrary.org/b/id/1193391-M.jpg"
+  },
+  "book_212": {
+    "local_path": "data/book_covers/book_212.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 3864451,
+    "source_url": "https://covers.openlibrary.org/b/id/3864451-M.jpg"
+  },
+  "book_213": {
+    "local_path": "data/book_covers/book_213.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 3967317,
+    "source_url": "https://covers.openlibrary.org/b/id/3967317-M.jpg"
+  },
+  "book_214": {
+    "local_path": "data/book_covers/book_214.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1019417,
+    "source_url": "https://covers.openlibrary.org/b/id/1019417-M.jpg"
+  },
+  "book_215": {
+    "local_path": "data/book_covers/book_215.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10033520,
+    "source_url": "https://covers.openlibrary.org/b/id/10033520-M.jpg"
+  },
+  "book_216": {
+    "local_path": "data/book_covers/book_216.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1732816,
+    "source_url": "https://covers.openlibrary.org/b/id/1732816-M.jpg"
+  },
+  "book_217": {
+    "local_path": "data/book_covers/book_217.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4054670,
+    "source_url": "https://covers.openlibrary.org/b/id/4054670-M.jpg"
+  },
+  "book_218": {
+    "local_path": "data/book_covers/book_218.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_219": {
+    "local_path": "data/book_covers/book_219.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8444621,
+    "source_url": "https://covers.openlibrary.org/b/id/8444621-M.jpg"
+  },
+  "book_220": {
+    "local_path": "data/book_covers/book_220.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10206860,
+    "source_url": "https://covers.openlibrary.org/b/id/10206860-M.jpg"
+  },
+  "book_221": {
+    "local_path": "data/book_covers/book_221.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6492893,
+    "source_url": "https://covers.openlibrary.org/b/id/6492893-M.jpg"
+  },
+  "book_222": {
+    "local_path": "data/book_covers/book_222.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 19884,
+    "source_url": "https://covers.openlibrary.org/b/id/19884-M.jpg"
+  },
+  "book_223": {
+    "local_path": "data/book_covers/book_223.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 154259,
+    "source_url": "https://covers.openlibrary.org/b/id/154259-M.jpg"
+  },
+  "book_224": {
+    "local_path": "data/book_covers/book_224.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 15106531,
+    "source_url": "https://covers.openlibrary.org/b/id/15106531-M.jpg"
+  },
+  "book_225": {
+    "local_path": "data/book_covers/book_225.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1468594,
+    "source_url": "https://covers.openlibrary.org/b/id/1468594-M.jpg"
+  },
+  "book_226": {
+    "local_path": "data/book_covers/book_226.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 12679935,
+    "source_url": "https://covers.openlibrary.org/b/id/12679935-M.jpg"
+  },
+  "book_227": {
+    "local_path": "data/book_covers/book_227.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4437768,
+    "source_url": "https://covers.openlibrary.org/b/id/4437768-M.jpg"
+  },
+  "book_228": {
+    "local_path": "data/book_covers/book_228.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 12685805,
+    "source_url": "https://covers.openlibrary.org/b/id/12685805-M.jpg"
+  },
+  "book_229": {
+    "local_path": "data/book_covers/book_229.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 247593,
+    "source_url": "https://covers.openlibrary.org/b/id/247593-M.jpg"
+  },
+  "book_230": {
+    "local_path": "data/book_covers/book_230.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10416536,
+    "source_url": "https://covers.openlibrary.org/b/id/10416536-M.jpg"
+  },
+  "book_231": {
+    "local_path": "data/book_covers/book_231.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1090359,
+    "source_url": "https://covers.openlibrary.org/b/id/1090359-M.jpg"
+  },
+  "book_232": {
+    "local_path": "data/book_covers/book_232.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10572268,
+    "source_url": "https://covers.openlibrary.org/b/id/10572268-M.jpg"
+  },
+  "book_233": {
+    "local_path": "data/book_covers/book_233.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4944263,
+    "source_url": "https://covers.openlibrary.org/b/id/4944263-M.jpg"
+  },
+  "book_234": {
+    "local_path": "data/book_covers/book_234.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9935503,
+    "source_url": "https://covers.openlibrary.org/b/id/9935503-M.jpg"
+  },
+  "book_235": {
+    "local_path": "data/book_covers/book_235.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 65359,
+    "source_url": "https://covers.openlibrary.org/b/id/65359-M.jpg"
+  },
+  "book_236": {
+    "local_path": "data/book_covers/book_236.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10925001,
+    "source_url": "https://covers.openlibrary.org/b/id/10925001-M.jpg"
+  },
+  "book_237": {
+    "local_path": "data/book_covers/book_237.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 444459,
+    "source_url": "https://covers.openlibrary.org/b/id/444459-M.jpg"
+  },
+  "book_238": {
+    "local_path": "data/book_covers/book_238.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 3849733,
+    "source_url": "https://covers.openlibrary.org/b/id/3849733-M.jpg"
+  },
+  "book_239": {
+    "local_path": "data/book_covers/book_239.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8270508,
+    "source_url": "https://covers.openlibrary.org/b/id/8270508-M.jpg"
+  },
+  "book_240": {
+    "local_path": "data/book_covers/book_240.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6738557,
+    "source_url": "https://covers.openlibrary.org/b/id/6738557-M.jpg"
+  },
+  "book_241": {
+    "local_path": "data/book_covers/book_241.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 13977093,
+    "source_url": "https://covers.openlibrary.org/b/id/13977093-M.jpg"
+  },
+  "book_242": {
+    "local_path": "data/book_covers/book_242.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1116150,
+    "source_url": "https://covers.openlibrary.org/b/id/1116150-M.jpg"
+  },
+  "book_243": {
+    "local_path": "data/book_covers/book_243.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 194610,
+    "source_url": "https://covers.openlibrary.org/b/id/194610-M.jpg"
+  },
+  "book_244": {
+    "local_path": "data/book_covers/book_244.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9696229,
+    "source_url": "https://covers.openlibrary.org/b/id/9696229-M.jpg"
+  },
+  "book_245": {
+    "local_path": "data/book_covers/book_245.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9469259,
+    "source_url": "https://covers.openlibrary.org/b/id/9469259-M.jpg"
+  },
+  "book_246": {
+    "local_path": "data/book_covers/book_246.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6962999,
+    "source_url": "https://covers.openlibrary.org/b/id/6962999-M.jpg"
+  },
+  "book_247": {
+    "local_path": "data/book_covers/book_247.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9322264,
+    "source_url": "https://covers.openlibrary.org/b/id/9322264-M.jpg"
+  },
+  "book_248": {
+    "local_path": "data/book_covers/book_248.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4263461,
+    "source_url": "https://covers.openlibrary.org/b/id/4263461-M.jpg"
+  },
+  "book_249": {
+    "local_path": "data/book_covers/book_249.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6818532,
+    "source_url": "https://covers.openlibrary.org/b/id/6818532-M.jpg"
+  },
+  "book_250": {
+    "local_path": "data/book_covers/book_250.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 440178,
+    "source_url": "https://covers.openlibrary.org/b/id/440178-M.jpg"
+  },
+  "book_251": {
+    "local_path": "data/book_covers/book_251.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 83351,
+    "source_url": "https://covers.openlibrary.org/b/id/83351-M.jpg"
+  },
+  "book_252": {
+    "local_path": "data/book_covers/book_252.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6283274,
+    "source_url": "https://covers.openlibrary.org/b/id/6283274-M.jpg"
+  },
+  "book_253": {
+    "local_path": "data/book_covers/book_253.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 5223319,
+    "source_url": "https://covers.openlibrary.org/b/id/5223319-M.jpg"
+  },
+  "book_254": {
+    "local_path": "data/book_covers/book_254.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6765497,
+    "source_url": "https://covers.openlibrary.org/b/id/6765497-M.jpg"
+  },
+  "book_255": {
+    "local_path": "data/book_covers/book_255.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_256": {
+    "local_path": "data/book_covers/book_256.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 7271910,
+    "source_url": "https://covers.openlibrary.org/b/id/7271910-M.jpg"
+  },
+  "book_257": {
+    "local_path": "data/book_covers/book_257.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 521995,
+    "source_url": "https://covers.openlibrary.org/b/id/521995-M.jpg"
+  },
+  "book_258": {
+    "local_path": "data/book_covers/book_258.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4039178,
+    "source_url": "https://covers.openlibrary.org/b/id/4039178-M.jpg"
+  },
+  "book_259": {
+    "local_path": "data/book_covers/book_259.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4290513,
+    "source_url": "https://covers.openlibrary.org/b/id/4290513-M.jpg"
+  },
+  "book_260": {
+    "local_path": "data/book_covers/book_260.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4937857,
+    "source_url": "https://covers.openlibrary.org/b/id/4937857-M.jpg"
+  },
+  "book_261": {
+    "local_path": "data/book_covers/book_261.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 194583,
+    "source_url": "https://covers.openlibrary.org/b/id/194583-M.jpg"
+  },
+  "book_262": {
+    "local_path": "data/book_covers/book_262.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4140531,
+    "source_url": "https://covers.openlibrary.org/b/id/4140531-M.jpg"
+  },
+  "book_263": {
+    "local_path": "data/book_covers/book_263.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 62759,
+    "source_url": "https://covers.openlibrary.org/b/id/62759-M.jpg"
+  },
+  "book_264": {
+    "local_path": "data/book_covers/book_264.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 253189,
+    "source_url": "https://covers.openlibrary.org/b/id/253189-M.jpg"
+  },
+  "book_265": {
+    "local_path": "data/book_covers/book_265.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 5344099,
+    "source_url": "https://covers.openlibrary.org/b/id/5344099-M.jpg"
+  },
+  "book_266": {
+    "local_path": "data/book_covers/book_266.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1354818,
+    "source_url": "https://covers.openlibrary.org/b/id/1354818-M.jpg"
+  },
+  "book_267": {
+    "local_path": "data/book_covers/book_267.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10236987,
+    "source_url": "https://covers.openlibrary.org/b/id/10236987-M.jpg"
+  },
+  "book_268": {
+    "local_path": "data/book_covers/book_268.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 5429781,
+    "source_url": "https://covers.openlibrary.org/b/id/5429781-M.jpg"
+  },
+  "book_269": {
+    "local_path": "data/book_covers/book_269.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1196116,
+    "source_url": "https://covers.openlibrary.org/b/id/1196116-M.jpg"
+  },
+  "book_270": {
+    "local_path": "data/book_covers/book_270.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4938560,
+    "source_url": "https://covers.openlibrary.org/b/id/4938560-M.jpg"
+  },
+  "book_271": {
+    "local_path": "data/book_covers/book_271.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6819085,
+    "source_url": "https://covers.openlibrary.org/b/id/6819085-M.jpg"
+  },
+  "book_272": {
+    "local_path": "data/book_covers/book_272.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8961415,
+    "source_url": "https://covers.openlibrary.org/b/id/8961415-M.jpg"
+  },
+  "book_273": {
+    "local_path": "data/book_covers/book_273.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4471281,
+    "source_url": "https://covers.openlibrary.org/b/id/4471281-M.jpg"
+  },
+  "book_274": {
+    "local_path": "data/book_covers/book_274.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9519901,
+    "source_url": "https://covers.openlibrary.org/b/id/9519901-M.jpg"
+  },
+  "book_275": {
+    "local_path": "data/book_covers/book_275.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9153848,
+    "source_url": "https://covers.openlibrary.org/b/id/9153848-M.jpg"
+  },
+  "book_276": {
+    "local_path": "data/book_covers/book_276.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 12385229,
+    "source_url": "https://covers.openlibrary.org/b/id/12385229-M.jpg"
+  },
+  "book_277": {
+    "local_path": "data/book_covers/book_277.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 14372309,
+    "source_url": "https://covers.openlibrary.org/b/id/14372309-M.jpg"
+  },
+  "book_278": {
+    "local_path": "data/book_covers/book_278.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9302088,
+    "source_url": "https://covers.openlibrary.org/b/id/9302088-M.jpg"
+  },
+  "book_279": {
+    "local_path": "data/book_covers/book_279.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6666407,
+    "source_url": "https://covers.openlibrary.org/b/id/6666407-M.jpg"
+  },
+  "book_280": {
+    "local_path": "data/book_covers/book_280.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 7443301,
+    "source_url": "https://covers.openlibrary.org/b/id/7443301-M.jpg"
+  },
+  "book_281": {
+    "local_path": "data/book_covers/book_281.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9304058,
+    "source_url": "https://covers.openlibrary.org/b/id/9304058-M.jpg"
+  },
+  "book_282": {
+    "local_path": "data/book_covers/book_282.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 12003851,
+    "source_url": "https://covers.openlibrary.org/b/id/12003851-M.jpg"
+  },
+  "book_283": {
+    "local_path": "data/book_covers/book_283.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1229405,
+    "source_url": "https://covers.openlibrary.org/b/id/1229405-M.jpg"
+  },
+  "book_284": {
+    "local_path": "data/book_covers/book_284.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8513327,
+    "source_url": "https://covers.openlibrary.org/b/id/8513327-M.jpg"
+  },
+  "book_285": {
+    "local_path": "data/book_covers/book_285.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10221057,
+    "source_url": "https://covers.openlibrary.org/b/id/10221057-M.jpg"
+  },
+  "book_286": {
+    "local_path": "data/book_covers/book_286.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4291026,
+    "source_url": "https://covers.openlibrary.org/b/id/4291026-M.jpg"
+  },
+  "book_287": {
+    "local_path": "data/book_covers/book_287.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 15155264,
+    "source_url": "https://covers.openlibrary.org/b/id/15155264-M.jpg"
+  },
+  "book_288": {
+    "local_path": "data/book_covers/book_288.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 13175129,
+    "source_url": "https://covers.openlibrary.org/b/id/13175129-M.jpg"
+  },
+  "book_289": {
+    "local_path": "data/book_covers/book_289.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8085607,
+    "source_url": "https://covers.openlibrary.org/b/id/8085607-M.jpg"
+  },
+  "book_290": {
+    "local_path": "data/book_covers/book_290.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10613027,
+    "source_url": "https://covers.openlibrary.org/b/id/10613027-M.jpg"
+  },
+  "book_291": {
+    "local_path": "data/book_covers/book_291.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 13790511,
+    "source_url": "https://covers.openlibrary.org/b/id/13790511-M.jpg"
+  },
+  "book_292": {
+    "local_path": "data/book_covers/book_292.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 13145590,
+    "source_url": "https://covers.openlibrary.org/b/id/13145590-M.jpg"
+  },
+  "book_293": {
+    "local_path": "data/book_covers/book_293.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1230162,
+    "source_url": "https://covers.openlibrary.org/b/id/1230162-M.jpg"
+  },
+  "book_294": {
+    "local_path": "data/book_covers/book_294.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1321209,
+    "source_url": "https://covers.openlibrary.org/b/id/1321209-M.jpg"
+  },
+  "book_295": {
+    "local_path": "data/book_covers/book_295.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 10664420,
+    "source_url": "https://covers.openlibrary.org/b/id/10664420-M.jpg"
+  },
+  "book_296": {
+    "local_path": "data/book_covers/book_296.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8576609,
+    "source_url": "https://covers.openlibrary.org/b/id/8576609-M.jpg"
+  },
+  "book_297": {
+    "local_path": "data/book_covers/book_297.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8389706,
+    "source_url": "https://covers.openlibrary.org/b/id/8389706-M.jpg"
+  },
+  "book_298": {
+    "local_path": "data/book_covers/book_298.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 7894135,
+    "source_url": "https://covers.openlibrary.org/b/id/7894135-M.jpg"
+  },
+  "book_299": {
+    "local_path": "data/book_covers/book_299.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6700880,
+    "source_url": "https://covers.openlibrary.org/b/id/6700880-M.jpg"
+  },
+  "book_300": {
+    "local_path": "data/book_covers/book_300.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4637935,
+    "source_url": "https://covers.openlibrary.org/b/id/4637935-M.jpg"
+  },
+  "book_301": {
+    "local_path": "data/book_covers/book_301.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4918138,
+    "source_url": "https://covers.openlibrary.org/b/id/4918138-M.jpg"
+  },
+  "book_302": {
+    "local_path": "data/book_covers/book_302.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1996128,
+    "source_url": "https://covers.openlibrary.org/b/id/1996128-M.jpg"
+  },
+  "book_303": {
+    "local_path": "data/book_covers/book_303.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1319769,
+    "source_url": "https://covers.openlibrary.org/b/id/1319769-M.jpg"
+  },
+  "book_304": {
+    "local_path": "data/book_covers/book_304.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 5542140,
+    "source_url": "https://covers.openlibrary.org/b/id/5542140-M.jpg"
+  },
+  "book_305": {
+    "local_path": "data/book_covers/book_305.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9309640,
+    "source_url": "https://covers.openlibrary.org/b/id/9309640-M.jpg"
+  },
+  "book_306": {
+    "local_path": "data/book_covers/book_306.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6874383,
+    "source_url": "https://covers.openlibrary.org/b/id/6874383-M.jpg"
+  },
+  "book_307": {
+    "local_path": "data/book_covers/book_307.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 12879336,
+    "source_url": "https://covers.openlibrary.org/b/id/12879336-M.jpg"
+  },
+  "book_308": {
+    "local_path": "data/book_covers/book_308.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 277477,
+    "source_url": "https://covers.openlibrary.org/b/id/277477-M.jpg"
+  },
+  "book_309": {
+    "local_path": "data/book_covers/book_309.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 7133452,
+    "source_url": "https://covers.openlibrary.org/b/id/7133452-M.jpg"
+  },
+  "book_310": {
+    "local_path": "data/book_covers/book_310.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4945994,
+    "source_url": "https://covers.openlibrary.org/b/id/4945994-M.jpg"
+  },
+  "book_311": {
+    "local_path": "data/book_covers/book_311.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6517784,
+    "source_url": "https://covers.openlibrary.org/b/id/6517784-M.jpg"
+  },
+  "book_312": {
+    "local_path": "data/book_covers/book_312.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 277474,
+    "source_url": "https://covers.openlibrary.org/b/id/277474-M.jpg"
+  },
+  "book_313": {
+    "local_path": "data/book_covers/book_313.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 8663755,
+    "source_url": "https://covers.openlibrary.org/b/id/8663755-M.jpg"
+  },
+  "book_314": {
+    "local_path": "data/book_covers/book_314.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 4143423,
+    "source_url": "https://covers.openlibrary.org/b/id/4143423-M.jpg"
+  },
+  "book_315": {
+    "local_path": "data/book_covers/book_315.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9964788,
+    "source_url": "https://covers.openlibrary.org/b/id/9964788-M.jpg"
+  },
+  "book_316": {
+    "local_path": "data/book_covers/book_316.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1084281,
+    "source_url": "https://covers.openlibrary.org/b/id/1084281-M.jpg"
+  },
+  "book_317": {
+    "local_path": "data/book_covers/book_317.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1087005,
+    "source_url": "https://covers.openlibrary.org/b/id/1087005-M.jpg"
+  },
+  "book_318": {
+    "local_path": "data/book_covers/book_318.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 9550754,
+    "source_url": "https://covers.openlibrary.org/b/id/9550754-M.jpg"
+  },
+  "book_319": {
+    "local_path": "data/book_covers/book_319.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1288189,
+    "source_url": "https://covers.openlibrary.org/b/id/1288189-M.jpg"
+  },
+  "book_320": {
+    "local_path": "data/book_covers/book_320.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 6601657,
+    "source_url": "https://covers.openlibrary.org/b/id/6601657-M.jpg"
+  },
+  "book_321": {
+    "local_path": "data/book_covers/book_321.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_322": {
+    "local_path": "data/book_covers/book_322.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 5250724,
+    "source_url": "https://covers.openlibrary.org/b/id/5250724-M.jpg"
+  },
+  "book_323": {
+    "local_path": "data/book_covers/book_323.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 62976,
+    "source_url": "https://covers.openlibrary.org/b/id/62976-M.jpg"
+  },
+  "book_324": {
+    "local_path": "data/book_covers/book_324.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_325": {
+    "local_path": "data/book_covers/book_325.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 3820849,
+    "source_url": "https://covers.openlibrary.org/b/id/3820849-M.jpg"
+  },
+  "book_326": {
+    "local_path": "data/book_covers/book_326.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 1274398,
+    "source_url": "https://covers.openlibrary.org/b/id/1274398-M.jpg"
+  },
+  "book_327": {
+    "local_path": "data/book_covers/book_327.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_328": {
+    "local_path": "data/book_covers/book_328.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 14604314,
+    "source_url": "https://covers.openlibrary.org/b/id/14604314-M.jpg"
+  },
+  "book_329": {
+    "local_path": "data/book_covers/book_329.jpg",
+    "status": "local_placeholder_generated",
+    "cover_i": null,
+    "source_url": null
+  },
+  "book_330": {
+    "local_path": "data/book_covers/book_330.jpg",
+    "status": "downloaded_openlibrary",
+    "cover_i": 12696380,
+    "source_url": "https://covers.openlibrary.org/b/id/12696380-M.jpg"
+  }
+}

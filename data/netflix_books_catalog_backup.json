@@ -1,0 +1,5068 @@
+{
+  "Computer Science & AI": [
+    {
+      "key": "/works/OL3275955W",
+      "title": "Computer science",
+      "authors": [
+        "J. Glenn Brookshear",
+        "Brookshear"
+      ],
+      "year": 1985,
+      "cover_i": 193281,
+      "category": "Computer Science & AI",
+      "want_to_read": 201,
+      "reading": 20,
+      "rating": 4.6,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-822"
+    },
+    {
+      "key": "/works/OL17357767W",
+      "title": "Algorithms to Live By",
+      "authors": [
+        "Brian Christian",
+        "Tom Griffiths"
+      ],
+      "year": 2016,
+      "cover_i": 8042539,
+      "category": "Computer Science & AI",
+      "want_to_read": 465,
+      "reading": 14,
+      "rating": 4.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-546"
+    },
+    {
+      "key": "/works/OL8584971W",
+      "title": "Computer Science",
+      "authors": [
+        "Carl French",
+        "C. S. French"
+      ],
+      "year": 1989,
+      "cover_i": 1572574,
+      "category": "Computer Science & AI",
+      "want_to_read": 102,
+      "reading": 8,
+      "rating": 3.8,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-796"
+    },
+    {
+      "key": "/works/OL1922611W",
+      "title": "Mathematical structures for computer science",
+      "authors": [
+        "Judith L. Gersting"
+      ],
+      "year": 1982,
+      "cover_i": 7136779,
+      "category": "Computer Science & AI",
+      "want_to_read": 171,
+      "reading": 12,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-COM-769"
+    },
+    {
+      "key": "/works/OL1926026W",
+      "title": "Invitation to Computer Science",
+      "authors": [
+        "G. Michael Schneider",
+        "Judith L. Gersting"
+      ],
+      "year": 1995,
+      "cover_i": 8524066,
+      "category": "Computer Science & AI",
+      "want_to_read": 101,
+      "reading": 4,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-COM-689"
+    },
+    {
+      "key": "/works/OL20480707W",
+      "title": "Computer science",
+      "authors": [
+        "J. Glenn Brookshear",
+        "Glenn Brookshear"
+      ],
+      "year": 2002,
+      "cover_i": 136349,
+      "category": "Computer Science & AI",
+      "want_to_read": 62,
+      "reading": 10,
+      "rating": 5.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-822"
+    },
+    {
+      "key": "/works/OL20873589W",
+      "title": "Computer Science Distilled",
+      "authors": [
+        "Wladston Ferreira Filho",
+        "Raimondo Pictet"
+      ],
+      "year": 2017,
+      "cover_i": 10194609,
+      "category": "Computer Science & AI",
+      "want_to_read": 61,
+      "reading": 5,
+      "rating": 3.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-754"
+    },
+    {
+      "key": "/works/OL7001492W",
+      "title": "Operating systems",
+      "authors": [
+        "Stuart E. Madnick",
+        "John Donovan"
+      ],
+      "year": 1974,
+      "cover_i": 4466229,
+      "category": "Computer Science & AI",
+      "want_to_read": 83,
+      "reading": 7,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-940"
+    },
+    {
+      "key": "/works/OL35529W",
+      "title": "Computer science",
+      "authors": [
+        "Behrouz A. Forouzan",
+        "Richard F. Gilberg"
+      ],
+      "year": 1997,
+      "cover_i": 2378050,
+      "category": "Computer Science & AI",
+      "want_to_read": 68,
+      "reading": 7,
+      "rating": 4.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-822"
+    },
+    {
+      "key": "/works/OL9295916W",
+      "title": "Computer science",
+      "authors": [
+        "C. S. French"
+      ],
+      "year": 1980,
+      "cover_i": 11608620,
+      "category": "Computer Science & AI",
+      "want_to_read": 24,
+      "reading": 2,
+      "rating": 4.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-822"
+    },
+    {
+      "key": "/works/OL20186966W",
+      "title": "Computer Science Principles",
+      "authors": [
+        "Kevin Hare"
+      ],
+      "year": 2017,
+      "cover_i": 8835681,
+      "category": "Computer Science & AI",
+      "want_to_read": 17,
+      "reading": 1019,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-COM-419"
+    },
+    {
+      "key": "/works/OL5270336W",
+      "title": "Computer science",
+      "authors": [
+        "L. Goldschlager",
+        "Les Goldschlager"
+      ],
+      "year": 1982,
+      "cover_i": 6610998,
+      "category": "Computer Science & AI",
+      "want_to_read": 33,
+      "reading": 2,
+      "rating": 4.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-822"
+    },
+    {
+      "key": "/works/OL2085228W",
+      "title": "Physics for Computer Science Students",
+      "authors": [
+        "Narciso Garcia",
+        "Arthur Damask"
+      ],
+      "year": 1986,
+      "cover_i": 1192983,
+      "category": "Computer Science & AI",
+      "want_to_read": 44,
+      "reading": 3,
+      "rating": 1.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-COM-801"
+    },
+    {
+      "key": "/works/OL9329575W",
+      "title": "English for computer science",
+      "authors": [
+        "Norma D. Mullen",
+        "P. Charles Brown"
+      ],
+      "year": 1983,
+      "cover_i": 15131795,
+      "category": "Computer Science & AI",
+      "want_to_read": 24,
+      "reading": 3,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-COM-635"
+    },
+    {
+      "key": "/works/OL24341765W",
+      "title": "Computer Science With C++ Class",
+      "authors": [
+        "Sumita Arora"
+      ],
+      "year": 2017,
+      "cover_i": 10865309,
+      "category": "Computer Science & AI",
+      "want_to_read": 30,
+      "reading": 8,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-COM-325"
+    },
+    {
+      "key": "/works/OL5272374W",
+      "title": "Computer Sciences",
+      "authors": [
+        "Roger R. Flynn"
+      ],
+      "year": 2002,
+      "cover_i": 1063219,
+      "category": "Computer Science & AI",
+      "want_to_read": 15,
+      "reading": 3,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-COM-593"
+    },
+    {
+      "key": "/works/OL2985241W",
+      "title": "Languages and machines",
+      "authors": [
+        "Thomas A. Sudkamp"
+      ],
+      "year": 1988,
+      "cover_i": 1176484,
+      "category": "Computer Science & AI",
+      "want_to_read": 70,
+      "reading": 6,
+      "rating": 4.7,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-COM-665"
+    },
+    {
+      "key": "/works/OL4777626W",
+      "title": "An introduction to computer science",
+      "authors": [
+        "Jean-Paul Tremblay",
+        "Richard B. Bunt"
+      ],
+      "year": 1979,
+      "cover_i": 4141467,
+      "category": "Computer Science & AI",
+      "want_to_read": 24,
+      "reading": 1,
+      "rating": 4.4,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-778"
+    },
+    {
+      "key": "/works/OL16308163W",
+      "title": "Computer science illuminated",
+      "authors": [
+        "Nell B. Dale",
+        "Nell Dale"
+      ],
+      "year": 2002,
+      "cover_i": 516984,
+      "category": "Computer Science & AI",
+      "want_to_read": 25,
+      "reading": 3,
+      "rating": 4.2,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-712"
+    },
+    {
+      "key": "/works/OL3951639W",
+      "title": "Concrete mathematics",
+      "authors": [
+        "Ronald L. Graham",
+        "Donald Knuth"
+      ],
+      "year": 1988,
+      "cover_i": 135182,
+      "category": "Computer Science & AI",
+      "want_to_read": 62,
+      "reading": 2,
+      "rating": 4.8,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-COM-825"
+    },
+    {
+      "key": "/works/OL20246829W",
+      "title": "Computer Science",
+      "authors": [
+        "Robert Sedgewick",
+        "Kevin Wayne"
+      ],
+      "year": 2016,
+      "cover_i": 8902454,
+      "category": "Computer Science & AI",
+      "want_to_read": 21,
+      "reading": 1,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-796"
+    },
+    {
+      "key": "/works/OL5855093W",
+      "title": "A Balanced Introduction to Computer Science",
+      "authors": [
+        "David Reed"
+      ],
+      "year": 2005,
+      "cover_i": 9296936,
+      "category": "Computer Science & AI",
+      "want_to_read": 26,
+      "reading": 2,
+      "rating": 4.2,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-880"
+    },
+    {
+      "key": "/works/OL4799736W",
+      "title": "Quantum Computer Science",
+      "authors": [
+        "N. David Mermin"
+      ],
+      "year": 2007,
+      "cover_i": 1268897,
+      "category": "Computer Science & AI",
+      "want_to_read": 11,
+      "reading": 934,
+      "rating": 4.5,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-966"
+    },
+    {
+      "key": "/works/OL15881964W",
+      "title": "Horizons in computer science research",
+      "authors": [
+        "Thomas S. Clary"
+      ],
+      "year": 2010,
+      "cover_i": 11646406,
+      "category": "Computer Science & AI",
+      "want_to_read": 11,
+      "reading": 1,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-716"
+    },
+    {
+      "key": "/works/OL6037340W",
+      "title": "Python programming",
+      "authors": [
+        "John M. Zelle"
+      ],
+      "year": 2003,
+      "cover_i": 935554,
+      "category": "Computer Science & AI",
+      "want_to_read": 37,
+      "reading": 4,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-516"
+    },
+    {
+      "key": "/works/OL20667190W",
+      "title": "Transactions on Engineering Technologies",
+      "authors": [
+        "Sio-Iong Ao",
+        "Haeng Kon Kim"
+      ],
+      "year": 2013,
+      "cover_i": 9334768,
+      "category": "Computer Science & AI",
+      "want_to_read": 119,
+      "reading": 7,
+      "rating": 3.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-846"
+    },
+    {
+      "key": "/works/OL1950479W",
+      "title": "The  (new) turing omnibus",
+      "authors": [
+        "A.K. Dewdney"
+      ],
+      "year": 1993,
+      "cover_i": 580997,
+      "category": "Computer Science & AI",
+      "want_to_read": 36,
+      "reading": 5,
+      "rating": 3.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-574"
+    },
+    {
+      "key": "/works/OL3509443W",
+      "title": "Foundations of computer science",
+      "authors": [
+        "Alfred V. Aho"
+      ],
+      "year": 1992,
+      "cover_i": 456028,
+      "category": "Computer Science & AI",
+      "want_to_read": 13,
+      "reading": 1,
+      "rating": 4.2,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-904"
+    },
+    {
+      "key": "/works/OL25624744W",
+      "title": "Foundations of Computer Science",
+      "authors": [
+        "Behrouz Forouzan"
+      ],
+      "year": 2017,
+      "cover_i": null,
+      "category": "Computer Science & AI",
+      "want_to_read": 23,
+      "reading": 1,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-212"
+    },
+    {
+      "key": "/works/OL30618028W",
+      "title": "Python Programming : This Book Includes",
+      "authors": [
+        "Computer Science Computer Science Academy"
+      ],
+      "year": 2020,
+      "cover_i": null,
+      "category": "Computer Science & AI",
+      "want_to_read": 13,
+      "reading": 498,
+      "rating": 4.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-902"
+    },
+    {
+      "key": "/works/OL7996286W",
+      "title": "Computing Science",
+      "authors": [
+        "Peter Bishop"
+      ],
+      "year": 1982,
+      "cover_i": 13032294,
+      "category": "Computer Science & AI",
+      "want_to_read": 8,
+      "reading": 689,
+      "rating": 4.9,
+      "availability": "Checked Out",
+      "shelf": "KTHB-COM-239"
+    },
+    {
+      "key": "/works/OL2569419W",
+      "title": "Computer science",
+      "authors": [
+        "Susan K. Baumann",
+        "Steven L. Mandell"
+      ],
+      "year": 1992,
+      "cover_i": 12742615,
+      "category": "Computer Science & AI",
+      "want_to_read": 10,
+      "reading": 1,
+      "rating": 4.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-822"
+    },
+    {
+      "key": "/works/OL19343945W",
+      "title": "Computer Science with C++ for Class XI",
+      "authors": [
+        "Sumita Arora"
+      ],
+      "year": 2017,
+      "cover_i": 8457202,
+      "category": "Computer Science & AI",
+      "want_to_read": 26,
+      "reading": 4,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-COM-795"
+    },
+    {
+      "key": "/works/OL4777616W",
+      "title": "Discrete mathematical structures with applications to com...",
+      "authors": [
+        "Jean-Paul Tremblay"
+      ],
+      "year": 1975,
+      "cover_i": 4471024,
+      "category": "Computer Science & AI",
+      "want_to_read": 32,
+      "reading": 6,
+      "rating": 1.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-COM-983"
+    },
+    {
+      "key": "/works/OL19541895W",
+      "title": "Intro to Python for Computer Science and Data Science",
+      "authors": [
+        "Paul J. Deitel",
+        "Harvey M. Deitel"
+      ],
+      "year": 2019,
+      "cover_i": 15112914,
+      "category": "Computer Science & AI",
+      "want_to_read": 31,
+      "reading": 638,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-288"
+    },
+    {
+      "key": "/works/OL15444238W",
+      "title": "Explorations in computing",
+      "authors": [
+        "John S. Conery"
+      ],
+      "year": 2010,
+      "cover_i": 12844654,
+      "category": "Computer Science & AI",
+      "want_to_read": 10,
+      "reading": 1,
+      "rating": 4.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-734"
+    },
+    {
+      "key": "/works/OL17607677W",
+      "title": "Theoretical Computer Science",
+      "authors": [
+        "Dilip Kumar Sultania"
+      ],
+      "year": 2015,
+      "cover_i": 7892609,
+      "category": "Computer Science & AI",
+      "want_to_read": 16,
+      "reading": 1,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-472"
+    },
+    {
+      "key": "/works/OL2960016W",
+      "title": "Software engineering",
+      "authors": [
+        "Ian Sommerville",
+        "Sommerville, Ian."
+      ],
+      "year": 1982,
+      "cover_i": 3973371,
+      "category": "Computer Science & AI",
+      "want_to_read": 73,
+      "reading": 4,
+      "rating": 4.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-356"
+    },
+    {
+      "key": "/works/OL21572795W",
+      "title": "Discovering Computer Science",
+      "authors": [
+        "Jessen Havill"
+      ],
+      "year": 2015,
+      "cover_i": null,
+      "category": "Computer Science & AI",
+      "want_to_read": 7,
+      "reading": 1106,
+      "rating": 4.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-894"
+    },
+    {
+      "key": "/works/OL25141530W",
+      "title": "Encyclopedia of Computer Science and Technology",
+      "authors": [
+        "Allen Kent",
+        "James G. Williams"
+      ],
+      "year": 1996,
+      "cover_i": 1564172,
+      "category": "Computer Science & AI",
+      "want_to_read": 17,
+      "reading": 609,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-COM-991"
+    },
+    {
+      "key": "/works/OL2896994W",
+      "title": "Artificial intelligence",
+      "authors": [
+        "Stuart J. Russell",
+        "Peter Norvig"
+      ],
+      "year": 1994,
+      "cover_i": 92018,
+      "category": "Computer Science & AI",
+      "want_to_read": 552,
+      "reading": 53,
+      "rating": 4.1,
+      "availability": "Checked Out",
+      "shelf": "KTHB-COM-695"
+    },
+    {
+      "key": "/works/OL2024373W",
+      "title": "Artificial intelligence",
+      "authors": [
+        "Patrick Henry Winston"
+      ],
+      "year": 1977,
+      "cover_i": 135105,
+      "category": "Computer Science & AI",
+      "want_to_read": 151,
+      "reading": 11,
+      "rating": 4.4,
+      "availability": "Checked Out",
+      "shelf": "KTHB-COM-695"
+    },
+    {
+      "key": "/works/OL4453349W",
+      "title": "Artificial intelligence",
+      "authors": [
+        "Elaine A. Rich"
+      ],
+      "year": 1983,
+      "cover_i": 55159,
+      "category": "Computer Science & AI",
+      "want_to_read": 86,
+      "reading": 1,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-COM-695"
+    },
+    {
+      "key": "/works/OL19717530W",
+      "title": "Life 3.0",
+      "authors": [
+        "Max Tegmark"
+      ],
+      "year": 2017,
+      "cover_i": 10239283,
+      "category": "Computer Science & AI",
+      "want_to_read": 267,
+      "reading": 13,
+      "rating": 4.1,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-928"
+    },
+    {
+      "key": "/works/OL5878924W",
+      "title": "Artificial Intelligence and Intelligent Systems",
+      "authors": [
+        "N. P. Padhy"
+      ],
+      "year": 2005,
+      "cover_i": 128294,
+      "category": "Computer Science & AI",
+      "want_to_read": 138,
+      "reading": 14,
+      "rating": 1.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-734"
+    },
+    {
+      "key": "/works/OL20666330W",
+      "title": "Artificial Intelligence",
+      "authors": [
+        "Melanie Mitchell"
+      ],
+      "year": 2019,
+      "cover_i": 9333846,
+      "category": "Computer Science & AI",
+      "want_to_read": 59,
+      "reading": 7,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-COM-765"
+    },
+    {
+      "key": "/works/OL20492448W",
+      "title": "Human Compatible",
+      "authors": [
+        "Stuart J. Russell"
+      ],
+      "year": 2019,
+      "cover_i": 11264186,
+      "category": "Computer Science & AI",
+      "want_to_read": 117,
+      "reading": 10,
+      "rating": 3.7,
+      "availability": "On Reserve",
+      "shelf": "KTHB-COM-278"
+    },
+    {
+      "key": "/works/OL15155081W",
+      "title": "Understanding Artificial Intelligence",
+      "authors": [
+        "Henry C. Mishkoff"
+      ],
+      "year": 1985,
+      "cover_i": 6572294,
+      "category": "Computer Science & AI",
+      "want_to_read": 57,
+      "reading": 5,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-COM-973"
+    },
+    {
+      "key": "/works/OL19827983W",
+      "title": "Artificial Intelligence and Soft Computing",
+      "authors": [
+        "Leszek Rutkowski"
+      ],
+      "year": 2012,
+      "cover_i": 8619487,
+      "category": "Computer Science & AI",
+      "want_to_read": 152,
+      "reading": 8,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-COM-116"
+    },
+    {
+      "key": "/works/OL2710037W",
+      "title": "Artificial intelligence",
+      "authors": [
+        "George F. Luger",
+        "LUGER"
+      ],
+      "year": 1992,
+      "cover_i": 2384072,
+      "category": "Computer Science & AI",
+      "want_to_read": 66,
+      "reading": 3,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-COM-695"
+    },
+    {
+      "key": "/works/OL30958950W",
+      "title": "Artificial Intelligence Book",
+      "authors": [
+        "Long Hileman"
+      ],
+      "year": 2021,
+      "cover_i": 14832331,
+      "category": "Computer Science & AI",
+      "want_to_read": 38,
+      "reading": 2,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-COM-365"
+    },
+    {
+      "key": "/works/OL16282805W",
+      "title": "Artificial intelligence",
+      "authors": [
+        "K. Warwick"
+      ],
+      "year": 2012,
+      "cover_i": 9304698,
+      "category": "Computer Science & AI",
+      "want_to_read": 23,
+      "reading": 4,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-COM-695"
+    },
+    {
+      "key": "/works/OL2998833W",
+      "title": "The Fifth Generation",
+      "authors": [
+        "Edward A. Feigenbaum",
+        "Pamela McCorduck"
+      ],
+      "year": 1983,
+      "cover_i": 15243196,
+      "category": "Computer Science & AI",
+      "want_to_read": 43,
+      "reading": 3,
+      "rating": 4.4,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-COM-889"
+    },
+    {
+      "key": "/works/OL7940253W",
+      "title": "Artificial intelligence for games",
+      "authors": [
+        "Ian Millington"
+      ],
+      "year": 2006,
+      "cover_i": 8619501,
+      "category": "Computer Science & AI",
+      "want_to_read": 15,
+      "reading": 1,
+      "rating": 4.7,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-COM-433"
+    },
+    {
+      "key": "/works/OL21617776W",
+      "title": "Artificial Intelligence for Dummies",
+      "authors": [
+        "John Paul Mueller",
+        "Luca Massaron"
+      ],
+      "year": 2018,
+      "cover_i": 14821516,
+      "category": "Computer Science & AI",
+      "want_to_read": 19,
+      "reading": 457,
+      "rating": 1.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-COM-443"
+    }
+  ],
+  "Agriculture & Biosystems": [
+    {
+      "key": "/works/OL17827992M",
+      "title": "1978 census of agriculture, preliminary report, Hendry Co...",
+      "authors": [
+        "Academic Contributor"
+      ],
+      "year": 1980,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 61,
+      "reading": 2,
+      "rating": 4.2,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-111"
+    },
+    {
+      "key": "/works/OL14986086W",
+      "title": "General Agriculture",
+      "authors": [
+        "Muhammad Akhtar Abbas"
+      ],
+      "year": 2000,
+      "cover_i": 6283426,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 54,
+      "reading": 10,
+      "rating": 4.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-265"
+    },
+    {
+      "key": "/works/OL14862077W",
+      "title": "The Unsettling of America",
+      "authors": [
+        "Wendell Berry"
+      ],
+      "year": 1977,
+      "cover_i": 4792566,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 37,
+      "reading": 1,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-795"
+    },
+    {
+      "key": "/works/OL6188591W",
+      "title": "Soil Capability For Agriculture",
+      "authors": [
+        "Canada Land Inventory."
+      ],
+      "year": 1965,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 22,
+      "reading": 1,
+      "rating": 5.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-AGR-442"
+    },
+    {
+      "key": "/works/OL2598045W",
+      "title": "Krishi-Parashara =",
+      "authors": [
+        "Parāśara"
+      ],
+      "year": 1999,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 48,
+      "reading": 3,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-AGR-788"
+    },
+    {
+      "key": "/works/OL15292359W",
+      "title": "Pakistan",
+      "authors": [
+        "United States"
+      ],
+      "year": 1965,
+      "cover_i": 15127807,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 48,
+      "reading": 4,
+      "rating": 3.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-AGR-114"
+    },
+    {
+      "key": "/works/OL19970935W",
+      "title": "Restoration agriculture",
+      "authors": [
+        "Mark Shepard"
+      ],
+      "year": 2013,
+      "cover_i": 10084144,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 37,
+      "reading": 3,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-801"
+    },
+    {
+      "key": "/works/OL5406028W",
+      "title": "Essentials of agricultural economics",
+      "authors": [
+        "A. J. Adegeye"
+      ],
+      "year": 1982,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 34,
+      "reading": 6,
+      "rating": 4.7,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-873"
+    },
+    {
+      "key": "/works/OL2601509W",
+      "title": "Agricultural finance and management",
+      "authors": [
+        "S. Subba Reddy"
+      ],
+      "year": 1996,
+      "cover_i": 13659881,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 33,
+      "reading": 8,
+      "rating": 5.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-AGR-486"
+    },
+    {
+      "key": "/works/OL4115220W",
+      "title": "The agricultural revolution",
+      "authors": [
+        "Eric Kerridge"
+      ],
+      "year": 1967,
+      "cover_i": 13004852,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 6,
+      "reading": 1,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-435"
+    },
+    {
+      "key": "/works/OL20284185W",
+      "title": "Agricultural Research Updates",
+      "authors": [
+        "Prathamesh Gorawala"
+      ],
+      "year": 2012,
+      "cover_i": 8942129,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 6,
+      "reading": 1,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-783"
+    },
+    {
+      "key": "/works/OL17824232M",
+      "title": "1978 census of agriculture, preliminary report, Meade Cou...",
+      "authors": [
+        "Academic Contributor"
+      ],
+      "year": 1980,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 44,
+      "reading": 2,
+      "rating": 4.2,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-AGR-228"
+    },
+    {
+      "key": "/works/OL2628680W",
+      "title": "Marketing of agricultural products",
+      "authors": [
+        "Richard L. Kohls"
+      ],
+      "year": 1955,
+      "cover_i": 1112043,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 10,
+      "reading": 1,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-587"
+    },
+    {
+      "key": "/works/OL10245581W",
+      "title": "Elements of Agricultural Engineering ; Farm Power, Farm M...",
+      "authors": [
+        "Jagdishwar Sahay"
+      ],
+      "year": 2005,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 68,
+      "reading": 12,
+      "rating": 2.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-AGR-910"
+    },
+    {
+      "key": "/works/OL15626797W",
+      "title": "Economics of agricultural development",
+      "authors": [
+        "George W. Norton"
+      ],
+      "year": 2009,
+      "cover_i": 11624203,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 7,
+      "reading": 1107,
+      "rating": 4.9,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-643"
+    },
+    {
+      "key": "/works/OL10782709W",
+      "title": "Agricultural machines, theory and construction",
+      "authors": [
+        "Henryk Bernacki"
+      ],
+      "year": 1972,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 17,
+      "reading": 1,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-447"
+    },
+    {
+      "key": "/works/OL2428519W",
+      "title": "Plantation agriculture",
+      "authors": [
+        "P. P. Courtenay"
+      ],
+      "year": 1965,
+      "cover_i": 10313118,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 4,
+      "reading": 1194,
+      "rating": 2.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-AGR-744"
+    },
+    {
+      "key": "/works/OL5177010W",
+      "title": "Agricultural economics",
+      "authors": [
+        "Feliciano R. Fajardo"
+      ],
+      "year": 1982,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 10,
+      "reading": 2,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-AGR-552"
+    },
+    {
+      "key": "/works/OL63664W",
+      "title": "Agricultural microbiology",
+      "authors": [
+        "G. Rangaswami"
+      ],
+      "year": 1966,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 13,
+      "reading": 735,
+      "rating": 3.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-335"
+    },
+    {
+      "key": "/works/OL4798174W",
+      "title": "The conditions of agricultural growth",
+      "authors": [
+        "Ester Boserup"
+      ],
+      "year": 1965,
+      "cover_i": 1143078,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 7,
+      "reading": 621,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-829"
+    },
+    {
+      "key": "/works/OL1471222W",
+      "title": "Agriculture",
+      "authors": [
+        "Charles Canniff James"
+      ],
+      "year": 1898,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 5,
+      "reading": 274,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-AGR-576"
+    },
+    {
+      "key": "/works/OL4994721W",
+      "title": "Tree Crops",
+      "authors": [
+        "J. Russell Smith"
+      ],
+      "year": 1978,
+      "cover_i": 4130573,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 12,
+      "reading": 1,
+      "rating": 4.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-AGR-962"
+    },
+    {
+      "key": "/works/OL16608639M",
+      "title": "Materials handling conference issue",
+      "authors": [
+        "Academic Contributor"
+      ],
+      "year": 1958,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 18,
+      "reading": 512,
+      "rating": 4.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-AGR-638"
+    },
+    {
+      "key": "/works/OL2771413W",
+      "title": "Agricultural process engineering",
+      "authors": [
+        "S. M. Henderson"
+      ],
+      "year": 1955,
+      "cover_i": 4451935,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 12,
+      "reading": 1113,
+      "rating": 4.9,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-563"
+    },
+    {
+      "key": "/works/OL10247622W",
+      "title": "Principles of Agricultural Engineering, Vol. 1",
+      "authors": [
+        "T.P. Ojha"
+      ],
+      "year": 2005,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 19,
+      "reading": 3,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-AGR-828"
+    },
+    {
+      "key": "/works/OL12677857W",
+      "title": "Agricultural microbiology",
+      "authors": [
+        "Govindachetty Rangaswami"
+      ],
+      "year": 1966,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 7,
+      "reading": 1,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-335"
+    },
+    {
+      "key": "/works/OL6808455W",
+      "title": "Agricultural geography",
+      "authors": [
+        "Leslie Symons"
+      ],
+      "year": 1966,
+      "cover_i": 9909296,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 3,
+      "reading": 1,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-885"
+    },
+    {
+      "key": "/works/OL3286828W",
+      "title": "Agricultural economics and agribusiness",
+      "authors": [
+        "Gail L. Cramer"
+      ],
+      "year": 1979,
+      "cover_i": 1242773,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 4,
+      "reading": 747,
+      "rating": 4.7,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-897"
+    },
+    {
+      "key": "/works/OL1153860W",
+      "title": "Statistical tables for biological, agricultural and medic...",
+      "authors": [
+        "Ronald Aylmer Fisher",
+        "Frank Yates"
+      ],
+      "year": 1938,
+      "cover_i": 9779787,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 2,
+      "reading": 290,
+      "rating": 4.4,
+      "availability": "On Reserve",
+      "shelf": "KTHB-AGR-410"
+    },
+    {
+      "key": "/works/OL4327342W",
+      "title": "Engineering principles of agricultural machines",
+      "authors": [
+        "Ajit K. Srivastava"
+      ],
+      "year": 1993,
+      "cover_i": 7154792,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 7,
+      "reading": 1,
+      "rating": 2.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-AGR-146"
+    },
+    {
+      "key": "/works/OL1105381W",
+      "title": "Fields, Factories, and Workshops",
+      "authors": [
+        "Peter Kropotkin"
+      ],
+      "year": 1899,
+      "cover_i": 10147288,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 14,
+      "reading": 1004,
+      "rating": 4.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-AGR-454"
+    },
+    {
+      "key": "/works/OL8658016W",
+      "title": "Permaculture one",
+      "authors": [
+        "Bill Mollison",
+        "David Holmgren"
+      ],
+      "year": 1978,
+      "cover_i": 702268,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 17,
+      "reading": 636,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-AGR-264"
+    },
+    {
+      "key": "/works/OL19240596W",
+      "title": "Financial management in agriculture",
+      "authors": [
+        "Peter J. Barry",
+        "Paul N. Ellinger"
+      ],
+      "year": 1999,
+      "cover_i": 1540635,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 9,
+      "reading": 1,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-495"
+    },
+    {
+      "key": "/works/OL18797420W",
+      "title": "Introduction to agricultural economics",
+      "authors": [
+        "John B. Penson"
+      ],
+      "year": 2010,
+      "cover_i": 10114544,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 8,
+      "reading": 1017,
+      "rating": 4.9,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-183"
+    },
+    {
+      "key": "/works/OL3344510W",
+      "title": "The first farmers",
+      "authors": [
+        "Peter S. Bellwood"
+      ],
+      "year": 2004,
+      "cover_i": 1326682,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 7,
+      "reading": 334,
+      "rating": 4.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-AGR-684"
+    },
+    {
+      "key": "/works/OL2469639W",
+      "title": "Agriculture and economic development",
+      "authors": [
+        "Subrata Ghatak"
+      ],
+      "year": 1984,
+      "cover_i": 4113046,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 6,
+      "reading": 413,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-737"
+    },
+    {
+      "key": "/works/OL20977821W",
+      "title": "Agricultural economics and agribusiness",
+      "authors": [
+        "Gail L. Cramer",
+        "Clarence W. Jensen"
+      ],
+      "year": 2001,
+      "cover_i": 1246143,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 6,
+      "reading": 3,
+      "rating": 4.7,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-897"
+    },
+    {
+      "key": "/works/OL3005606W",
+      "title": "Ancient mysteries, modern visions",
+      "authors": [
+        "Philip S. Callahan"
+      ],
+      "year": 1984,
+      "cover_i": 702970,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 12,
+      "reading": 2,
+      "rating": 4.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-341"
+    },
+    {
+      "key": "/works/OL10875763W",
+      "title": "Agricultural Relief",
+      "authors": [
+        "United States. Congress. House. Committee on Agriculture"
+      ],
+      "year": 1971,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 2,
+      "reading": 776,
+      "rating": 4.4,
+      "availability": "On Reserve",
+      "shelf": "KTHB-AGR-874"
+    },
+    {
+      "key": "/works/OL1915179W",
+      "title": "Agricultural mechanics",
+      "authors": [
+        "Ray V. Herren"
+      ],
+      "year": 2005,
+      "cover_i": 1730309,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 4,
+      "reading": 824,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-AGR-124"
+    },
+    {
+      "key": "/works/OL16931573W",
+      "title": "Advances in agronomy",
+      "authors": [
+        "Donald L. Sparks"
+      ],
+      "year": 1991,
+      "cover_i": 10005619,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 8,
+      "reading": 1,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-223"
+    },
+    {
+      "key": "/works/OL9598061W",
+      "title": "Agronomy",
+      "authors": [
+        "Detroy E. Green"
+      ],
+      "year": 1981,
+      "cover_i": 9816083,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 16,
+      "reading": 1,
+      "rating": 4.7,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-921"
+    },
+    {
+      "key": "/works/OL3511666W",
+      "title": "Principles of agronomy",
+      "authors": [
+        "Lorentz C. Pearson"
+      ],
+      "year": 1967,
+      "cover_i": 15000764,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 4,
+      "reading": 669,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-781"
+    },
+    {
+      "key": "/works/OL19859709W",
+      "title": "Advances in agronomy",
+      "authors": [
+        "Donald L. Sparks"
+      ],
+      "year": 2011,
+      "cover_i": 8666350,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 1,
+      "reading": 1,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-223"
+    },
+    {
+      "key": "/works/OL8660162W",
+      "title": "Neal Kinsey's hands-on agronomy",
+      "authors": [
+        "Neal Kinsey"
+      ],
+      "year": 1995,
+      "cover_i": 2684817,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 7,
+      "reading": 1176,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-AGR-924"
+    },
+    {
+      "key": "/works/OL26460434W",
+      "title": "Advances in Agronomy",
+      "authors": [
+        "N. C. Brady"
+      ],
+      "year": 1975,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 1,
+      "reading": 553,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-497"
+    },
+    {
+      "key": "/works/OL26726556W",
+      "title": "Fundamentals of Agronomy",
+      "authors": [
+        "Chandra De Gopal"
+      ],
+      "year": 2017,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 4,
+      "reading": 1109,
+      "rating": 4.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-391"
+    },
+    {
+      "key": "/works/OL4115346W",
+      "title": "Advances in Agronomy",
+      "authors": [
+        "Donald L. Sparks"
+      ],
+      "year": 1998,
+      "cover_i": 1094058,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 2,
+      "reading": 553,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-497"
+    },
+    {
+      "key": "/works/OL26420166W",
+      "title": "Introduction to Agronomy",
+      "authors": [
+        "SHEAFER & MONCADA"
+      ],
+      "year": 2012,
+      "cover_i": 12376472,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 3,
+      "reading": 1,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-261"
+    },
+    {
+      "key": "/works/OL16474495W",
+      "title": "Introduction to agronomy",
+      "authors": [
+        "Craig C. Sheaffer"
+      ],
+      "year": 2012,
+      "cover_i": 14846202,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 4,
+      "reading": 1039,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-961"
+    },
+    {
+      "key": "/works/OL25171350W",
+      "title": "Advances in Agronomy",
+      "authors": [
+        "N. C. C. Brady"
+      ],
+      "year": 1969,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 5303,
+      "reading": 553,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-AGR-497"
+    },
+    {
+      "key": "/works/OL6317783W",
+      "title": "Ringkasan agronomi",
+      "authors": [
+        "Institut Pertanian Bogor. Departemen Agronomi."
+      ],
+      "year": 1971,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 3,
+      "reading": 268,
+      "rating": 4.4,
+      "availability": "On Reserve",
+      "shelf": "KTHB-AGR-282"
+    },
+    {
+      "key": "/works/OL25202285W",
+      "title": "Contested Agronomy",
+      "authors": [
+        "James Sumberg",
+        "John Thompson"
+      ],
+      "year": 2012,
+      "cover_i": null,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 1,
+      "reading": 351,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-AGR-499"
+    },
+    {
+      "key": "/works/OL2832743W",
+      "title": "Agronomy of grassland systems",
+      "authors": [
+        "C. J. Pearson",
+        "Craig J. Pearson"
+      ],
+      "year": 1987,
+      "cover_i": 346600,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 4332,
+      "reading": 782,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-AGR-568"
+    },
+    {
+      "key": "/works/OL4115319W",
+      "title": "Advances in Agronomy, Volume 53 (Advances in Agronomy)",
+      "authors": [
+        "Donald L. Sparks"
+      ],
+      "year": 1994,
+      "cover_i": 1094047,
+      "category": "Agriculture & Biosystems",
+      "want_to_read": 1,
+      "reading": 1186,
+      "rating": 4.2,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-AGR-836"
+    }
+  ],
+  "Mathematics & Statistics": [
+    {
+      "key": "/works/OL8112804W",
+      "title": "Heinemann Mathematics",
+      "authors": [
+        "Scottish Primary Mathematics Group"
+      ],
+      "year": 1983,
+      "cover_i": 2417832,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 183,
+      "reading": 22,
+      "rating": 4.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-130"
+    },
+    {
+      "key": "/works/OL1400344W",
+      "title": "Advanced Engineering Mathematics",
+      "authors": [
+        "Erwin Kreyszig"
+      ],
+      "year": 1957,
+      "cover_i": 8575561,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 357,
+      "reading": 37,
+      "rating": 4.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-547"
+    },
+    {
+      "key": "/works/OL3502985W",
+      "title": "Discrete Mathematics with Applications",
+      "authors": [
+        "Susanna S. Epp",
+        "Susanna Epp"
+      ],
+      "year": 1990,
+      "cover_i": 9295752,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 380,
+      "reading": 23,
+      "rating": 3.2,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-557"
+    },
+    {
+      "key": "/works/OL31821W",
+      "title": "Discrete Mathematics and Its Applications",
+      "authors": [
+        "Kenneth H. Rosen"
+      ],
+      "year": 1988,
+      "cover_i": 7083171,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 345,
+      "reading": 28,
+      "rating": 4.7,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-598"
+    },
+    {
+      "key": "/works/OL14996338W",
+      "title": "Mathematics",
+      "authors": [
+        "McGraw-Hill"
+      ],
+      "year": 1998,
+      "cover_i": 1089515,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 211,
+      "reading": 18,
+      "rating": 3.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-850"
+    },
+    {
+      "key": "/works/OL3584303W",
+      "title": "Discrete mathematics",
+      "authors": [
+        "Norman Biggs"
+      ],
+      "year": 1985,
+      "cover_i": 4084574,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 222,
+      "reading": 12,
+      "rating": 5.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-306"
+    },
+    {
+      "key": "/works/OL4569830W",
+      "title": "How to solve it",
+      "authors": [
+        "George Pólya"
+      ],
+      "year": 1945,
+      "cover_i": 8404335,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 318,
+      "reading": 21,
+      "rating": 3.7,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-MAT-848"
+    },
+    {
+      "key": "/works/OL1945259W",
+      "title": "Mathematical statistics",
+      "authors": [
+        "John E. Freund"
+      ],
+      "year": 1962,
+      "cover_i": 7124961,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 39,
+      "reading": 7,
+      "rating": 3.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-187"
+    },
+    {
+      "key": "/works/OL20729325W",
+      "title": "Mathematics for Class 9",
+      "authors": [
+        "R.D. Sharma"
+      ],
+      "year": 2021,
+      "cover_i": 10207007,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 341,
+      "reading": 64,
+      "rating": 4.2,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-895"
+    },
+    {
+      "key": "/works/OL1826387W",
+      "title": "Introductory Mathematical Analysis",
+      "authors": [
+        "Ernest F. Haeussler",
+        "Richard S. Paul"
+      ],
+      "year": 1973,
+      "cover_i": 10572268,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 507,
+      "reading": 41,
+      "rating": 3.6,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-999"
+    },
+    {
+      "key": "/works/OL24643025W",
+      "title": "Mathematics for Class 10",
+      "authors": [
+        "R. D. Sharma"
+      ],
+      "year": 2017,
+      "cover_i": 11326611,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 305,
+      "reading": 51,
+      "rating": 4.1,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-879"
+    },
+    {
+      "key": "/works/OL20937686W",
+      "title": "Higher Engineering Mathematics",
+      "authors": [
+        "B.S. Grewal"
+      ],
+      "year": 2001,
+      "cover_i": 10306615,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 324,
+      "reading": 41,
+      "rating": 2.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-451"
+    },
+    {
+      "key": "/works/OL95059W",
+      "title": "Mathematics for the million",
+      "authors": [
+        "Lancelot Thomas Hogben"
+      ],
+      "year": 1936,
+      "cover_i": 8231806,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 127,
+      "reading": 8,
+      "rating": 2.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-681"
+    },
+    {
+      "key": "/works/OL15132203W",
+      "title": "Addison-Wesley Mathematics",
+      "authors": [
+        "Robert E. Eicholz",
+        "Phares G. O'Daffer"
+      ],
+      "year": 1985,
+      "cover_i": 4976873,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 63,
+      "reading": 4,
+      "rating": 2.5,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-MAT-768"
+    },
+    {
+      "key": "/works/OL1922611W",
+      "title": "Mathematical structures for computer science",
+      "authors": [
+        "Judith L. Gersting"
+      ],
+      "year": 1982,
+      "cover_i": 7136779,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 171,
+      "reading": 12,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-769"
+    },
+    {
+      "key": "/works/OL894218W",
+      "title": "Engineering mathematics",
+      "authors": [
+        "Bird, J. O.",
+        "John Bird"
+      ],
+      "year": 1989,
+      "cover_i": 1401118,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 83,
+      "reading": 12,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-297"
+    },
+    {
+      "key": "/works/OL22059547W",
+      "title": "Mathematics for Class 11",
+      "authors": [
+        "R.D. Sharma"
+      ],
+      "year": 2018,
+      "cover_i": 10424353,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 247,
+      "reading": 44,
+      "rating": 4.1,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-966"
+    },
+    {
+      "key": "/works/OL5264681W",
+      "title": "Engineering mathematics",
+      "authors": [
+        "K. A. Stroud"
+      ],
+      "year": 1970,
+      "cover_i": 634364,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 104,
+      "reading": 9,
+      "rating": 3.7,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-297"
+    },
+    {
+      "key": "/works/OL4225512W",
+      "title": "Advanced Mathematics",
+      "authors": [
+        "Richard G. Brown"
+      ],
+      "year": 1975,
+      "cover_i": 4639923,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 145,
+      "reading": 8,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-MAT-232"
+    },
+    {
+      "key": "/works/OL811195W",
+      "title": "What is mathematics?",
+      "authors": [
+        "Richard Courant",
+        "Herbert Robbins"
+      ],
+      "year": 1941,
+      "cover_i": 123325,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 226,
+      "reading": 14,
+      "rating": 3.7,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-MAT-424"
+    },
+    {
+      "key": "/works/OL8112843W",
+      "title": "Heinemann Mathematics",
+      "authors": [
+        "Scottish Secondary Mathematics Group"
+      ],
+      "year": 1991,
+      "cover_i": 2419030,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 37,
+      "reading": 2,
+      "rating": 1.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-130"
+    },
+    {
+      "key": "/works/OL1920211W",
+      "title": "Discrete mathematics",
+      "authors": [
+        "Richard Johnsonbaugh"
+      ],
+      "year": 1984,
+      "cover_i": 90787,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 87,
+      "reading": 8,
+      "rating": 5.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-306"
+    },
+    {
+      "key": "/works/OL65830W",
+      "title": "Basic Mathematics",
+      "authors": [
+        "Serge Lang"
+      ],
+      "year": 1971,
+      "cover_i": 245877,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 122,
+      "reading": 13,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-869"
+    },
+    {
+      "key": "/works/OL16306176W",
+      "title": "Mathematics",
+      "authors": [
+        "Raymond Toolsie"
+      ],
+      "year": 1996,
+      "cover_i": null,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 313,
+      "reading": 21,
+      "rating": 4.3,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-850"
+    },
+    {
+      "key": "/works/OL4301885W",
+      "title": "Applied mathematics for business, economics, and the soci...",
+      "authors": [
+        "Frank S. Budnick"
+      ],
+      "year": 1979,
+      "cover_i": 9935503,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 276,
+      "reading": 40,
+      "rating": 4.5,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-494"
+    },
+    {
+      "key": "/works/OL9331625W",
+      "title": "A Course of Pure Mathematics",
+      "authors": [
+        "G. H. Hardy",
+        "T. W. Körner"
+      ],
+      "year": 1908,
+      "cover_i": 2470135,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 59,
+      "reading": 4,
+      "rating": 4.7,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-785"
+    },
+    {
+      "key": "/works/OL4091543W",
+      "title": "Men of mathematics",
+      "authors": [
+        "Eric Temple Bell"
+      ],
+      "year": 1900,
+      "cover_i": 406962,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 39,
+      "reading": 2,
+      "rating": 3.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-251"
+    },
+    {
+      "key": "/works/OL102147W",
+      "title": "Discrete Mathematical Structures",
+      "authors": [
+        "Bernard Kolman",
+        "Robert C. Busby"
+      ],
+      "year": 1996,
+      "cover_i": 83244,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 121,
+      "reading": 8,
+      "rating": 2.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-518"
+    },
+    {
+      "key": "/works/OL392574W",
+      "title": "Advanced engineering mathematics",
+      "authors": [
+        "Jain, R. K."
+      ],
+      "year": 2002,
+      "cover_i": 1596095,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 106,
+      "reading": 19,
+      "rating": 4.7,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-773"
+    },
+    {
+      "key": "/works/OL19845307W",
+      "title": "Problems Plus In IIT Mathematics",
+      "authors": [
+        "A Das Gupta"
+      ],
+      "year": 2011,
+      "cover_i": 8642365,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 217,
+      "reading": 35,
+      "rating": 3.4,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-675"
+    },
+    {
+      "key": "/works/OL7996289W",
+      "title": "Mathematics in Action - G.C.S.E.and Scottish Standard Gra...",
+      "authors": [
+        "Mathematics in Action Group"
+      ],
+      "year": 1986,
+      "cover_i": 1121998,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 36,
+      "reading": 3,
+      "rating": 5.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-550"
+    },
+    {
+      "key": "/works/OL10243493W",
+      "title": "New Additional Mathematics",
+      "authors": [
+        "Ho Soo Thong",
+        "Khor Nyak Hiong"
+      ],
+      "year": 2001,
+      "cover_i": 6461270,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 180,
+      "reading": 21,
+      "rating": 3.3,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-MAT-828"
+    },
+    {
+      "key": "/works/OL10121835M",
+      "title": "New Peak Mathematics",
+      "authors": [
+        "Alan Brighouse",
+        "David Godber"
+      ],
+      "year": 1987,
+      "cover_i": null,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 142,
+      "reading": 21,
+      "rating": 3.9,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-679"
+    },
+    {
+      "key": "/works/OL284525W",
+      "title": "Everyday Mathematics",
+      "authors": [
+        "WrightGroup/McGraw-Hill"
+      ],
+      "year": 2001,
+      "cover_i": 4948458,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 68,
+      "reading": 3,
+      "rating": 3.8,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-MAT-556"
+    },
+    {
+      "key": "/works/OL1979218W",
+      "title": "Advanced engineering mathematics",
+      "authors": [
+        "Peter V. O'Neil"
+      ],
+      "year": 1983,
+      "cover_i": 365161,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 44,
+      "reading": 2,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-773"
+    },
+    {
+      "key": "/works/OL1295436W",
+      "title": "Principles of Mathematical Analysis",
+      "authors": [
+        "Walter Rudin"
+      ],
+      "year": 1953,
+      "cover_i": 55297,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 58,
+      "reading": 1,
+      "rating": 1.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-MAT-180"
+    },
+    {
+      "key": "/works/OL1133699W",
+      "title": "An introduction to mathematics",
+      "authors": [
+        "Alfred North Whitehead"
+      ],
+      "year": 1911,
+      "cover_i": 6235665,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 37,
+      "reading": 3,
+      "rating": 3.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-MAT-460"
+    },
+    {
+      "key": "/works/OL14996323W",
+      "title": "MathScape",
+      "authors": [
+        "McGraw-Hill"
+      ],
+      "year": 1997,
+      "cover_i": 4948569,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 75,
+      "reading": 769,
+      "rating": 4.5,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-969"
+    },
+    {
+      "key": "/works/OL3255100W",
+      "title": "Business mathematics",
+      "authors": [
+        "Nelda W. Roueche",
+        "Helda Roueche"
+      ],
+      "year": 1969,
+      "cover_i": 4959467,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 47,
+      "reading": 5,
+      "rating": 3.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-639"
+    },
+    {
+      "key": "/works/OL3509579W",
+      "title": "Mathematics for Computer Technology",
+      "authors": [
+        "Robert McCullough"
+      ],
+      "year": 2006,
+      "cover_i": 6016165,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 190,
+      "reading": 13,
+      "rating": 4.6,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-250"
+    },
+    {
+      "key": "/works/OL485862W",
+      "title": "Elementary linear algebra",
+      "authors": [
+        "Howard Anton",
+        "Chris Rorres"
+      ],
+      "year": 1973,
+      "cover_i": 3940238,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 252,
+      "reading": 22,
+      "rating": 3.4,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-754"
+    },
+    {
+      "key": "/works/OL3285486W",
+      "title": "Introduction to linear algebra",
+      "authors": [
+        "Gilbert Strang"
+      ],
+      "year": 1998,
+      "cover_i": 725050,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 249,
+      "reading": 25,
+      "rating": 4.7,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-483"
+    },
+    {
+      "key": "/works/OL47604W",
+      "title": "Linear algebra and its applications",
+      "authors": [
+        "David C. Lay",
+        "Lay"
+      ],
+      "year": 1994,
+      "cover_i": 13054058,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 192,
+      "reading": 13,
+      "rating": 4.4,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-813"
+    },
+    {
+      "key": "/works/OL258590W",
+      "title": "Linear Algebra with Applications",
+      "authors": [
+        "Gareth Williams"
+      ],
+      "year": 1984,
+      "cover_i": 517076,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 89,
+      "reading": 5,
+      "rating": 4.8,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-819"
+    },
+    {
+      "key": "/works/OL3281311W",
+      "title": "Linear algebra",
+      "authors": [
+        "Stephen H. Friedberg",
+        "Arnold J. Insel"
+      ],
+      "year": 1979,
+      "cover_i": 89590,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 149,
+      "reading": 14,
+      "rating": 3.3,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-MAT-868"
+    },
+    {
+      "key": "/works/OL3285496W",
+      "title": "Linear algebra and its applications",
+      "authors": [
+        "Gilbert Strang"
+      ],
+      "year": 1976,
+      "cover_i": 115083,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 85,
+      "reading": 3,
+      "rating": 4.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-813"
+    },
+    {
+      "key": "/works/OL2658431W",
+      "title": "Introduction to linear algebra",
+      "authors": [
+        "Lee W. Johnson"
+      ],
+      "year": 1981,
+      "cover_i": 1142756,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 34,
+      "reading": 3,
+      "rating": 4.9,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-483"
+    },
+    {
+      "key": "/works/OL65841W",
+      "title": "Linear algebra",
+      "authors": [
+        "Serge Lang"
+      ],
+      "year": 1966,
+      "cover_i": 245846,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 23,
+      "reading": 4,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-MAT-868"
+    },
+    {
+      "key": "/works/OL6608908W",
+      "title": "Lineare Algebra",
+      "authors": [
+        "Werner Hildbert Greub"
+      ],
+      "year": 1958,
+      "cover_i": 245174,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 25,
+      "reading": 2,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-MAT-823"
+    },
+    {
+      "key": "/works/OL102149W",
+      "title": "Introductory linear algebra with applications",
+      "authors": [
+        "Bernard Kolman"
+      ],
+      "year": 1976,
+      "cover_i": 5350619,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 45,
+      "reading": 5,
+      "rating": 5.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-714"
+    },
+    {
+      "key": "/works/OL2696433W",
+      "title": "Linear algebra with applications",
+      "authors": [
+        "Steven J. Leon"
+      ],
+      "year": 1980,
+      "cover_i": 88629,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 27,
+      "reading": 1,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-MAT-920"
+    },
+    {
+      "key": "/works/OL102150W",
+      "title": "Elementary linear algebra",
+      "authors": [
+        "Bernard Kolman",
+        "David R. Hill"
+      ],
+      "year": 1970,
+      "cover_i": 83234,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 17,
+      "reading": 5,
+      "rating": 4.4,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-754"
+    },
+    {
+      "key": "/works/OL18765415W",
+      "title": "Differential equations & linear algebra",
+      "authors": [
+        "Jerry Farlow",
+        "James E. Hall"
+      ],
+      "year": 2006,
+      "cover_i": 1110271,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 63,
+      "reading": 3,
+      "rating": 4.7,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-745"
+    },
+    {
+      "key": "/works/OL1832415W",
+      "title": "3000 solved problems in linear algebra",
+      "authors": [
+        "Seymour Lipschutz"
+      ],
+      "year": 1989,
+      "cover_i": 54581,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 43,
+      "reading": 2,
+      "rating": 3.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-MAT-873"
+    },
+    {
+      "key": "/works/OL3488077W",
+      "title": "Elementary linear algebra",
+      "authors": [
+        "Stanley I. Grossman"
+      ],
+      "year": 1980,
+      "cover_i": 3944708,
+      "category": "Mathematics & Statistics",
+      "want_to_read": 13,
+      "reading": 3,
+      "rating": 4.4,
+      "availability": "On Reserve",
+      "shelf": "KTHB-MAT-754"
+    }
+  ],
+  "Physics & Quantum": [
+    {
+      "key": "/works/OL19836917W",
+      "title": "Concepts of physics",
+      "authors": [
+        "Harish Chandra Verma"
+      ],
+      "year": 1993,
+      "cover_i": 8631889,
+      "category": "Physics & Quantum",
+      "want_to_read": 1004,
+      "reading": 161,
+      "rating": 3.9,
+      "availability": "Checked Out",
+      "shelf": "KTHB-PHY-495"
+    },
+    {
+      "key": "/works/OL2538490W",
+      "title": "Fundamentals of physics",
+      "authors": [
+        "David Halliday",
+        "Robert Resnick"
+      ],
+      "year": 1970,
+      "cover_i": 1246724,
+      "category": "Physics & Quantum",
+      "want_to_read": 590,
+      "reading": 64,
+      "rating": 4.3,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-492"
+    },
+    {
+      "key": "/works/OL1930743W",
+      "title": "Conceptual physics",
+      "authors": [
+        "Paul G. Hewitt"
+      ],
+      "year": 1971,
+      "cover_i": 7065516,
+      "category": "Physics & Quantum",
+      "want_to_read": 343,
+      "reading": 37,
+      "rating": 3.9,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-114"
+    },
+    {
+      "key": "/works/OL85336W",
+      "title": "Physics",
+      "authors": [
+        "Douglas C. Giancoli"
+      ],
+      "year": 1980,
+      "cover_i": 9153769,
+      "category": "Physics & Quantum",
+      "want_to_read": 369,
+      "reading": 24,
+      "rating": 4.2,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-252"
+    },
+    {
+      "key": "/works/OL1907523W",
+      "title": "Physical chemistry",
+      "authors": [
+        "Peter W. Atkins",
+        "Julio De Paula"
+      ],
+      "year": 1978,
+      "cover_i": 455659,
+      "category": "Physics & Quantum",
+      "want_to_read": 290,
+      "reading": 30,
+      "rating": 4.1,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-PHY-601"
+    },
+    {
+      "key": "/works/OL65071W",
+      "title": "Physics for scientists and engineers",
+      "authors": [
+        "Raymond A. Serway"
+      ],
+      "year": 1982,
+      "cover_i": 5026455,
+      "category": "Physics & Quantum",
+      "want_to_read": 363,
+      "reading": 24,
+      "rating": 4.4,
+      "availability": "Checked Out",
+      "shelf": "KTHB-PHY-259"
+    },
+    {
+      "key": "/works/OL4797379W",
+      "title": "University physics",
+      "authors": [
+        "Francis Weston Sears",
+        "Mark Waldo Zemansky"
+      ],
+      "year": 1949,
+      "cover_i": 8349382,
+      "category": "Physics & Quantum",
+      "want_to_read": 296,
+      "reading": 25,
+      "rating": 3.6,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-PHY-689"
+    },
+    {
+      "key": "/works/OL3239744W",
+      "title": "Physical chemistry",
+      "authors": [
+        "Robert A. Alberty",
+        "Robert J. Sibley"
+      ],
+      "year": 1955,
+      "cover_i": 3963744,
+      "category": "Physics & Quantum",
+      "want_to_read": 134,
+      "reading": 13,
+      "rating": 3.7,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-PHY-601"
+    },
+    {
+      "key": "/works/OL1984422W",
+      "title": "Physics for scientists and engineers",
+      "authors": [
+        "Paul A. Tipler",
+        "Gene Mosca"
+      ],
+      "year": 1990,
+      "cover_i": 1855030,
+      "category": "Physics & Quantum",
+      "want_to_read": 522,
+      "reading": 39,
+      "rating": 4.2,
+      "availability": "Checked Out",
+      "shelf": "KTHB-PHY-259"
+    },
+    {
+      "key": "/works/OL3258255W",
+      "title": "The Tao of Physics",
+      "authors": [
+        "Fritjof Capra"
+      ],
+      "year": 1975,
+      "cover_i": 6981251,
+      "category": "Physics & Quantum",
+      "want_to_read": 201,
+      "reading": 20,
+      "rating": 3.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-836"
+    },
+    {
+      "key": "/works/OL151632W",
+      "title": "Physics",
+      "authors": [
+        "Aristotle"
+      ],
+      "year": 1472,
+      "cover_i": 7145464,
+      "category": "Physics & Quantum",
+      "want_to_read": 543,
+      "reading": 42,
+      "rating": 3.7,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-252"
+    },
+    {
+      "key": "/works/OL65070W",
+      "title": "College physics",
+      "authors": [
+        "Raymond A. Serway",
+        "Jerry S. Faughn"
+      ],
+      "year": 1985,
+      "cover_i": 1063883,
+      "category": "Physics & Quantum",
+      "want_to_read": 136,
+      "reading": 10,
+      "rating": 3.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-PHY-917"
+    },
+    {
+      "key": "/works/OL5921987W",
+      "title": "Thinking Physics",
+      "authors": [
+        "Lewis C. Epstein",
+        "Paul G. Hewitt"
+      ],
+      "year": 1979,
+      "cover_i": 713866,
+      "category": "Physics & Quantum",
+      "want_to_read": 142,
+      "reading": 11,
+      "rating": 4.4,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-616"
+    },
+    {
+      "key": "/works/OL2166736W",
+      "title": "Physics",
+      "authors": [
+        "John D. Cutnell"
+      ],
+      "year": 1989,
+      "cover_i": 1243495,
+      "category": "Physics & Quantum",
+      "want_to_read": 101,
+      "reading": 8,
+      "rating": 3.2,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-252"
+    },
+    {
+      "key": "/works/OL28942641W",
+      "title": "Physics Galaxy 2020-21",
+      "authors": [
+        "Ashish Arora"
+      ],
+      "year": 2019,
+      "cover_i": 13210471,
+      "category": "Physics & Quantum",
+      "want_to_read": 303,
+      "reading": 41,
+      "rating": 3.4,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-PHY-885"
+    },
+    {
+      "key": "/works/OL10483518W",
+      "title": "Advanced Level Physics",
+      "authors": [
+        "Michael Nelkon",
+        "Philip Parker"
+      ],
+      "year": 1958,
+      "cover_i": 7256125,
+      "category": "Physics & Quantum",
+      "want_to_read": 145,
+      "reading": 10,
+      "rating": 4.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-474"
+    },
+    {
+      "key": "/works/OL530928W",
+      "title": "Geology",
+      "authors": [
+        "Stanley Chernicoff",
+        "Ramesh Venkatakrishnan"
+      ],
+      "year": 1957,
+      "cover_i": 9764030,
+      "category": "Physics & Quantum",
+      "want_to_read": 99,
+      "reading": 10,
+      "rating": 4.2,
+      "availability": "Checked Out",
+      "shelf": "KTHB-PHY-695"
+    },
+    {
+      "key": "/works/OL20676292W",
+      "title": "Foundation Science Physics for Class 9",
+      "authors": [
+        "H.C. Verma"
+      ],
+      "year": 2014,
+      "cover_i": 9346507,
+      "category": "Physics & Quantum",
+      "want_to_read": 497,
+      "reading": 99,
+      "rating": 4.3,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-730"
+    },
+    {
+      "key": "/works/OL8461625W",
+      "title": "A-level physics",
+      "authors": [
+        "Roger Muncaster"
+      ],
+      "year": 1981,
+      "cover_i": 489341,
+      "category": "Physics & Quantum",
+      "want_to_read": 138,
+      "reading": 15,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-872"
+    },
+    {
+      "key": "/works/OL46388W",
+      "title": "Understanding Physics",
+      "authors": [
+        "Isaac Asimov"
+      ],
+      "year": 1966,
+      "cover_i": 9300871,
+      "category": "Physics & Quantum",
+      "want_to_read": 121,
+      "reading": 15,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-352"
+    },
+    {
+      "key": "/works/OL3481343W",
+      "title": "Concepts of modern physics",
+      "authors": [
+        "Arthur Beiser"
+      ],
+      "year": 1963,
+      "cover_i": 53264,
+      "category": "Physics & Quantum",
+      "want_to_read": 136,
+      "reading": 17,
+      "rating": 4.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-572"
+    },
+    {
+      "key": "/works/OL3008951W",
+      "title": "Physical chemistry",
+      "authors": [
+        "Gordon M. Barrow"
+      ],
+      "year": 1961,
+      "cover_i": 53283,
+      "category": "Physics & Quantum",
+      "want_to_read": 134,
+      "reading": 12,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-PHY-601"
+    },
+    {
+      "key": "/works/OL514630W",
+      "title": "The Feynman Lectures on Physics",
+      "authors": [
+        "Richard Phillips Feynman"
+      ],
+      "year": 1963,
+      "cover_i": 582109,
+      "category": "Physics & Quantum",
+      "want_to_read": 239,
+      "reading": 11,
+      "rating": 4.5,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-632"
+    },
+    {
+      "key": "/works/OL3488106W",
+      "title": "Matrices and tensors in physics",
+      "authors": [
+        "A. W. Joshi"
+      ],
+      "year": 1975,
+      "cover_i": 14424703,
+      "category": "Physics & Quantum",
+      "want_to_read": 130,
+      "reading": 23,
+      "rating": 4.6,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-802"
+    },
+    {
+      "key": "/works/OL2752791W",
+      "title": "Physical geology",
+      "authors": [
+        "Charles C. Plummer"
+      ],
+      "year": 1979,
+      "cover_i": 14647043,
+      "category": "Physics & Quantum",
+      "want_to_read": 44,
+      "reading": 2,
+      "rating": 3.9,
+      "availability": "Checked Out",
+      "shelf": "KTHB-PHY-811"
+    },
+    {
+      "key": "/works/OL46355W",
+      "title": "Light, Magnetism, and Electricity",
+      "authors": [
+        "Isaac Asimov"
+      ],
+      "year": 1966,
+      "cover_i": 10655842,
+      "category": "Physics & Quantum",
+      "want_to_read": 124,
+      "reading": 9,
+      "rating": 4.2,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-400"
+    },
+    {
+      "key": "/works/OL29607W",
+      "title": "The earth",
+      "authors": [
+        "Edward J. Tarbuck",
+        "Frederick K. Lutgens"
+      ],
+      "year": 1984,
+      "cover_i": 85210,
+      "category": "Physics & Quantum",
+      "want_to_read": 220,
+      "reading": 12,
+      "rating": 3.8,
+      "availability": "Checked Out",
+      "shelf": "KTHB-PHY-195"
+    },
+    {
+      "key": "/works/OL16025198W",
+      "title": "Active physics",
+      "authors": [
+        "Arthur Eisenkraft"
+      ],
+      "year": 1998,
+      "cover_i": 6724433,
+      "category": "Physics & Quantum",
+      "want_to_read": 54,
+      "reading": 5,
+      "rating": 4.3,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-344"
+    },
+    {
+      "key": "/works/OL12176120W",
+      "title": "College physics",
+      "authors": [
+        "Randall Dewey Knight",
+        "Randall D. Knight"
+      ],
+      "year": 2006,
+      "cover_i": 5375397,
+      "category": "Physics & Quantum",
+      "want_to_read": 139,
+      "reading": 6,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-PHY-917"
+    },
+    {
+      "key": "/works/OL3479951W",
+      "title": "Textbook of physical chemistry",
+      "authors": [
+        "Samuel Glasstone"
+      ],
+      "year": 1940,
+      "cover_i": 6937475,
+      "category": "Physics & Quantum",
+      "want_to_read": 84,
+      "reading": 20,
+      "rating": 4.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-570"
+    },
+    {
+      "key": "/works/OL2926772W",
+      "title": "Quantum physics",
+      "authors": [
+        "Stephen Gasiorowicz"
+      ],
+      "year": 1974,
+      "cover_i": 1246721,
+      "category": "Physics & Quantum",
+      "want_to_read": 92,
+      "reading": 5,
+      "rating": 4.7,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-554"
+    },
+    {
+      "key": "/works/OL34769874W",
+      "title": "JEE Main Chapterwise Physics",
+      "authors": [
+        "Arihant Experts"
+      ],
+      "year": 2022,
+      "cover_i": 13504375,
+      "category": "Physics & Quantum",
+      "want_to_read": 202,
+      "reading": 24,
+      "rating": 4.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-482"
+    },
+    {
+      "key": "/works/OL3513417W",
+      "title": "Physics",
+      "authors": [
+        "Hans C. Ohanian"
+      ],
+      "year": 1985,
+      "cover_i": 252302,
+      "category": "Physics & Quantum",
+      "want_to_read": 74,
+      "reading": 10,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-252"
+    },
+    {
+      "key": "/works/OL4319776W",
+      "title": "Physical pharmacy",
+      "authors": [
+        "Alfred N. Martin"
+      ],
+      "year": 1960,
+      "cover_i": 1537349,
+      "category": "Physics & Quantum",
+      "want_to_read": 70,
+      "reading": 7,
+      "rating": 4.2,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-734"
+    },
+    {
+      "key": "/works/OL2922155W",
+      "title": "Introduction to solid state physics",
+      "authors": [
+        "Charles Kittel"
+      ],
+      "year": 1953,
+      "cover_i": 300730,
+      "category": "Physics & Quantum",
+      "want_to_read": 70,
+      "reading": 8,
+      "rating": 4.3,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-834"
+    },
+    {
+      "key": "/works/OL2538489W",
+      "title": "Physics",
+      "authors": [
+        "David Halliday",
+        "Robert Resnick"
+      ],
+      "year": 1962,
+      "cover_i": 304387,
+      "category": "Physics & Quantum",
+      "want_to_read": 37,
+      "reading": 4,
+      "rating": 4.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-252"
+    },
+    {
+      "key": "/works/OL14921978W",
+      "title": "Holt Physics",
+      "authors": [
+        "Raymond A. Serway",
+        "Jerry S. Faughn"
+      ],
+      "year": 1999,
+      "cover_i": 4939082,
+      "category": "Physics & Quantum",
+      "want_to_read": 35,
+      "reading": 4,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-PHY-933"
+    },
+    {
+      "key": "/works/OL85335W",
+      "title": "Physics for scientists and engineers with modern physics",
+      "authors": [
+        "Douglas C. Giancoli"
+      ],
+      "year": 1988,
+      "cover_i": 81753,
+      "category": "Physics & Quantum",
+      "want_to_read": 73,
+      "reading": 4,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-PHY-245"
+    },
+    {
+      "key": "/works/OL1867340W",
+      "title": "Physical geography",
+      "authors": [
+        "Tom L. McKnight",
+        "Darrel Hess"
+      ],
+      "year": 1984,
+      "cover_i": 82878,
+      "category": "Physics & Quantum",
+      "want_to_read": 52,
+      "reading": 9,
+      "rating": 4.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-PHY-425"
+    },
+    {
+      "key": "/works/OL2719370W",
+      "title": "Basic physics",
+      "authors": [
+        "Karl F. Kuhn"
+      ],
+      "year": 1979,
+      "cover_i": 4436727,
+      "category": "Physics & Quantum",
+      "want_to_read": 63,
+      "reading": 7,
+      "rating": 4.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-PHY-617"
+    },
+    {
+      "key": "/works/OL1999759W",
+      "title": "Introduction to Quantum Mechanics (2nd Edition) by David ...",
+      "authors": [
+        "David Jeffrey Griffiths",
+        "Darrell F. Schroeter"
+      ],
+      "year": 1994,
+      "cover_i": 86758,
+      "category": "Physics & Quantum",
+      "want_to_read": 135,
+      "reading": 9,
+      "rating": 3.9,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-PHY-949"
+    },
+    {
+      "key": "/works/OL6814714W",
+      "title": "A Textbook of quantum mechanics",
+      "authors": [
+        "Piravonu Mathews Mathews",
+        "K. Venkatesan"
+      ],
+      "year": 1976,
+      "cover_i": 1075614,
+      "category": "Physics & Quantum",
+      "want_to_read": 190,
+      "reading": 14,
+      "rating": 2.8,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-712"
+    },
+    {
+      "key": "/works/OL1255103W",
+      "title": "The Principles of Quantum Mechanics",
+      "authors": [
+        "Paul Adrian Maurice Dirac"
+      ],
+      "year": 1930,
+      "cover_i": 8709636,
+      "category": "Physics & Quantum",
+      "want_to_read": 46,
+      "reading": 5,
+      "rating": 2.5,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-PHY-977"
+    },
+    {
+      "key": "/works/OL8230567W",
+      "title": "Quantum Mechanics",
+      "authors": [
+        "Nouredine Zettili"
+      ],
+      "year": 2001,
+      "cover_i": 1247811,
+      "category": "Physics & Quantum",
+      "want_to_read": 34,
+      "reading": 2,
+      "rating": 4.4,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-742"
+    },
+    {
+      "key": "/works/OL1132089W",
+      "title": "Quantum mechanics",
+      "authors": [
+        "Hendrik Anthony Kramers"
+      ],
+      "year": 1940,
+      "cover_i": 1258069,
+      "category": "Physics & Quantum",
+      "want_to_read": 29,
+      "reading": 2,
+      "rating": 4.9,
+      "availability": "Checked Out",
+      "shelf": "KTHB-PHY-367"
+    },
+    {
+      "key": "/works/OL4794185W",
+      "title": "Quantum mechanics",
+      "authors": [
+        "Kurt Gottfried"
+      ],
+      "year": 1966,
+      "cover_i": 1193391,
+      "category": "Physics & Quantum",
+      "want_to_read": 20,
+      "reading": 4,
+      "rating": 4.9,
+      "availability": "Checked Out",
+      "shelf": "KTHB-PHY-367"
+    },
+    {
+      "key": "/works/OL1972287W",
+      "title": "Quantum Mechanics",
+      "authors": [
+        "Amit Goswami"
+      ],
+      "year": 1992,
+      "cover_i": 3864451,
+      "category": "Physics & Quantum",
+      "want_to_read": 15,
+      "reading": 4,
+      "rating": 4.4,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-742"
+    },
+    {
+      "key": "/works/OL3604880W",
+      "title": "Quantum mechanics",
+      "authors": [
+        "F. Mandl"
+      ],
+      "year": 1954,
+      "cover_i": 3967317,
+      "category": "Physics & Quantum",
+      "want_to_read": 16,
+      "reading": 917,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-PHY-367"
+    },
+    {
+      "key": "/works/OL2686142W",
+      "title": "Quantenmechanik",
+      "authors": [
+        "Walter Greiner",
+        "Berndt Müller"
+      ],
+      "year": 1989,
+      "cover_i": 1019417,
+      "category": "Physics & Quantum",
+      "want_to_read": 15,
+      "reading": 1,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-PHY-279"
+    },
+    {
+      "key": "/works/OL1204967W",
+      "title": "Mathematical foundations of quantum mechanics",
+      "authors": [
+        "John Von Neumann"
+      ],
+      "year": 1932,
+      "cover_i": 10033520,
+      "category": "Physics & Quantum",
+      "want_to_read": 24,
+      "reading": 1,
+      "rating": 4.4,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-834"
+    },
+    {
+      "key": "/works/OL2718694W",
+      "title": "Quantum mechanics",
+      "authors": [
+        "A. K. Ghatak",
+        "Ajoy Ghatak"
+      ],
+      "year": 2004,
+      "cover_i": 1732816,
+      "category": "Physics & Quantum",
+      "want_to_read": 23,
+      "reading": 3,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-PHY-367"
+    },
+    {
+      "key": "/works/OL2670367W",
+      "title": "Introductory quantum mechanics",
+      "authors": [
+        "Richard L. Liboff"
+      ],
+      "year": 1980,
+      "cover_i": 4054670,
+      "category": "Physics & Quantum",
+      "want_to_read": 15,
+      "reading": 1,
+      "rating": 4.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-PHY-379"
+    },
+    {
+      "key": "/works/OL5204084W",
+      "title": "Quantum mechanics, by John L. Powell and Bernd Crasemann",
+      "authors": [
+        "Powell, John L."
+      ],
+      "year": 1962,
+      "cover_i": null,
+      "category": "Physics & Quantum",
+      "want_to_read": 59,
+      "reading": 9,
+      "rating": 4.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-658"
+    },
+    {
+      "key": "/works/OL19333423W",
+      "title": "Quantum Mechanics",
+      "authors": [
+        "Leonard Susskind",
+        "Art Friedman"
+      ],
+      "year": 2014,
+      "cover_i": 8444621,
+      "category": "Physics & Quantum",
+      "want_to_read": 51,
+      "reading": 5,
+      "rating": 3.9,
+      "availability": "On Reserve",
+      "shelf": "KTHB-PHY-742"
+    },
+    {
+      "key": "/works/OL6909133W",
+      "title": "Quantum mechanics in chemistry",
+      "authors": [
+        "Melvin W. Hanna"
+      ],
+      "year": 1965,
+      "cover_i": 10206860,
+      "category": "Physics & Quantum",
+      "want_to_read": 16,
+      "reading": 912,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-PHY-412"
+    }
+  ],
+  "Economics & Management": [
+    {
+      "key": "/works/OL1972993W",
+      "title": "Economics",
+      "authors": [
+        "Richard G. Lipsey",
+        "Christopher Ragan"
+      ],
+      "year": 1966,
+      "cover_i": 6492893,
+      "category": "Economics & Management",
+      "want_to_read": 369,
+      "reading": 34,
+      "rating": 4.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-483"
+    },
+    {
+      "key": "/works/OL3361621W",
+      "title": "Principles of Economics",
+      "authors": [
+        "N. Gregory Mankiw"
+      ],
+      "year": 1998,
+      "cover_i": 19884,
+      "category": "Economics & Management",
+      "want_to_read": 222,
+      "reading": 22,
+      "rating": 4.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-935"
+    },
+    {
+      "key": "/works/OL3258476W",
+      "title": "Economic development",
+      "authors": [
+        "Michael P. Todaro",
+        "Stephen C. Smith"
+      ],
+      "year": 1994,
+      "cover_i": 154259,
+      "category": "Economics & Management",
+      "want_to_read": 217,
+      "reading": 16,
+      "rating": 3.9,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-271"
+    },
+    {
+      "key": "/works/OL1847023W",
+      "title": "The worldly philosophers",
+      "authors": [
+        "Robert L. Heilbroner"
+      ],
+      "year": 1953,
+      "cover_i": 15106531,
+      "category": "Economics & Management",
+      "want_to_read": 419,
+      "reading": 31,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-807"
+    },
+    {
+      "key": "/works/OL1935800W",
+      "title": "Basic economics",
+      "authors": [
+        "Thomas Sowell"
+      ],
+      "year": 2000,
+      "cover_i": 1468594,
+      "category": "Economics & Management",
+      "want_to_read": 297,
+      "reading": 18,
+      "rating": 3.7,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-687"
+    },
+    {
+      "key": "/works/OL1648145W",
+      "title": "Économie internationale",
+      "authors": [
+        "Paul R. Krugman",
+        "Maurice Obstfeld"
+      ],
+      "year": 1987,
+      "cover_i": 12679935,
+      "category": "Economics & Management",
+      "want_to_read": 165,
+      "reading": 22,
+      "rating": 4.2,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-291"
+    },
+    {
+      "key": "/works/OL541970W",
+      "title": "Economics in One Lesson",
+      "authors": [
+        "Henry Hazlitt"
+      ],
+      "year": 1946,
+      "cover_i": 4437768,
+      "category": "Economics & Management",
+      "want_to_read": 167,
+      "reading": 19,
+      "rating": 4.5,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ECO-905"
+    },
+    {
+      "key": "/works/OL452451W",
+      "title": "The Economics of Money, Banking, and Financial Markets",
+      "authors": [
+        "Frederic S. Mishkin"
+      ],
+      "year": 1986,
+      "cover_i": 12685805,
+      "category": "Economics & Management",
+      "want_to_read": 222,
+      "reading": 21,
+      "rating": 4.5,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-920"
+    },
+    {
+      "key": "/works/OL8061775W",
+      "title": "Naked Economics",
+      "authors": [
+        "Charles J. Wheelan"
+      ],
+      "year": 2002,
+      "cover_i": 247593,
+      "category": "Economics & Management",
+      "want_to_read": 126,
+      "reading": 8,
+      "rating": 4.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-507"
+    },
+    {
+      "key": "/works/OL2197894W",
+      "title": "Economics, an introductory analysis",
+      "authors": [
+        "Paul Anthony Samuelson",
+        "Nordhaus, William D."
+      ],
+      "year": 1948,
+      "cover_i": 10416536,
+      "category": "Economics & Management",
+      "want_to_read": 161,
+      "reading": 15,
+      "rating": 2.7,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ECO-174"
+    },
+    {
+      "key": "/works/OL14996318W",
+      "title": "Economics",
+      "authors": [
+        "McGraw-Hill"
+      ],
+      "year": 1998,
+      "cover_i": 1090359,
+      "category": "Economics & Management",
+      "want_to_read": 174,
+      "reading": 10,
+      "rating": 3.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-483"
+    },
+    {
+      "key": "/works/OL1826387W",
+      "title": "Introductory Mathematical Analysis",
+      "authors": [
+        "Ernest F. Haeussler",
+        "Richard S. Paul"
+      ],
+      "year": 1973,
+      "cover_i": 10572268,
+      "category": "Economics & Management",
+      "want_to_read": 507,
+      "reading": 41,
+      "rating": 3.6,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-999"
+    },
+    {
+      "key": "/works/OL280917W",
+      "title": "Economics",
+      "authors": [
+        "Campbell R. McConnell",
+        "Stanley Bruce"
+      ],
+      "year": 1963,
+      "cover_i": 4944263,
+      "category": "Economics & Management",
+      "want_to_read": 47,
+      "reading": 2,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-483"
+    },
+    {
+      "key": "/works/OL4301885W",
+      "title": "Applied mathematics for business, economics, and the soci...",
+      "authors": [
+        "Frank S. Budnick"
+      ],
+      "year": 1979,
+      "cover_i": 9935503,
+      "category": "Economics & Management",
+      "want_to_read": 276,
+      "reading": 40,
+      "rating": 4.5,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ECO-494"
+    },
+    {
+      "key": "/works/OL2686023W",
+      "title": "Urban economics",
+      "authors": [
+        "Arthur O'Sullivan"
+      ],
+      "year": 1990,
+      "cover_i": 65359,
+      "category": "Economics & Management",
+      "want_to_read": 52,
+      "reading": 3,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-663"
+    },
+    {
+      "key": "/works/OL35914W",
+      "title": "The Economic Consequences of the Peace (Twentieth-Century...",
+      "authors": [
+        "John Maynard Keynes",
+        "Jens Hölscher"
+      ],
+      "year": 1919,
+      "cover_i": 10925001,
+      "category": "Economics & Management",
+      "want_to_read": 39,
+      "reading": 3,
+      "rating": 3.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-923"
+    },
+    {
+      "key": "/works/OL1204974W",
+      "title": "Theory of Games and Economic Behavior",
+      "authors": [
+        "John von Neumann",
+        "Oskar Morgenstern"
+      ],
+      "year": 1944,
+      "cover_i": 444459,
+      "category": "Economics & Management",
+      "want_to_read": 132,
+      "reading": 1,
+      "rating": 4.3,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-343"
+    },
+    {
+      "key": "/works/OL3266746W",
+      "title": "Managerial Economics & Business Strategy",
+      "authors": [
+        "Michael R. Baye",
+        "Michael Baye"
+      ],
+      "year": 1994,
+      "cover_i": 3849733,
+      "category": "Economics & Management",
+      "want_to_read": 48,
+      "reading": 7,
+      "rating": 1.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ECO-498"
+    },
+    {
+      "key": "/works/OL17940527W",
+      "title": "Misbehaving",
+      "authors": [
+        "Richard H. Thaler"
+      ],
+      "year": 2015,
+      "cover_i": 8270508,
+      "category": "Economics & Management",
+      "want_to_read": 164,
+      "reading": 8,
+      "rating": 4.2,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-348"
+    },
+    {
+      "key": "/works/OL1622912W",
+      "title": "Small Is Beautiful",
+      "authors": [
+        "E. F. Schumacher"
+      ],
+      "year": 1905,
+      "cover_i": 6738557,
+      "category": "Economics & Management",
+      "want_to_read": 232,
+      "reading": 12,
+      "rating": 4.3,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-268"
+    },
+    {
+      "key": "/works/OL2693772W",
+      "title": "Confessions of an economic hit man",
+      "authors": [
+        "Perkins, John",
+        "John Perkins"
+      ],
+      "year": 2004,
+      "cover_i": 13977093,
+      "category": "Economics & Management",
+      "want_to_read": 197,
+      "reading": 15,
+      "rating": 3.5,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ECO-413"
+    },
+    {
+      "key": "/works/OL2646921W",
+      "title": "International economics",
+      "authors": [
+        "Dominick Salvatore"
+      ],
+      "year": 1983,
+      "cover_i": 1116150,
+      "category": "Economics & Management",
+      "want_to_read": 37,
+      "reading": 6,
+      "rating": 4.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-495"
+    },
+    {
+      "key": "/works/OL2944944W",
+      "title": "Essentials of real estate economics",
+      "authors": [
+        "Dennis J. McKenzie",
+        "Richard M. Betts"
+      ],
+      "year": 1976,
+      "cover_i": 194610,
+      "category": "Economics & Management",
+      "want_to_read": 70,
+      "reading": 4,
+      "rating": 4.7,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ECO-954"
+    },
+    {
+      "key": "/works/OL4639815W",
+      "title": "Managerial economics",
+      "authors": [
+        "James L. Pappas"
+      ],
+      "year": 1979,
+      "cover_i": 9696229,
+      "category": "Economics & Management",
+      "want_to_read": 24,
+      "reading": 3,
+      "rating": 3.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ECO-310"
+    },
+    {
+      "key": "/works/OL1972992W",
+      "title": "An introduction to positive economics",
+      "authors": [
+        "Richard G. Lipsey",
+        "K. Alec Chrystal"
+      ],
+      "year": 1963,
+      "cover_i": 9469259,
+      "category": "Economics & Management",
+      "want_to_read": 45,
+      "reading": 5,
+      "rating": 5.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ECO-566"
+    },
+    {
+      "key": "/works/OL2627167W",
+      "title": "Principles of economics",
+      "authors": [
+        "Alfred Marshall"
+      ],
+      "year": 1890,
+      "cover_i": 6962999,
+      "category": "Economics & Management",
+      "want_to_read": 35,
+      "reading": 4,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-804"
+    },
+    {
+      "key": "/works/OL20659791W",
+      "title": "Good Economics for Hard Times",
+      "authors": [
+        "Abhijit Banerjee",
+        "Esther Duflo"
+      ],
+      "year": 2019,
+      "cover_i": 9322264,
+      "category": "Economics & Management",
+      "want_to_read": 58,
+      "reading": 4,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-579"
+    },
+    {
+      "key": "/works/OL3506646W",
+      "title": "Statistics for business and economics",
+      "authors": [
+        "Paul Newbold",
+        "William L. Carlson"
+      ],
+      "year": 1984,
+      "cover_i": 4263461,
+      "category": "Economics & Management",
+      "want_to_read": 51,
+      "reading": 3,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-235"
+    },
+    {
+      "key": "/works/OL15855668W",
+      "title": "International economics",
+      "authors": [
+        "Dennis R. Appleyard",
+        "Alfred J. Field"
+      ],
+      "year": 1991,
+      "cover_i": 6818532,
+      "category": "Economics & Management",
+      "want_to_read": 54,
+      "reading": 8,
+      "rating": 2.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-495"
+    },
+    {
+      "key": "/works/OL2710577W",
+      "title": "Development Economics",
+      "authors": [
+        "Debraj Ray"
+      ],
+      "year": 1998,
+      "cover_i": 440178,
+      "category": "Economics & Management",
+      "want_to_read": 52,
+      "reading": 5,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-452"
+    },
+    {
+      "key": "/works/OL49908W",
+      "title": "Statistics for business and economics",
+      "authors": [
+        "James T. McClave",
+        "P. George Benson"
+      ],
+      "year": 1978,
+      "cover_i": 83351,
+      "category": "Economics & Management",
+      "want_to_read": 79,
+      "reading": 6,
+      "rating": 2.8,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-235"
+    },
+    {
+      "key": "/works/OL3245949W",
+      "title": "Environmental economics",
+      "authors": [
+        "Barry C. Field"
+      ],
+      "year": 1979,
+      "cover_i": 6283274,
+      "category": "Economics & Management",
+      "want_to_read": 45,
+      "reading": 7,
+      "rating": 3.7,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-108"
+    },
+    {
+      "key": "/works/OL7295649W",
+      "title": "Oecd Economic Surveys",
+      "authors": [
+        "Organisation for Economic Co-operation and Development"
+      ],
+      "year": 1980,
+      "cover_i": 5223319,
+      "category": "Economics & Management",
+      "want_to_read": 15,
+      "reading": 2,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-891"
+    },
+    {
+      "key": "/works/OL15743097W",
+      "title": "Poor Economics",
+      "authors": [
+        "Abhijit Banerjee",
+        "Esther Duflo"
+      ],
+      "year": 2011,
+      "cover_i": 6765497,
+      "category": "Economics & Management",
+      "want_to_read": 108,
+      "reading": 6,
+      "rating": 4.1,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ECO-534"
+    },
+    {
+      "key": "/works/OL14903399W",
+      "title": "Contents of Recent Economics Journals",
+      "authors": [
+        "Rand McNally"
+      ],
+      "year": 1981,
+      "cover_i": null,
+      "category": "Economics & Management",
+      "want_to_read": 22,
+      "reading": 776,
+      "rating": 4.4,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ECO-826"
+    },
+    {
+      "key": "/works/OL16812602W",
+      "title": "Prentice Hall Economics",
+      "authors": [
+        "Arthur O'Sullivan",
+        "Steven M. Sheffrin"
+      ],
+      "year": 2013,
+      "cover_i": 7271910,
+      "category": "Economics & Management",
+      "want_to_read": 103,
+      "reading": 8,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ECO-725"
+    },
+    {
+      "key": "/works/OL5894759W",
+      "title": "Economics for dummies",
+      "authors": [
+        "Sean Masaki Flynn"
+      ],
+      "year": 2005,
+      "cover_i": 521995,
+      "category": "Economics & Management",
+      "want_to_read": 51,
+      "reading": 3,
+      "rating": 3.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-827"
+    },
+    {
+      "key": "/works/OL72132W",
+      "title": "Economics",
+      "authors": [
+        "William J. Baumol"
+      ],
+      "year": 1982,
+      "cover_i": 4039178,
+      "category": "Economics & Management",
+      "want_to_read": 28,
+      "reading": 3,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-483"
+    },
+    {
+      "key": "/works/OL1924324W",
+      "title": "Economic analysis of law",
+      "authors": [
+        "Richard A. Posner"
+      ],
+      "year": 1972,
+      "cover_i": 4290513,
+      "category": "Economics & Management",
+      "want_to_read": 50,
+      "reading": 3,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-176"
+    },
+    {
+      "key": "/works/OL270536W",
+      "title": "Managerial economics",
+      "authors": [
+        "William F. Samuelson"
+      ],
+      "year": 1992,
+      "cover_i": 4937857,
+      "category": "Economics & Management",
+      "want_to_read": 19,
+      "reading": 4,
+      "rating": 4.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ECO-310"
+    },
+    {
+      "key": "/works/OL3361584W",
+      "title": "Principles of Microeconomics (with Xtra!)",
+      "authors": [
+        "N. Gregory Mankiw",
+        "J. Gans, S. King, N. Mankiw"
+      ],
+      "year": 1830,
+      "cover_i": 194583,
+      "category": "Economics & Management",
+      "want_to_read": 279,
+      "reading": 22,
+      "rating": 4.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-312"
+    },
+    {
+      "key": "/works/OL2637305W",
+      "title": "Microeconomics",
+      "authors": [
+        "Robert S. Pindyck",
+        "Daniel L. Rubinfeld"
+      ],
+      "year": 1988,
+      "cover_i": 4140531,
+      "category": "Economics & Management",
+      "want_to_read": 204,
+      "reading": 9,
+      "rating": 3.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ECO-969"
+    },
+    {
+      "key": "/works/OL1880264W",
+      "title": "Microeconomics",
+      "authors": [
+        "Campbell R. McConnell",
+        "Stanley L. Brue"
+      ],
+      "year": 1987,
+      "cover_i": 62759,
+      "category": "Economics & Management",
+      "want_to_read": 39,
+      "reading": 4,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ECO-969"
+    },
+    {
+      "key": "/works/OL3257935W",
+      "title": "Intermediate microeconomics",
+      "authors": [
+        "Hal R. Varian"
+      ],
+      "year": 1987,
+      "cover_i": 253189,
+      "category": "Economics & Management",
+      "want_to_read": 69,
+      "reading": 5,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-388"
+    },
+    {
+      "key": "/works/OL6444504W",
+      "title": "Modern microeconomics",
+      "authors": [
+        "A. Koutsoyiannis"
+      ],
+      "year": 1975,
+      "cover_i": 5344099,
+      "category": "Economics & Management",
+      "want_to_read": 47,
+      "reading": 9,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-408"
+    },
+    {
+      "key": "/works/OL1648189W",
+      "title": "Microeconomics",
+      "authors": [
+        "Paul R. Krugman",
+        "Robin Wells"
+      ],
+      "year": 2004,
+      "cover_i": 1354818,
+      "category": "Economics & Management",
+      "want_to_read": 35,
+      "reading": 5,
+      "rating": 4.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ECO-969"
+    },
+    {
+      "key": "/works/OL16811217W",
+      "title": "Microeconomics",
+      "authors": [
+        "Chad Syverson",
+        "Steven D. Levitt"
+      ],
+      "year": 2012,
+      "cover_i": 10236987,
+      "category": "Economics & Management",
+      "want_to_read": 35,
+      "reading": 4,
+      "rating": 4.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ECO-969"
+    },
+    {
+      "key": "/works/OL974169W",
+      "title": "Microeconomic Theory",
+      "authors": [
+        "Walter Nicholson",
+        "Christopher M. Snyder"
+      ],
+      "year": 1973,
+      "cover_i": 5429781,
+      "category": "Economics & Management",
+      "want_to_read": 63,
+      "reading": 6,
+      "rating": 3.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-304"
+    },
+    {
+      "key": "/works/OL1879080W",
+      "title": "Microeconomics",
+      "authors": [
+        "Edwin Mansfield",
+        "Gary Wynn Yohe"
+      ],
+      "year": 1975,
+      "cover_i": 1196116,
+      "category": "Economics & Management",
+      "want_to_read": 25,
+      "reading": 1,
+      "rating": 3.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ECO-969"
+    },
+    {
+      "key": "/works/OL72131W",
+      "title": "Microeconomics",
+      "authors": [
+        "William J. Baumol"
+      ],
+      "year": 1986,
+      "cover_i": 4938560,
+      "category": "Economics & Management",
+      "want_to_read": 31,
+      "reading": 3,
+      "rating": 4.7,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ECO-969"
+    },
+    {
+      "key": "/works/OL2197886W",
+      "title": "Microeconomics.",
+      "authors": [
+        "Paul Anthony Samuelson",
+        "William D. Nordhaus"
+      ],
+      "year": 1988,
+      "cover_i": 6819085,
+      "category": "Economics & Management",
+      "want_to_read": 9,
+      "reading": 3,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-160"
+    },
+    {
+      "key": "/works/OL20302084W",
+      "title": "Principles of Microeconomics",
+      "authors": [
+        "Dirk Mateer",
+        "Lee Coppock"
+      ],
+      "year": 2013,
+      "cover_i": 8961415,
+      "category": "Economics & Management",
+      "want_to_read": 20,
+      "reading": 3,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-408"
+    },
+    {
+      "key": "/works/OL6691810W",
+      "title": "Microeconomic theory",
+      "authors": [
+        "C. E. Ferguson"
+      ],
+      "year": 1966,
+      "cover_i": 4471281,
+      "category": "Economics & Management",
+      "want_to_read": 17,
+      "reading": 3,
+      "rating": 3.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-543"
+    },
+    {
+      "key": "/works/OL15484449W",
+      "title": "Intermediate microeconomics",
+      "authors": [
+        "Hal R. Varian"
+      ],
+      "year": 1996,
+      "cover_i": 9519901,
+      "category": "Economics & Management",
+      "want_to_read": 21,
+      "reading": 838,
+      "rating": 2.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ECO-388"
+    },
+    {
+      "key": "/works/OL3257934W",
+      "title": "Microeconomic analysis",
+      "authors": [
+        "Hal R. Varian"
+      ],
+      "year": 1978,
+      "cover_i": 9153848,
+      "category": "Economics & Management",
+      "want_to_read": 13,
+      "reading": 2,
+      "rating": 3.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ECO-823"
+    }
+  ],
+  "Robotics & Engineering": [
+    {
+      "key": "/works/OL46241W",
+      "title": "I, Robot",
+      "authors": [
+        "Isaac Asimov"
+      ],
+      "year": 1950,
+      "cover_i": 12385229,
+      "category": "Robotics & Engineering",
+      "want_to_read": 1496,
+      "reading": 96,
+      "rating": 4.2,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ROB-887"
+    },
+    {
+      "key": "/works/OL46377W",
+      "title": "The Robots of Dawn",
+      "authors": [
+        "Isaac Asimov"
+      ],
+      "year": 1983,
+      "cover_i": 14372309,
+      "category": "Robotics & Engineering",
+      "want_to_read": 127,
+      "reading": 11,
+      "rating": 4.1,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-517"
+    },
+    {
+      "key": "/works/OL46178W",
+      "title": "Robots and Empire",
+      "authors": [
+        "Isaac Asimov"
+      ],
+      "year": 1985,
+      "cover_i": 9302088,
+      "category": "Robotics & Engineering",
+      "want_to_read": 131,
+      "reading": 14,
+      "rating": 4.2,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ROB-244"
+    },
+    {
+      "key": "/works/OL46368W",
+      "title": "The Complete Robot",
+      "authors": [
+        "Isaac Asimov"
+      ],
+      "year": 1982,
+      "cover_i": 6666407,
+      "category": "Robotics & Engineering",
+      "want_to_read": 157,
+      "reading": 12,
+      "rating": 4.5,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ROB-352"
+    },
+    {
+      "key": "/works/OL17365087W",
+      "title": "The Wild Robot",
+      "authors": [
+        "Peter Brown"
+      ],
+      "year": 2016,
+      "cover_i": 7443301,
+      "category": "Robotics & Engineering",
+      "want_to_read": 384,
+      "reading": 20,
+      "rating": 4.4,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-105"
+    },
+    {
+      "key": "/works/OL46190W",
+      "title": "Robot Dreams",
+      "authors": [
+        "Isaac Asimov"
+      ],
+      "year": 1986,
+      "cover_i": 9304058,
+      "category": "Robotics & Engineering",
+      "want_to_read": 116,
+      "reading": 8,
+      "rating": 4.5,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ROB-966"
+    },
+    {
+      "key": "/works/OL46337W",
+      "title": "Robot Visions",
+      "authors": [
+        "Isaac Asimov"
+      ],
+      "year": 1990,
+      "cover_i": 12003851,
+      "category": "Robotics & Engineering",
+      "want_to_read": 66,
+      "reading": 3,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-437"
+    },
+    {
+      "key": "/works/OL9741466W",
+      "title": "Ricky Ricotta's Mighty Robot #1",
+      "authors": [
+        "Dav Pilkey"
+      ],
+      "year": 2000,
+      "cover_i": 1229405,
+      "category": "Robotics & Engineering",
+      "want_to_read": 89,
+      "reading": 8,
+      "rating": 4.1,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-861"
+    },
+    {
+      "key": "/works/OL19547201W",
+      "title": "The Wild Robot Escapes",
+      "authors": [
+        "Peter Brown"
+      ],
+      "year": 2016,
+      "cover_i": 8513327,
+      "category": "Robotics & Engineering",
+      "want_to_read": 169,
+      "reading": 10,
+      "rating": 4.4,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-957"
+    },
+    {
+      "key": "/works/OL97523W",
+      "title": "My Robot",
+      "authors": [
+        "Eve Bunting"
+      ],
+      "year": 2006,
+      "cover_i": 10221057,
+      "category": "Robotics & Engineering",
+      "want_to_read": 53,
+      "reading": 2,
+      "rating": 4.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ROB-188"
+    },
+    {
+      "key": "/works/OL575625W",
+      "title": "R.U.R. and The insect play",
+      "authors": [
+        "Karel Čapek",
+        "Josef Čapek"
+      ],
+      "year": 1920,
+      "cover_i": 4291026,
+      "category": "Robotics & Engineering",
+      "want_to_read": 95,
+      "reading": 6,
+      "rating": 3.8,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ROB-874"
+    },
+    {
+      "key": "/works/OL46336W",
+      "title": "The Rest of the Robots [8 stories, 2 novels]",
+      "authors": [
+        "Isaac Asimov"
+      ],
+      "year": 1957,
+      "cover_i": 15155264,
+      "category": "Robotics & Engineering",
+      "want_to_read": 30,
+      "reading": 3,
+      "rating": 3.4,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ROB-608"
+    },
+    {
+      "key": "/works/OL34309546W",
+      "title": "The Wild Robot Protects",
+      "authors": [
+        "Peter Brown"
+      ],
+      "year": 2022,
+      "cover_i": 13175129,
+      "category": "Robotics & Engineering",
+      "want_to_read": 56,
+      "reading": 4,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-817"
+    },
+    {
+      "key": "/works/OL17801257W",
+      "title": "House of Robots",
+      "authors": [
+        "James Patterson",
+        "Chris Grabenstein"
+      ],
+      "year": 2014,
+      "cover_i": 8085607,
+      "category": "Robotics & Engineering",
+      "want_to_read": 20,
+      "reading": 2,
+      "rating": 5.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ROB-674"
+    },
+    {
+      "key": "/works/OL46375W",
+      "title": "The Positronic Man",
+      "authors": [
+        "Isaac Asimov",
+        "Robert Silverberg"
+      ],
+      "year": 1992,
+      "cover_i": 10613027,
+      "category": "Robotics & Engineering",
+      "want_to_read": 59,
+      "reading": 3,
+      "rating": 4.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-573"
+    },
+    {
+      "key": "/works/OL46401W",
+      "title": "The Caves of Steel",
+      "authors": [
+        "Isaac Asimov"
+      ],
+      "year": 1953,
+      "cover_i": 13790511,
+      "category": "Robotics & Engineering",
+      "want_to_read": 220,
+      "reading": 11,
+      "rating": 4.3,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ROB-426"
+    },
+    {
+      "key": "/works/OL8348562W",
+      "title": "Eight Stories From Rest of the Robots (First Law / Galley...",
+      "authors": [
+        "Isaac Asimov"
+      ],
+      "year": 1964,
+      "cover_i": 13145590,
+      "category": "Robotics & Engineering",
+      "want_to_read": 15,
+      "reading": 2,
+      "rating": 4.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ROB-435"
+    },
+    {
+      "key": "/works/OL14871308W",
+      "title": "Ricky Ricotta's Mighty Robot #4 Vs. The Mecha-monkeys Fro...",
+      "authors": [
+        "Dav Pilkey"
+      ],
+      "year": 2002,
+      "cover_i": 1230162,
+      "category": "Robotics & Engineering",
+      "want_to_read": 28,
+      "reading": 4,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-217"
+    },
+    {
+      "key": "/works/OL9267087W",
+      "title": "Ricky Ricotta's Giant Robot Vs. the Voodoo Vultures from ...",
+      "authors": [
+        "Dav Pilkey"
+      ],
+      "year": 2001,
+      "cover_i": 1321209,
+      "category": "Robotics & Engineering",
+      "want_to_read": 32,
+      "reading": 2,
+      "rating": 4.4,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ROB-464"
+    },
+    {
+      "key": "/works/OL17621462W",
+      "title": "Robot Revolution",
+      "authors": [
+        "James Patterson"
+      ],
+      "year": 2017,
+      "cover_i": 10664420,
+      "category": "Robotics & Engineering",
+      "want_to_read": 18,
+      "reading": 335,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ROB-135"
+    },
+    {
+      "key": "/works/OL19668878W",
+      "title": "Rise of the Robots",
+      "authors": [
+        "Martin Ford"
+      ],
+      "year": 1708,
+      "cover_i": 8576609,
+      "category": "Robotics & Engineering",
+      "want_to_read": 28,
+      "reading": 1,
+      "rating": 4.5,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-405"
+    },
+    {
+      "key": "/works/OL6552307W",
+      "title": "The Runaway Robot",
+      "authors": [
+        "Lester del Rey"
+      ],
+      "year": 1964,
+      "cover_i": 8389706,
+      "category": "Robotics & Engineering",
+      "want_to_read": 21,
+      "reading": 1080,
+      "rating": 4.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ROB-830"
+    },
+    {
+      "key": "/works/OL17610980W",
+      "title": "Robots go wild!",
+      "authors": [
+        "James Patterson",
+        "Chris Grabenstein"
+      ],
+      "year": 2015,
+      "cover_i": 7894135,
+      "category": "Robotics & Engineering",
+      "want_to_read": 12,
+      "reading": 1,
+      "rating": 5.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ROB-722"
+    },
+    {
+      "key": "/works/OL2928300W",
+      "title": "Your very own robot",
+      "authors": [
+        "R. A. Montgomery"
+      ],
+      "year": 1982,
+      "cover_i": 6700880,
+      "category": "Robotics & Engineering",
+      "want_to_read": 15,
+      "reading": 1,
+      "rating": 4.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-833"
+    },
+    {
+      "key": "/works/OL5259025W",
+      "title": "Robotics",
+      "authors": [
+        "D. McCloy",
+        "D.J. Harris"
+      ],
+      "year": 1986,
+      "cover_i": 4637935,
+      "category": "Robotics & Engineering",
+      "want_to_read": 13,
+      "reading": 1,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ROB-215"
+    },
+    {
+      "key": "/works/OL2890022W",
+      "title": "Isaac Asimov's Robot City 1 - Odyssey",
+      "authors": [
+        "Michael P. Kube-McDowell"
+      ],
+      "year": 1987,
+      "cover_i": 4918138,
+      "category": "Robotics & Engineering",
+      "want_to_read": 13,
+      "reading": 2,
+      "rating": 4.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ROB-355"
+    },
+    {
+      "key": "/works/OL6031798W",
+      "title": "Robot Dreams",
+      "authors": [
+        "Sara Varon"
+      ],
+      "year": 2007,
+      "cover_i": 1996128,
+      "category": "Robotics & Engineering",
+      "want_to_read": 22,
+      "reading": 534,
+      "rating": 4.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ROB-966"
+    },
+    {
+      "key": "/works/OL9246820W",
+      "title": "Ricky Ricotta's Giant Robot Vs. the Mutant Mosquitoes fro...",
+      "authors": [
+        "Dav Pilkey"
+      ],
+      "year": 2000,
+      "cover_i": 1319769,
+      "category": "Robotics & Engineering",
+      "want_to_read": 24,
+      "reading": 1,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ROB-451"
+    },
+    {
+      "key": "/works/OL80800W",
+      "title": "Robot Adept",
+      "authors": [
+        "Piers Anthony"
+      ],
+      "year": 1988,
+      "cover_i": 5542140,
+      "category": "Robotics & Engineering",
+      "want_to_read": 11,
+      "reading": 1034,
+      "rating": 4.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ROB-866"
+    },
+    {
+      "key": "/works/OL18172251W",
+      "title": "Machines That Think",
+      "authors": [
+        "Isaac Asimov",
+        "Patricia S. Warrick"
+      ],
+      "year": 1984,
+      "cover_i": 9309640,
+      "category": "Robotics & Engineering",
+      "want_to_read": 43,
+      "reading": 4,
+      "rating": 4.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ROB-884"
+    },
+    {
+      "key": "/works/OL46261W",
+      "title": "The Robot Novels",
+      "authors": [
+        "Isaac Asimov"
+      ],
+      "year": 1954,
+      "cover_i": 6874383,
+      "category": "Robotics & Engineering",
+      "want_to_read": 49,
+      "reading": 4,
+      "rating": 4.7,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ROB-712"
+    },
+    {
+      "key": "/works/OL21154447W",
+      "title": "Modern Robotics",
+      "authors": [
+        "Frank C. Park",
+        "Kevin M. Lynch"
+      ],
+      "year": 2017,
+      "cover_i": 12879336,
+      "category": "Robotics & Engineering",
+      "want_to_read": 17,
+      "reading": 2,
+      "rating": 4.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ROB-519"
+    },
+    {
+      "key": "/works/OL14871313W",
+      "title": "Ricky Ricotta's Mighty Robot vs. the Uranium unicorns fro...",
+      "authors": [
+        "Dav Pilkey"
+      ],
+      "year": 2002,
+      "cover_i": 277477,
+      "category": "Robotics & Engineering",
+      "want_to_read": 25,
+      "reading": 4,
+      "rating": 3.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-241"
+    },
+    {
+      "key": "/works/OL804272W",
+      "title": "The lotus and the robot",
+      "authors": [
+        "Arthur Koestler"
+      ],
+      "year": 1960,
+      "cover_i": 7133452,
+      "category": "Robotics & Engineering",
+      "want_to_read": 21,
+      "reading": 3,
+      "rating": 4.6,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ROB-912"
+    },
+    {
+      "key": "/works/OL18965849W",
+      "title": "Industrial robotics",
+      "authors": [
+        "Mikell P. Groover",
+        "Mitchell Weiss"
+      ],
+      "year": 1986,
+      "cover_i": 4945994,
+      "category": "Robotics & Engineering",
+      "want_to_read": 24,
+      "reading": 1,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-709"
+    },
+    {
+      "key": "/works/OL1737302W",
+      "title": "I, Robot",
+      "authors": [
+        "Harlan Ellison",
+        "Isaac Asimov"
+      ],
+      "year": 1994,
+      "cover_i": 6517784,
+      "category": "Robotics & Engineering",
+      "want_to_read": 10,
+      "reading": 1087,
+      "rating": 4.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ROB-887"
+    },
+    {
+      "key": "/works/OL14871312W",
+      "title": "Ricky Ricotta's Mighty Robot vs. the Jurassic Jackrabbits...",
+      "authors": [
+        "Dav Pilkey"
+      ],
+      "year": 2002,
+      "cover_i": 277474,
+      "category": "Robotics & Engineering",
+      "want_to_read": 17,
+      "reading": 1,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ROB-728"
+    },
+    {
+      "key": "/works/OL16925984W",
+      "title": "Intelligent Robotics and Applications",
+      "authors": [
+        "Honghai Liu"
+      ],
+      "year": 2010,
+      "cover_i": 8663755,
+      "category": "Robotics & Engineering",
+      "want_to_read": 47,
+      "reading": 4,
+      "rating": 4.5,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ROB-483"
+    },
+    {
+      "key": "/works/OL4648116W",
+      "title": "Introduction to robotics",
+      "authors": [
+        "John J. Craig"
+      ],
+      "year": 1986,
+      "cover_i": 4143423,
+      "category": "Robotics & Engineering",
+      "want_to_read": 18,
+      "reading": 2,
+      "rating": 4.4,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ROB-758"
+    },
+    {
+      "key": "/works/OL16452056W",
+      "title": "Arduino robotics",
+      "authors": [
+        "John-David Warren"
+      ],
+      "year": 2011,
+      "cover_i": 9964788,
+      "category": "Robotics & Engineering",
+      "want_to_read": 13,
+      "reading": 2,
+      "rating": 4.2,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ROB-876"
+    },
+    {
+      "key": "/works/OL3485314W",
+      "title": "Machine design",
+      "authors": [
+        "Joseph Edward Shigley"
+      ],
+      "year": 1956,
+      "cover_i": 1084281,
+      "category": "Robotics & Engineering",
+      "want_to_read": 37,
+      "reading": 1177,
+      "rating": 5.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ROB-223"
+    },
+    {
+      "key": "/works/OL1923658W",
+      "title": "Shigley's mechanical engineering design",
+      "authors": [
+        "Richard G. Budynas",
+        "Richard Budynas"
+      ],
+      "year": 2006,
+      "cover_i": 1087005,
+      "category": "Robotics & Engineering",
+      "want_to_read": 44,
+      "reading": 1,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-173"
+    },
+    {
+      "key": "/works/OL16995296W",
+      "title": "Mechanical engineering",
+      "authors": [
+        "Alan Darbyshire"
+      ],
+      "year": 2007,
+      "cover_i": 9550754,
+      "category": "Robotics & Engineering",
+      "want_to_read": 10,
+      "reading": 1,
+      "rating": 4.7,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-177"
+    },
+    {
+      "key": "/works/OL2010699W",
+      "title": "Mechanical engineering science",
+      "authors": [
+        "Hannah, John"
+      ],
+      "year": 1963,
+      "cover_i": 1288189,
+      "category": "Robotics & Engineering",
+      "want_to_read": 16,
+      "reading": 2,
+      "rating": 4.4,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ROB-738"
+    },
+    {
+      "key": "/works/OL1865037W",
+      "title": "Engineering Mechanics, Statics & Dynamics",
+      "authors": [
+        "R. C. Hibbeler"
+      ],
+      "year": 1974,
+      "cover_i": 6601657,
+      "category": "Robotics & Engineering",
+      "want_to_read": 552,
+      "reading": 49,
+      "rating": 4.6,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-349"
+    },
+    {
+      "key": "/works/OL3340528W",
+      "title": "Solutions Manual for Mechanics of Composite Materials (Me...",
+      "authors": [
+        "Autar K. Kaw"
+      ],
+      "year": 2005,
+      "cover_i": null,
+      "category": "Robotics & Engineering",
+      "want_to_read": 51,
+      "reading": 9,
+      "rating": 3.0,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ROB-535"
+    },
+    {
+      "key": "/works/OL9083223W",
+      "title": "Basic Mechanical Engineering",
+      "authors": [
+        "R.K. Rajput"
+      ],
+      "year": 2005,
+      "cover_i": 5250724,
+      "category": "Robotics & Engineering",
+      "want_to_read": 24,
+      "reading": 3,
+      "rating": 4.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-385"
+    },
+    {
+      "key": "/works/OL2637241W",
+      "title": "Thermodynamics",
+      "authors": [
+        "Yunus A. Çengel",
+        "Michael A. Boles"
+      ],
+      "year": 1989,
+      "cover_i": 62976,
+      "category": "Robotics & Engineering",
+      "want_to_read": 100,
+      "reading": 15,
+      "rating": 5.0,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-877"
+    },
+    {
+      "key": "/works/OL15464633W",
+      "title": "Solutions Manual for Fundamentals of Machining and Machin...",
+      "authors": [
+        "Geoffrey Boothroyd"
+      ],
+      "year": 2005,
+      "cover_i": null,
+      "category": "Robotics & Engineering",
+      "want_to_read": 108,
+      "reading": 7,
+      "rating": 4.6,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ROB-770"
+    },
+    {
+      "key": "/works/OL2986738W",
+      "title": "Dictionary of mechanical engineering",
+      "authors": [
+        "G. H. F. Nayler"
+      ],
+      "year": 1985,
+      "cover_i": 3820849,
+      "category": "Robotics & Engineering",
+      "want_to_read": 11,
+      "reading": 695,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-545"
+    },
+    {
+      "key": "/works/OL8345015W",
+      "title": "An Introduction to Mechanical Engineering",
+      "authors": [
+        "Jonathan Wickert",
+        "Kemper E. Lewis"
+      ],
+      "year": 2003,
+      "cover_i": 1274398,
+      "category": "Robotics & Engineering",
+      "want_to_read": 12,
+      "reading": 1,
+      "rating": 5.0,
+      "availability": "On Reserve",
+      "shelf": "KTHB-ROB-934"
+    },
+    {
+      "key": "/works/OL2350503W",
+      "title": "2000 solved problems in mechanical engineering thermodyna...",
+      "authors": [
+        "P. E. Liley"
+      ],
+      "year": 1989,
+      "cover_i": null,
+      "category": "Robotics & Engineering",
+      "want_to_read": 26,
+      "reading": 3,
+      "rating": 5.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ROB-744"
+    },
+    {
+      "key": "/works/OL37998742W",
+      "title": "MECHANICAL ENGINEERING  2023",
+      "authors": [
+        "R S Khurmi"
+      ],
+      "year": 2021,
+      "cover_i": 14604314,
+      "category": "Robotics & Engineering",
+      "want_to_read": 18,
+      "reading": 5,
+      "rating": 1.0,
+      "availability": "Available in Stacks",
+      "shelf": "KTHB-ROB-720"
+    },
+    {
+      "key": "/works/OL11670694W",
+      "title": "Power & energy",
+      "authors": [
+        "Mechanical engineering."
+      ],
+      "year": 2020,
+      "cover_i": null,
+      "category": "Robotics & Engineering",
+      "want_to_read": 12,
+      "reading": 465,
+      "rating": 4.3,
+      "availability": "Digital E-Book",
+      "shelf": "KTHB-ROB-985"
+    },
+    {
+      "key": "/works/OL21233330W",
+      "title": "Introduction to Mechanical Engineering",
+      "authors": [
+        "Michael Clifford",
+        "Richard Brooks"
+      ],
+      "year": 2009,
+      "cover_i": 12696380,
+      "category": "Robotics & Engineering",
+      "want_to_read": 3,
+      "reading": 3,
+      "rating": 4.9,
+      "availability": "Checked Out",
+      "shelf": "KTHB-ROB-939"
+    }
+  ]
+}

@@ -109,11 +109,18 @@ EXAM_PERIODS = [
     ((8, 18), (8, 29)),
 ]
 
+FEATURES_NO_LAG = [
+    "hour", "dayofweek", "month", "day_of_month", "week_of_year",
+    "quarter", "is_weekend", "is_holiday", "is_exam_period",
+    "hour_sin", "hour_cos", "dow_sin", "dow_cos", "month_sin", "month_cos",
+]
+
 FEATURES = [
-    "hour",
-    "dayofweek",
-    "is_weekend",
-    "is_holiday",
-    "is_exam_period",
+    "hour", "dayofweek", "month", "day_of_month", "week_of_year",
+    "quarter", "is_weekend", "is_holiday", "is_exam_period",
+    "hour_sin", "hour_cos", "dow_sin", "dow_cos", "month_sin", "month_cos",
+    "lag_1h", "lag_24h", "lag_168h",
+    "roll_24h_mean", "roll_24h_std", "roll_7d_mean",
+    "hours_since_open",
 ]
 

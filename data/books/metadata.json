@@ -1,0 +1,30 @@
+{
+  "dataset_name": "Smart Library Local Academic Book Catalogue",
+  "total_records": 330,
+  "total_categories": 6,
+  "categories": [
+    "Computer Science & AI",
+    "Agriculture & Biosystems",
+    "Mathematics & Statistics",
+    "Physics & Quantum",
+    "Economics & Management",
+    "Robotics & Engineering"
+  ],
+  "records_per_category": {
+    "Computer Science & AI": 55,
+    "Agriculture & Biosystems": 55,
+    "Mathematics & Statistics": 55,
+    "Physics & Quantum": 55,
+    "Economics & Management": 55,
+    "Robotics & Engineering": 55
+  },
+  "schema_version": "2.0-local-offline",
+  "created_at": "2026-11-18T08:01:52.562103",
+  "storage_formats": [
+    "JSON",
+    "Parquet"
+  ],
+  "cover_storage": "local (data/book_covers/)",
+  "json_path": "data/books/books_catalog.json",
+  "parquet_path": "data/books/books_catalog.parquet"
+}

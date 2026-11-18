@@ -5,7 +5,23 @@ import sys
 import types
 
 import numpy as np
-import pytest
+try:
+    import pytest
+except ImportError:
+    class _PytestStub:
+        class mark:
+            @staticmethod
+            def parametrize(argnames, argvalues):
+                def decorator(fn):
+                    def wrapper(*args, **kwargs):
+                        for val in argvalues:
+                            if isinstance(val, (tuple, list)):
+                                fn(*val)
+                            else:
+                                fn(val)
+                    return wrapper
+                return decorator
+    pytest = _PytestStub()
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))

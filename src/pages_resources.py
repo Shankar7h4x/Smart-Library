@@ -7,10 +7,12 @@ Layout:
     - Responsive book-cover shelves with source labels and Primo verification.
 """
 
+import base64
 import html
 import json
 import re
 import time
+from functools import lru_cache
 from pathlib import Path
 from typing import Any, Dict, List
 import streamlit as st
@@ -29,11 +31,64 @@ from src.books import kth_primo_search_url, search_books
 from src.book_data import get_curated_books
 from src.chatbot import render_chatbot_panel
 
+LOCAL_PARQUET = Path(__file__).resolve().parent.parent / "data" / "books" / "books_catalog.parquet"
+LOCAL_JSON = Path(__file__).resolve().parent.parent / "data" / "books" / "books_catalog.json"
 CATALOG_PATH = Path(__file__).resolve().parent.parent / "data" / "netflix_books_catalog.json"
+COVERS_DIR = Path(__file__).resolve().parent.parent / "data" / "book_covers"
+
+
+@lru_cache(maxsize=512)
+def get_cover_data_uri(book_id: str) -> str:
+    """Read local cover JPEG and return as cached base64 data URI."""
+    if not book_id:
+        return ""
+    cover_file = COVERS_DIR / f"{book_id}.jpg"
+    if not cover_file.exists():
+        cover_file = COVERS_DIR / "placeholder.jpg"
+    if cover_file.exists():
+        try:
+            with open(cover_file, "rb") as f:
+                b64 = base64.b64encode(f.read()).decode("ascii")
+            return f"data:image/jpeg;base64,{b64}"
+        except Exception:
+            return ""
+    return ""
 
 
 def load_category_books() -> Dict[str, List[Dict[str, Any]]]:
-    """Load categorized records from the bundled discovery dataset."""
+    """Load categorized records from the local book database or bundled discovery dataset."""
+    if LOCAL_PARQUET.exists():
+        try:
+            import pandas as pd
+            df = pd.read_parquet(LOCAL_PARQUET)
+            grouped: Dict[str, List[Dict[str, Any]]] = {}
+            for _, row in df.iterrows():
+                item = row.to_dict()
+                cat = item.get("category", "General Reading")
+                item["catalogue_status"] = item.get("availability")
+                item["source_type"] = "local_catalog_dataset"
+                item["availability_live"] = False
+                grouped.setdefault(cat, []).append(item)
+            return grouped
+        except Exception:
+            pass
+
+    if LOCAL_JSON.exists():
+        try:
+            with open(LOCAL_JSON, "r", encoding="utf-8") as f:
+                books = json.load(f)
+            grouped: Dict[str, List[Dict[str, Any]]] = {}
+            for b in books:
+                item = dict(b)
+                cat = item.get("category", "General Reading")
+                item["catalogue_status"] = item.get("availability")
+                item["source_type"] = "local_catalog_dataset"
+                item["availability_live"] = False
+                grouped.setdefault(cat, []).append(item)
+            return grouped
+        except Exception:
+            pass
+
     if CATALOG_PATH.exists():
         try:
             with open(CATALOG_PATH, "r", encoding="utf-8") as f:
@@ -52,7 +107,7 @@ def load_category_books() -> Dict[str, List[Dict[str, Any]]]:
             pass
 
     curated = get_curated_books()
-    grouped: Dict[str, List[Dict[str, Any]]] = {}
+    grouped = {}
     for b in curated:
         cat = b.get("category", "General Reading")
         grouped.setdefault(cat, []).append(b)
@@ -62,12 +117,14 @@ def load_category_books() -> Dict[str, List[Dict[str, Any]]]:
 def _render_movie_card_html(book: Dict[str, Any]) -> str:
     # Render explicit catalogue provenance and avoid implying live circulation data.
     b_title = html.escape(str(book.get("title", "Academic Volume")))
-    authors_list = book.get("authors", book.get("author_name", ["Author not listed"]))
+    authors_list = book.get("authors", book.get("author_name", [])) or []
+    if not authors_list and book.get("author"):
+        authors_list = [book["author"]]
     if not isinstance(authors_list, (list, tuple)):
         authors_list = [str(authors_list)]
-    b_author = html.escape(", ".join(str(author) for author in authors_list[:1]))
-    local_record = book.get("source_type") == "local_catalog_dataset" or bool(book.get("catalogue_status"))
-    raw_status = str(book.get("catalogue_status") or "")
+    b_author = html.escape(", ".join(str(author) for author in authors_list[:1])) or "Author not listed"
+    local_record = book.get("source_type") == "local_catalog_dataset" or bool(book.get("catalogue_status")) or bool(book.get("book_id"))
+    raw_status = str(book.get("catalogue_status") or book.get("availability") or "")
     status_labels = {
         "Available in Stacks": "Dataset tag · Available in stacks (unverified)",
         "On Reserve": "Dataset tag · On reserve (unverified)",
@@ -87,10 +144,24 @@ def _render_movie_card_html(book: Dict[str, Any]) -> str:
         if shelf_value else "Shelf location: verify in KTH Primo"
     )
     source_badge = "LOCAL DATASET" if local_record else "OPEN LIBRARY"
+
+    # Recommendation reason badge
+    reason = book.get("recommendation_reason")
+    reason_badge = ""
+    if reason:
+        reason_badge = f'<div class="movie-card-reason" title="{html.escape(str(reason))}">{html.escape(str(reason))}</div>'
+
+    # Local cover image resolution
+    book_id = book.get("book_id")
+    cover_data_uri = get_cover_data_uri(book_id) if book_id else ""
     c_id = book.get("cover_i")
     primo_url = html.escape(kth_primo_search_url(book.get("title", "")))
 
-    if c_id:
+    if cover_data_uri:
+        cover_markup = (
+            f'<img src="{cover_data_uri}" class="movie-cover" alt="{b_title}" loading="lazy"/>'
+        )
+    elif c_id:
         cover_markup = (
             f'<img src="https://covers.openlibrary.org/b/id/{c_id}-M.jpg" '
             f'class="movie-cover" alt="{b_title}" loading="lazy"/>'
@@ -110,6 +181,7 @@ def _render_movie_card_html(book: Dict[str, Any]) -> str:
         <div class="movie-badge-top-right">{source_badge}</div>
       </div>
       <div class="movie-card-info">
+        {reason_badge}
         <div class="movie-card-title" title="{b_title}">{b_title}</div>
         <div class="movie-card-author" title="{b_author}">{b_author}</div>
         <div class="movie-card-status">
@@ -259,13 +331,30 @@ def _render_resources_top_section(bundle, all_books_flat):
                 if not search_term:
                     st.warning("Enter a book title, keyword, or author to search the catalogue.")
                     for state_key in (
-                        "resource_search_results", "resource_search_error", "resource_search_term"
+                        "resource_search_results", "resource_search_error", "resource_search_term", "resource_search_hybrid"
                     ):
                         st.session_state.pop(state_key, None)
                     st.rerun()
                 else:
-                    with st.spinner(f"Searching Open Library and local reserves for {search_term}..."):
-                        found, search_error = search_books(search_term)
+                    with st.spinner(f"Searching catalogue and semantic recommendations for {search_term}..."):
+                        from src.book_recommender import search_books_hybrid
+                        hybrid_res = search_books_hybrid(search_term)
+                        # Flatten results for flat search results compatibility
+                        all_found = []
+                        seen_ids = set()
+                        for group in [
+                            hybrid_res.get("exact_matches", []),
+                            hybrid_res.get("closely_related", []),
+                            hybrid_res.get("similar_subjects", []),
+                            hybrid_res.get("recommended_books", []),
+                        ]:
+                            for b in group:
+                                b_id = b.get("book_id", b.get("title"))
+                                if b_id not in seen_ids:
+                                    seen_ids.add(b_id)
+                                    all_found.append(b)
+                        found = all_found
+                        search_error = None
                     if author_query.strip():
                         author_term = author_query.casefold().strip()
                         author_matches = []
@@ -355,6 +444,7 @@ def _render_resources_top_section(bundle, all_books_flat):
                     st.session_state.resource_search_results = found
                     st.session_state.resource_search_error = search_error
                     st.session_state.resource_search_term = search_term
+                    st.session_state.resource_search_hybrid = hybrid_res
                     if found:
                         st.session_state.scroll_to_results_token = f"search_{time.time()}"
                     else:
@@ -609,6 +699,20 @@ def render_resources_page(bundle=None):
                 text-overflow: ellipsis;
                 margin-bottom: 8px;
             }
+            .movie-card-reason {
+                font-size: 0.65rem;
+                font-weight: 750;
+                color: var(--green);
+                background: rgba(0, 208, 132, 0.12);
+                border: 1px solid rgba(0, 208, 132, 0.35);
+                padding: 2px 6px;
+                border-radius: 4px;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                letter-spacing: 0.02em;
+            }
             .movie-primo-btn {
                 display: block;
                 text-align: center;
@@ -639,12 +743,19 @@ def render_resources_page(bundle=None):
             st.markdown('<div id="book-search-results-section"></div><div id="book-search-results-anchor"></div>', unsafe_allow_html=True)
             search_term = str(st.session_state.get("resource_search_term", ""))
             search_books_found = st.session_state.get("resource_search_results", []) or []
+            hybrid_res = st.session_state.get("resource_search_hybrid") or {}
+
+            exact_matches = hybrid_res.get("exact_matches", [])
+            closely_related = hybrid_res.get("closely_related", [])
+            similar_subjects = hybrid_res.get("similar_subjects", [])
+            recommended_books = hybrid_res.get("recommended_books", [])
+
             st.markdown(f'<div class="book-search-results-heading"><h3>Search results for: {html.escape(search_term)}</h3></div>', unsafe_allow_html=True)
             info_col, clear_col = st.columns([5, 1], vertical_alignment="center")
             with info_col:
                 if search_books_found:
                     st.caption(
-                        f"{len(search_books_found)} matching titles · Scroll the shelf to browse covers. "
+                        f"{len(search_books_found)} matching titles · Scroll the shelves below to browse covers. "
                         "Confirm physical availability through KTH Primo."
                     )
                 else:
@@ -653,23 +764,42 @@ def render_resources_page(bundle=None):
             with clear_col:
                 if st.button("Clear search", key="clear_resource_search"):
                     for state_key in (
-                        "resource_search_results", "resource_search_error", "resource_search_term", "scroll_to_results_token"
+                        "resource_search_results", "resource_search_error", "resource_search_term", "resource_search_hybrid", "scroll_to_results_token"
                     ):
                         st.session_state.pop(state_key, None)
                     st.rerun()
+
+            # If exact matches are missing but related books exist:
+            if not exact_matches and (closely_related or similar_subjects or recommended_books):
+                st.info("We couldn't find the exact title in our catalogue, but here are some related books you might enjoy.")
+
             first_shelf = (f"Search results · {search_term}", search_books_found[:55])
+
+            # Build 4 categorized shelves under active search
+            movie_rows = []
+            if exact_matches:
+                movie_rows.append(("🎯 1. Exact Matches", exact_matches))
+            if closely_related:
+                movie_rows.append(("✨ 2. Closely Related Books", closely_related))
+            if similar_subjects:
+                movie_rows.append(("📚 3. Similar Subjects & Disciplines", similar_subjects))
+            if recommended_books:
+                movie_rows.append(("💡 4. Recommended Books (AI Semantic Discovery)", recommended_books))
+
+            # Fallback if no specific shelf matched but search_books_found has items
+            if not movie_rows and search_books_found:
+                movie_rows.append(first_shelf)
         else:
             first_shelf = ("Recommended Academic Stacks & Course Reserves", all_books_flat[:55])
-
-        movie_rows = [
-            first_shelf,
-            ("Computer Science, Algorithms & AI", cat_data.get("Computer Science & AI", all_books_flat[:55])),
-            ("Mathematics, Statistics & Discrete Logic", cat_data.get("Mathematics & Statistics", all_books_flat[55:110])),
-            ("Physics, Quantum Mechanics & Materials", cat_data.get("Physics & Quantum", all_books_flat[110:165])),
-            ("Robotics, Autonomous Systems & Control Engineering", cat_data.get("Robotics & Engineering", all_books_flat[165:220])),
-            ("Economics, Financial Engineering & Decision Science", cat_data.get("Economics & Management", all_books_flat[220:275])),
-            ("Agriculture & Biosystems", cat_data.get("Agriculture & Biosystems", [])),
-        ]
+            movie_rows = [
+                first_shelf,
+                ("Computer Science, Algorithms & AI", cat_data.get("Computer Science & AI", all_books_flat[:55])),
+                ("Mathematics, Statistics & Discrete Logic", cat_data.get("Mathematics & Statistics", all_books_flat[55:110])),
+                ("Physics, Quantum Mechanics & Materials", cat_data.get("Physics & Quantum", all_books_flat[110:165])),
+                ("Robotics, Autonomous Systems & Control Engineering", cat_data.get("Robotics & Engineering", all_books_flat[165:220])),
+                ("Economics, Financial Engineering & Decision Science", cat_data.get("Economics & Management", all_books_flat[220:275])),
+                ("Agriculture & Biosystems", cat_data.get("Agriculture & Biosystems", [])),
+            ]
 
         for idx, (row_title, books_list) in enumerate(movie_rows):
             count = len(books_list)

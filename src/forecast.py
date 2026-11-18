@@ -11,6 +11,7 @@ from config import (
     ALL_ZONES,
     EXAM_PERIODS,
     FEATURES,
+    FEATURES_NO_LAG,
     STATUS_BUSY,
     STATUS_CLOSED,
     STATUS_FREE,
@@ -36,7 +37,7 @@ def is_in_exam_period(dt: pd.Timestamp) -> int:
 
 
 def build_features(datetimes: Union[datetime, List[datetime], pd.DatetimeIndex, pd.Series], exam: bool = False) -> pd.DataFrame:
-    """Build model features using Europe/Stockholm local calendar semantics."""
+    """Build all model features. Lag features are set to 0 (not available at future prediction time)."""
     if isinstance(datetimes, (datetime, pd.Timestamp)):
         values = [datetimes]
     else:
@@ -60,7 +61,11 @@ def build_features(datetimes: Union[datetime, List[datetime], pd.DatetimeIndex, 
 
     se_holidays = holidays.Sweden(years=range(dt_index.min().year, dt_index.max().year + 2))
     hours = dt_index.hour.values
-    dows = dt_index.day_of_week.values if hasattr(dt_index, "day_of_week") else dt_index.dayofweek.values
+    dows = dt_index.dayofweek.values
+    months = dt_index.month.values
+    day_of_months = dt_index.day.values
+    week_of_years = dt_index.isocalendar().week.values.astype(int)
+    quarters = dt_index.quarter.values
     is_weekends = np.isin(dows, [5, 6]).astype(int)
     is_hols = np.array([1 if d.date() in se_holidays else 0 for d in dt_index], dtype=int)
     is_exams = (
@@ -68,13 +73,35 @@ def build_features(datetimes: Union[datetime, List[datetime], pd.DatetimeIndex, 
         if exam else np.array([is_in_exam_period(d) for d in dt_index], dtype=int)
     )
 
-    return pd.DataFrame({
+    df = pd.DataFrame({
         "hour": hours,
         "dayofweek": dows,
+        "month": months,
+        "day_of_month": day_of_months,
+        "week_of_year": week_of_years,
+        "quarter": quarters,
         "is_weekend": is_weekends,
         "is_holiday": is_hols,
         "is_exam_period": is_exams,
-    })[FEATURES]
+        "hour_sin": np.sin(2 * np.pi * hours / 24),
+        "hour_cos": np.cos(2 * np.pi * hours / 24),
+        "dow_sin": np.sin(2 * np.pi * dows / 7),
+        "dow_cos": np.cos(2 * np.pi * dows / 7),
+        "month_sin": np.sin(2 * np.pi * months / 12),
+        "month_cos": np.cos(2 * np.pi * months / 12),
+        # Lag features: 0 at prediction time (not available for future forecasts)
+        "lag_1h": 0.0,
+        "lag_24h": 0.0,
+        "lag_168h": 0.0,
+        "roll_24h_mean": 0.0,
+        "roll_24h_std": 0.0,
+        "roll_7d_mean": 0.0,
+        "hours_since_open": 0.0,
+    })
+
+    # Return only the columns in FEATURES (in correct order)
+    feat_cols = [c for c in FEATURES if c in df.columns]
+    return df[feat_cols]
 
 
 def is_open(bundle: dict, dt: datetime) -> bool:
@@ -133,12 +160,26 @@ def predict(bundle: dict, dt: Union[datetime, List[datetime], pd.DatetimeIndex],
         return np.array([], dtype=float)
 
     features_df = build_features(dt_list, exam=exam)
-    model = bundle["models"][zone]
-    raw_preds = model.predict(features_df)
-    clipped_preds = np.clip(raw_preds, 0.0, 100.0)
+    model = bundle["models"].get(zone)
+    if model is None:
+        return None if is_single else np.array([np.nan] * len(dt_list))
+
+    # Get feature columns expected by this bundle
+    bundle_features = bundle.get("features", features_df.columns.tolist())
+    # Fill any missing columns with 0
+    for col in bundle_features:
+        if col not in features_df.columns:
+            features_df[col] = 0.0
+    # Use only columns that exist in features_df
+    use_cols = [c for c in bundle_features if c in features_df.columns]
+
+    try:
+        preds = np.clip(model.predict(features_df[bundle_features]), 0, 100)
+    except Exception:
+        preds = np.clip(model.predict(features_df[use_cols]), 0, 100)
 
     results = []
-    for item_dt, pred_val in zip(dt_list, clipped_preds):
+    for item_dt, pred_val in zip(dt_list, preds):
         if not is_open(bundle, item_dt):
             results.append(np.nan)
         else:
@@ -147,6 +188,16 @@ def predict(bundle: dict, dt: Union[datetime, List[datetime], pd.DatetimeIndex],
     if is_single:
         return results[0]
     return np.array(results)
+
+
+def predict_with_ci(bundle: dict, dt, zone: str, exam: bool = False, z_score: float = 1.645):
+    """Predict with 90% confidence interval using historical residual std."""
+    pred = predict(bundle, dt, zone, exam=exam)
+    if pred is None or not math.isfinite(float(pred)):
+        return None, None, None
+    std = bundle.get("resid_std", {}).get(zone, 10.0)
+    margin = z_score * std
+    return pred, max(0.0, pred - margin), min(100.0, pred + margin)
 
 
 def day_curve(bundle: dict, target_date: date, zone: str, exam: bool = False) -> pd.DataFrame:

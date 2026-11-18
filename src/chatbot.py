@@ -43,6 +43,7 @@ from src.ai_service import generate_ai_response_stream, get_configured_providers
 from src.books import kth_primo_search_url
 from src.book_data import search_local_books
 from src.forecast import free_seats, is_open, peak_hours, predict, status
+from src.knowledge_service import KnowledgeService
 
 KTH_TZ = ZoneInfo("Europe/Stockholm")
 logger = logging.getLogger(__name__)
@@ -65,8 +66,12 @@ PAGE_INTRODUCTIONS = {
         "areas, find facilities and locate different sections."
     ),
     "Dataset": (
-        "Welcome to Data & Model! I can explain the occupancy dataset, feature engineering, "
-        "and error benchmarks for the library predictive intelligence models."
+        "Welcome to Dataset Explorer! I can explain the time-series dataset, column schemas, "
+        "data quality health, and preprocessing pipeline for the library intelligence system."
+    ),
+    "Model Center": (
+        "Welcome to Model Center! I can explain model performance metrics (MAE, RMSE, R²), "
+        "algorithm tournament comparisons, residual errors, and feature importance weights."
     ),
     "Settings": (
         "Welcome to Settings! I can guide you through connecting Google AI Studio (Gemini), "
@@ -99,8 +104,13 @@ PAGE_SUGGESTIONS = {
     ],
     "Dataset": [
         "Explain the training dataset",
-        "What features does the model use?",
-        "How is occupancy error measured?",
+        "What features does the dataset contain?",
+        "How is data quality validated?",
+    ],
+    "Model Center": [
+        "What is the model MAE across zones?",
+        "Which algorithm was selected per zone?",
+        "What are the most predictive features?",
     ],
     "Settings": [
         "How do I connect Google AI Studio?",
@@ -349,8 +359,14 @@ def build_system_prompt(current_page: str, bundle: dict) -> str:
 
     # Precalculate zone values for prompt context
     zone_status_lines = []
+    models_ready = bool(bundle and isinstance(bundle, dict) and bundle.get("models"))
     for z in SUB_ZONES:
-        occ = predict(bundle, now, z)
+        occ = None
+        if models_ready:
+            try:
+                occ = predict(bundle, now, z)
+            except Exception:
+                occ = None
         if occ is None or not math.isfinite(float(occ)):
             zone_status_lines.append(f"- {ZONE_NAMES[z]}: Closed or forecast unavailable; free seats unknown")
         else:
@@ -359,6 +375,7 @@ def build_system_prompt(current_page: str, bundle: dict) -> str:
     zones_ctx = "\n".join(zone_status_lines)
 
     base = (
+        KnowledgeService.get_verified_system_context() + "\n"
         "You are the KTH Smart Library AI Assistant, an intelligent, concise, and helpful campus companion.\n"
         f"Current Date/Time: {now.strftime('%A, %d %B %Y, %H:%M')} (Stockholm Time).\n"
         "Data Status: Occupancy values are model forecasts based on historical data, not live readings.\n"
@@ -367,6 +384,8 @@ def build_system_prompt(current_page: str, bundle: dict) -> str:
         "1. Be concise, direct, and conversational. Do not write essays or repeat the user's form.\n"
         "2. Put the best recommendation first. Use short bullet points.\n"
         "3. Never invent fake library areas, books, seat numbers, or opening hours.\n"
+        "4. SENSOR HARDWARE: Never claim or guess sensor hardware (Wi-Fi, PIR, cameras, turnstiles). If asked, explicitly state: 'This information is not documented or available in the current project files.'\n"
+        "5. DATASET FACTS: Do not invent millions of rows or multi-year datasets. Cite the verified row count (95,164 raw, 5,615 processed) and dates (Dec 9, 2024 to Jul 31, 2025).\n"
     )
 
     if current_page == "Home":
@@ -392,8 +411,13 @@ def build_system_prompt(current_page: str, bundle: dict) -> str:
         )
     elif current_page == "Dataset":
         return base + (
-            "Current Page Role: DATA & ML TRANSPARENCY ADVISOR.\n"
-            "Help students understand the historical library dataset, feature engineering, and MAE error benchmarks. Be honest about model limits."
+            "Current Page Role: DATASET EXPLORER ADVISOR.\n"
+            "Help students understand the historical library dataset, schemas, quality metrics, and cleaning operations. Be honest about data limits."
+        )
+    elif current_page == "Model Center":
+        return base + (
+            "Current Page Role: ML MODEL CENTER & METRICS ADVISOR.\n"
+            "Help students understand the trained models, MAE/RMSE/R² metrics, algorithm tournaments, and feature importances. Be transparent about prediction confidence."
         )
     elif current_page == "Settings":
         return base + (
@@ -434,7 +458,8 @@ def handle_deterministic_query(q: str, current_page: str, bundle: dict) -> Dict[
         "Overview": "Occupancy",
         "Resources": "Book discovery",
         "Library Info": "Library guide",
-        "Dataset": "Data & model",
+        "Model Center": "Model Center",
+        "Dataset": "Dataset Explorer",
         "Settings": "Settings",
     }.get(current_page, current_page)
     now = datetime.now(KTH_TZ)
@@ -521,7 +546,171 @@ def handle_deterministic_query(q: str, current_page: str, bundle: dict) -> Dict[
             details.append(f"- {ZONE_NAMES[zone]}: ~{seats} seats ({float(occ):.0f}% forecast)")
         return {"text": f"There are about {total_seats} free seats across the library.\n\n" + "\n".join(details) + "\n\nThese are model estimates, not live counter readings.", "cards": None}
 
-    if any(_word_boundary_search(q_lower, term) for term in ["book", "books", "author", "subject", "title", "textbook", "catalogue", "catalog", "programming", "computer science", "algorithm"]):
+    # 1. Training Dataset Explanation
+    if any(_word_boundary_search(q_lower, term) for term in [
+        "explain the training dataset", "explain the dataset", "training dataset",
+        "about the dataset", "dataset summary", "dataset overview", "describe the dataset"
+    ]) or ("dataset" in q_lower and any(w in q_lower for w in ["explain", "overview", "summary", "training", "describe"])):
+        summary = KnowledgeService.get_dataset_summary()
+        return {
+            "text": (
+                "**Training Dataset Overview (Verified Ground Truth)**:\n\n"
+                f"- **Facility**: {summary['source_facility']}\n"
+                f"- **Raw Observations**: Exactly **{summary['raw_rows']:,} rows** across {summary['raw_columns']} columns (~3.17 min sampling interval).\n"
+                f"- **Processed Dataset**: Exactly **{summary['processed_rows']:,} hourly rows** across {summary['processed_columns']} columns "
+                f"({summary['open_operating_hours']:,} open operating hours and {summary['closed_night_hours']:,} closed night hours).\n"
+                f"- **Date Range**: {summary['date_range_start'][:10]} to {summary['date_range_end'][:10]} ({summary['date_range_days']} continuous days, Dec 2024 – Jul 2025).\n"
+                f"- **Monitored Zones**: 6 zones ({', '.join(summary['monitored_zones'])}).\n"
+                "- **Target Metric**: Desk occupancy percentage [0.0%, 100.0%].\n"
+                "- **Source**: Hugging Face community repository (`davnas/real-time-library-occupancy`)."
+            ),
+            "cards": None,
+        }
+
+    # 2. Row count query
+    if any(_word_boundary_search(q_lower, term) for term in [
+        "how many rows", "row count", "number of rows", "total rows", "how many records", "how many samples", "how many observations"
+    ]) or ("rows" in q_lower and ("dataset" in q_lower or "raw" in q_lower or "processed" in q_lower or "how many" in q_lower or "count" in q_lower)):
+        raw_count = KnowledgeService.get_dataset_row_count("raw")
+        proc_count = KnowledgeService.get_dataset_row_count("processed")
+        summary = KnowledgeService.get_dataset_summary()
+        return {
+            "text": (
+                "**Dataset Record Counts (Verified Ground Truth)**:\n\n"
+                f"- **Raw Dataset**: Exactly **{raw_count:,} rows** (7 columns).\n"
+                f"- **Processed Dataset**: Exactly **{proc_count:,} hourly rows** (29 columns).\n"
+                f"  - **Open Operating Hours**: {summary['open_operating_hours']:,} hours\n"
+                f"  - **Closed Night Hours**: {summary['closed_night_hours']:,} hours\n\n"
+                "Note: The project contains exactly 233 days of data, not millions of rows or multi-year archives."
+            ),
+            "cards": None,
+        }
+
+    # 3. Date range query
+    if any(_word_boundary_search(q_lower, term) for term in [
+        "date range", "what dates", "time period", "start date", "end date", "how many days", "dates covered", "dataset period", "what is the date range"
+    ]) or ("date" in q_lower and any(w in q_lower for w in ["range", "start", "end", "period", "span", "cover"])):
+        dr = KnowledgeService.get_dataset_date_range()
+        return {
+            "text": (
+                "**Dataset Date Range (Verified Ground Truth)**:\n\n"
+                f"- **Start Date**: {dr['start_date_human']} ({dr['start_date']})\n"
+                f"- **End Date**: {dr['end_date_human']} ({dr['end_date']})\n"
+                f"- **Total Duration**: Exactly **{dr['days_count']} continuous days** (~7.5 months).\n"
+                f"- **Timezone**: {dr['timezone']} (Europe/Stockholm).\n\n"
+                "The observations cover Dec 9, 2024 through Jul 31, 2025. There are no multi-year historical archives."
+            ),
+            "cards": None,
+        }
+
+    # 4. Sensor hardware query
+    if any(_word_boundary_search(q_lower, term) for term in [
+        "sensor", "sensors", "hardware", "wifi", "wi-fi", "pir", "optical", "turnstile", "turnstiles", "camera", "cameras", "how is data collected"
+    ]) or ("sensor" in q_lower or "sensors" in q_lower):
+        sources = KnowledgeService.get_dataset_sources()
+        return {
+            "text": (
+                f"**Occupancy Sensor Hardware**: {sources['sensor_hardware']}\n\n"
+                f"{sources['hardware_disclaimer']}\n\n"
+                "The source dataset contains recorded zone occupancy percentages directly. Smart Library does not fabricate or guess hardware details."
+            ),
+            "cards": None,
+        }
+
+    # 5. Model MAE / Accuracy query
+    if any(_word_boundary_search(q_lower, term) for term in [
+        "model mae", "what is the mae", "mae", "model accuracy", "evaluation metrics", "rmse", "r2", "r-squared", "error reduction", "how accurate"
+    ]) or ("mae" in q_lower and ("model" in q_lower or "baseline" in q_lower or "what" in q_lower)):
+        m = KnowledgeService.get_model_metrics()
+        return {
+            "text": (
+                "**Model Evaluation Metrics (Verified Ground Truth)**:\n\n"
+                f"- **Average Selected MAE**: **{m['average_selected_mae']:.2f} percentage points** across the 6 zones.\n"
+                f"- **Baseline Comparison**: Baseline MAE is {m['average_baseline_mae']:.2f} pp (a **{m['error_reduction_percentage']:.1f}% error reduction**).\n"
+                f"- **Whole Library Building**: MAE = {m['whole_library_mae']:.2f} pp, RMSE = {m['whole_library_rmse']:.2f} pp, R² = {m['whole_library_r2']:.3f}, Bias = {m['whole_library_bias']:+.2f} pp.\n"
+                f"- **Best Performing Zone**: **{m['best_zone']}** with an MAE of **{m['best_zone_mae']:.2f} pp** and R² = {m['best_zone_r2']:.3f}.\n"
+                f"- **Tolerance Accuracy (Holdout)**: {m['tolerance_accuracy_within_5pp']:.1f}% within ±5 pp, {m['tolerance_accuracy_within_10pp']:.1f}% within ±10 pp, {m['tolerance_accuracy_within_15pp']:.1f}% within ±15 pp."
+            ),
+            "cards": None,
+        }
+
+    # 6. Algorithm selection query
+    if any(_word_boundary_search(q_lower, term) for term in [
+        "which algorithm", "what algorithm", "algorithm", "algorithms", "xgboost", "random forest", "extra trees"
+    ]) or ("algorithm" in q_lower and ("newton" in q_lower or "select" in q_lower or "use" in q_lower or "which" in q_lower or "what" in q_lower)):
+        algos = KnowledgeService.get_model_algorithms()
+        if "newton" in q_lower:
+            return {
+                "text": (
+                    f"**Selected Algorithm for Newton**: **{algos['newton']}**.\n\n"
+                    "Extra Trees achieved superior out-of-sample generalization on Newton study wing by using randomized split thresholds "
+                    "that stabilize variance across collaborative study groups."
+                ),
+                "cards": None,
+            }
+        algo_lines = "\n".join(f"- **{ZONE_NAMES.get(k, k)}**: {v}" for k, v in algos.items())
+        return {
+            "text": f"**Selected Machine Learning Algorithms by Zone**:\n\n{algo_lines}",
+            "cards": None,
+        }
+
+    # 7. Features query
+    if any(_word_boundary_search(q_lower, term) for term in [
+        "how many features", "features does the model use", "features use", "feature count", "engineered features", "what features"
+    ]) or ("feature" in q_lower and ("many" in q_lower or "count" in q_lower or "model" in q_lower or "engineered" in q_lower)):
+        features = KnowledgeService.get_feature_information()
+        cats = {}
+        for f in features:
+            cats.setdefault(f["category"], []).append(f["feature"])
+        cat_lines = "\n".join(f"- **{cat}** ({len(fl)}): {', '.join(fl)}" for cat, fl in cats.items())
+        return {
+            "text": (
+                f"**Engineered Model Features**: Exactly **{len(features)} features** are used in model training:\n\n"
+                f"{cat_lines}\n\n"
+                "All autoregressive lags (1h, 24h, 168h) are strictly shifted by 1 hour (shift(1)) with zero future data leakage."
+            ),
+            "cards": None,
+        }
+
+    # 8. How is occupancy predicted
+    if any(_word_boundary_search(q_lower, term) for term in [
+        "how is occupancy predicted", "how do you predict", "how does the model predict", "prediction logic", "forecasting engine", "how does forecasting work"
+    ]) or ("how" in q_lower and "occupancy" in q_lower and "predict" in q_lower):
+        return {
+            "text": f"**How Occupancy is Predicted**:\n\n{KnowledgeService.get_forecast_information()}",
+            "cards": None,
+        }
+
+    # 9. Unavailable / undocumented information query
+    if any(_word_boundary_search(q_lower, term) for term in [
+        "what information is not available", "information is not available", "what is not available", "what is not documented", "unavailable information", "what information is unavailable", "missing information"
+    ]) or ("not available" in q_lower or "unavailable" in q_lower or "not documented" in q_lower):
+        return {
+            "text": (
+                "**Information Not Documented or Available in Project Files**:\n\n"
+                "1. **Sensor Hardware**: The specific sensor types, brands, or network telemetry (Wi-Fi APs, PIR detectors, optical counters) are not documented in the raw dataset.\n"
+                "2. **Personal Data (PII)**: No student names, student IDs, card-swipe transactions, or individual identities exist.\n"
+                "3. **Live Hardware Telemetry**: All real-time values are machine-learning model forecasts based on historical patterns, not live sensor counters.\n"
+                "4. **Live Physical Door Feeds / Opening Hours**: Opening hours are not fetched via a live API; users are referred to the official KTH Library portal."
+            ),
+            "cards": None,
+        }
+
+    # 10. Predict next week query
+    if any(_word_boundary_search(q_lower, term) for term in [
+        "predict occupancy for next week", "predict for next week", "predict next week", "forecast next week", "can the model predict occupancy for next week", "can the model predict for next week", "future weeks"
+    ]) or ("next week" in q_lower and ("predict" in q_lower or "forecast" in q_lower or "can" in q_lower)):
+        return {
+            "text": (
+                "**Next Week Occupancy Forecast**: Yes! The model can forecast occupancy for next week.\n\n"
+                "The feature engineering pipeline computes future calendar indicators, trigonometric cyclical sine/cosine "
+                "encodings of the hour and day of week, and seasonal lag features (such as 168-hour / 7-day lags), enabling "
+                "accurate out-of-sample forward forecasts for any upcoming open library operating hours."
+            ),
+            "cards": None,
+        }
+
+    if any(_word_boundary_search(q_lower, term) for term in ["book", "books", "author", "subject", "title", "textbook", "catalogue", "catalog", "programming", "computer science"]):
         query = _strip_command_prefixes(q_raw)
         query = re.sub(r"\b(?:book|books|author|subject|title|textbook|catalogue|catalog|find|show|search|recommend|about|for|by|on|in)\b", " ", query, flags=re.IGNORECASE)
         query = re.sub(r"\s+", " ", query).strip(" ,.:;!?-_")

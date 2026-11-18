@@ -1,0 +1,11 @@
+{
+  "model_name": "dense-lsa-tfidf (d=128, CPU-native)",
+  "vector_dimension": 128,
+  "total_books": 330,
+  "catalog_hash": "2b85fad162e5e8b6",
+  "generated_at": "2026-11-18T08:01:53.212686",
+  "vector_file": "data/embeddings/book_vectors.npy",
+  "index_file": "data/embeddings/embedding_index.json",
+  "file_size_bytes": 169088,
+  "normalized_unit_length": true
+}

@@ -60,6 +60,27 @@ def note(text: str, level: str = "info"):
     )
 
 
+def gauge(occupancy=None, title: str = ""):
+    """Render a compact occupancy gauge card."""
+    import numpy as np
+    if occupancy is None or not (isinstance(occupancy, (int, float)) and np.isfinite(occupancy)):
+        val_str = "Closed / N/A"
+        color = "#718078"
+    else:
+        pct = float(np.clip(occupancy, 0, 100))
+        val_str = f"{pct:.0f}%"
+        color = "#00D084" if pct < 50 else ("#F5B942" if pct <= 80 else "#FF6464")
+    st.markdown(
+        f"""
+        <div class="saas-card" style="padding: 0.8rem; text-align: center;">
+            <div style="font-size: 0.75rem; color: var(--muted); text-transform: uppercase;">{title}</div>
+            <div style="font-size: 1.5rem; font-weight: 800; color: {color};">{val_str}</div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
 def zone_card(title: str, occupancy, status: str, seats: int, zone_key: str):
     """Render a compact study wing card with green+black visual hierarchy."""
     if status == STATUS_CLOSED or occupancy is None or (isinstance(occupancy, float) and math.isnan(occupancy)):
@@ -229,14 +250,20 @@ def inject_css(theme: str = "Light"):
       display: flex !important;
       flex-direction: row !important;
       align-items: flex-start !important;
+      position: relative !important;
       gap: 0.75rem !important;
       padding: 0.75rem 1rem !important;
-      margin: 0.4rem 0 !important;
+      margin: 0.55rem 0 !important;
       border-radius: 14px !important;
       border: 1px solid var(--line) !important;
       background: var(--surface-2) !important;
       width: 100% !important;
       max-width: 100% !important;
+      height: auto !important;
+      min-height: min-content !important;
+      flex: 0 0 auto !important;
+      flex-shrink: 0 !important;
+      overflow: visible !important;
       box-sizing: border-box !important;
     }}
     [data-testid="stChatMessage"][data-testid="stChatMessageUser"] {{
@@ -261,25 +288,35 @@ def inject_css(theme: str = "Light"):
     [data-testid="stChatMessage"] [data-testid="stChatMessageContent"] {{
       flex: 1 1 auto !important;
       min-width: 0 !important;
+      overflow: visible !important;
+      word-break: break-word !important;
+      overflow-wrap: break-word !important;
     }}
     [data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] {{
       line-height: 1.55 !important;
       overflow-wrap: break-word !important;
       word-break: break-word !important;
+      overflow: visible !important;
       color: var(--ink) !important;
     }}
     [data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] p {{
       margin: 0 0 0.4rem 0 !important;
       color: var(--ink) !important;
+      overflow-wrap: break-word !important;
+      word-break: break-word !important;
     }}
     [data-testid="stChatMessage"] [data-testid="stMarkdownContainer"] p:last-child {{
       margin-bottom: 0 !important;
     }}
     [data-testid="stChatMessage"] .stCaptionContainer {{
+      display: block !important;
+      position: static !important;
+      clear: both !important;
       font-size: 0.68rem !important;
       opacity: 0.75 !important;
-      margin-top: 0.2rem !important;
+      margin-top: 0.35rem !important;
       color: var(--muted) !important;
+      width: 100% !important;
     }}
     [data-testid="stChatMessage"] code {{
       background: rgba(255,255,255,0.08);
@@ -328,7 +365,7 @@ def inject_css(theme: str = "Light"):
       border-radius: 12px !important;
       background: var(--surface-2) !important;
       padding: 0.4rem !important;
-      margin-top: auto !important;
+      margin-top:auto !important;
     }}
     [class*="st-key-assistant_composer_form_"] [data-testid="stHorizontalBlock"] {{
       align-items: center !important;
@@ -986,16 +1023,19 @@ def inject_css(theme: str = "Light"):
     }}
     [class*="st-key-chat_messages_"] {{
       display:flex !important; flex:1 1 0 !important;
+      flex-direction:column !important;
       height:100% !important; min-height:0 !important; max-height:none !important;
       overflow-y:auto !important; overflow-x:hidden !important;
       overscroll-behavior:contain !important; scrollbar-gutter:stable;
-      padding:.45rem .5rem .8rem !important; box-sizing:border-box !important;
+      padding:.55rem .65rem 1.4rem !important; box-sizing:border-box !important;
       scroll-behavior:smooth !important;
     }}
     [class*="st-key-chat_messages_"] > [data-testid="stVerticalBlock"],
     [class*="st-key-chat_messages_"] > div {{
       min-height:0 !important; width:100% !important; max-width:100% !important;
       align-content:start !important; box-sizing:border-box !important;
+      display:flex !important; flex-direction:column !important;
+      gap:0.4rem !important;
     }}
     @media(max-width:900px) {{
       [class*="st-key-chatbot_panel_"] {{ height: min(78vh, 760px) !important; min-height:560px !important; }}
